@@ -361,13 +361,6 @@
       "preloadBindings": false
     },
     {
-      "url": "Pages/Layout/Esiseração e pre resvriamento.content",
-      "preload": true,
-      "keepAlive": true,
-      "loadSync": false,
-      "preloadBindings": true
-    },
-    {
       "url": "Pages/Layout/Miudos.content",
       "preload": false,
       "keepAlive": false,
@@ -439,6 +432,13 @@
     },
     {
       "url": "Pages/Layout/Secundaria.content",
+      "preload": true,
+      "keepAlive": true,
+      "loadSync": false,
+      "preloadBindings": true
+    },
+    {
+      "url": "Pages/Layout/Esviseração e pre resvriamento.content",
       "preload": true,
       "keepAlive": true,
       "loadSync": false,
