@@ -209,358 +209,1053 @@
 </script>
 
 <script data-tchmi-target-attribute="data-tchmi-src-data" type="application/json">
-[
-  {
+    [
+    {
     "id": 1.0,
     "text": "%s%PLC1.GVL_Motores.Motor[1]::Config::sNome_Funcao%/s%",
     "value": 1.0
-  },
-  {
+    },
+    {
     "id": 2.0,
     "text": "%s%PLC1.GVL_Motores.Motor[2]::Config::sNome_Funcao%/s%",
     "value": 2.0
-  },
-  {
+    },
+    {
     "id": 3.0,
     "text": "%s%PLC1.GVL_Motores.Motor[3]::Config::sNome_Funcao%/s%",
     "value": 3.0
-  },
-  {
+    },
+    {
     "id": 4.0,
     "text": "%s%PLC1.GVL_Motores.Motor[4]::Config::sNome_Funcao%/s%",
     "value": 4.0
-  },
-  {
+    },
+    {
     "id": 5.0,
     "text": "%s%PLC1.GVL_Motores.Motor[5]::Config::sNome_Funcao%/s%",
     "value": 5.0
-  },
-  {
+    },
+    {
     "id": 6.0,
     "text": "%s%PLC1.GVL_Motores.Motor[6]::Config::sNome_Funcao%/s%",
     "value": 6.0
-  },
-  {
+    },
+    {
     "id": 7.0,
     "text": "%s%PLC1.GVL_Motores.Motor[7]::Config::sNome_Funcao%/s%",
     "value": 7.0
-  },
-  {
+    },
+    {
     "id": 8.0,
     "text": "%s%PLC1.GVL_Motores.Motor[8]::Config::sNome_Funcao%/s%",
     "value": 8.0
-  },
-  {
+    },
+    {
     "id": 9.0,
     "text": "%s%PLC1.GVL_Motores.Motor[9]::Config::sNome_Funcao%/s%",
     "value": 9.0
-  },
-  {
+    },
+    {
     "id": 10.0,
     "text": "%s%PLC1.GVL_Motores.Motor[10]::Config::sNome_Funcao%/s%",
     "value": 10.0
-  },
-  {
+    },
+    {
     "id": 11.0,
     "text": "%s%PLC1.GVL_Motores.Motor[11]::Config::sNome_Funcao%/s%",
     "value": 11.0
-  },
-  {
+    },
+    {
     "id": 12.0,
     "text": "%s%PLC1.GVL_Motores.Motor[12]::Config::sNome_Funcao%/s%",
     "value": 12.0
-  },
-  {
+    },
+    {
     "id": 13.0,
     "text": "%s%PLC1.GVL_Motores.Motor[13]::Config::sNome_Funcao%/s%",
     "value": 13.0
-  },
-  {
+    },
+    {
     "id": 14.0,
     "text": "%s%PLC1.GVL_Motores.Motor[14]::Config::sNome_Funcao%/s%",
     "value": 14.0
-  },
-  {
+    },
+    {
     "id": 15.0,
     "text": "%s%PLC1.GVL_Motores.Motor[15]::Config::sNome_Funcao%/s%",
     "value": 15.0
-  },
-  {
+    },
+    {
     "id": 16.0,
     "text": "%s%PLC1.GVL_Motores.Motor[16]::Config::sNome_Funcao%/s%",
     "value": 16.0
-  },
-  {
+    },
+    {
     "id": 17.0,
     "text": "%s%PLC1.GVL_Motores.Motor[17]::Config::sNome_Funcao%/s%",
     "value": 17.0
-  },
-  {
+    },
+    {
     "id": 18.0,
     "text": "%s%PLC1.GVL_Motores.Motor[18]::Config::sNome_Funcao%/s%",
     "value": 18.0
-  },
-  {
+    },
+    {
     "id": 19.0,
     "text": "%s%PLC1.GVL_Motores.Motor[19]::Config::sNome_Funcao%/s%",
     "value": 19.0
-  },
-  {
+    },
+    {
     "id": 20.0,
     "text": "%s%PLC1.GVL_Motores.Motor[20]::Config::sNome_Funcao%/s%",
     "value": 20.0
-  },
-  {
+    },
+    {
     "id": 21.0,
     "text": "%s%PLC1.GVL_Motores.Motor[21]::Config::sNome_Funcao%/s%",
     "value": 21.0
-  },
-  {
+    },
+    {
     "id": 22.0,
     "text": "%s%PLC1.GVL_Motores.Motor[22]::Config::sNome_Funcao%/s%",
     "value": 22.0
-  },
-  {
+    },
+    {
     "id": 23.0,
     "text": "%s%PLC1.GVL_Motores.Motor[23]::Config::sNome_Funcao%/s%",
     "value": 23.0
-  },
-  {
+    },
+    {
     "id": 24.0,
     "text": "%s%PLC1.GVL_Motores.Motor[24]::Config::sNome_Funcao%/s%",
     "value": 24.0
-  },
-  {
+    },
+    {
     "id": 25.0,
     "text": "%s%PLC1.GVL_Motores.Motor[25]::Config::sNome_Funcao%/s%",
     "value": 25.0
-  },
-  {
+    },
+    {
     "id": 26.0,
     "text": "%s%PLC1.GVL_Motores.Motor[26]::Config::sNome_Funcao%/s%",
     "value": 26.0
-  },
-  {
+    },
+    {
     "id": 27.0,
     "text": "%s%PLC1.GVL_Motores.Motor[27]::Config::sNome_Funcao%/s%",
     "value": 27.0
-  },
-  {
+    },
+    {
     "id": 28.0,
     "text": "%s%PLC1.GVL_Motores.Motor[28]::Config::sNome_Funcao%/s%",
     "value": 28.0
-  },
-  {
+    },
+    {
     "id": 29.0,
     "text": "%s%PLC1.GVL_Motores.Motor[29]::Config::sNome_Funcao%/s%",
     "value": 29.0
-  },
-  {
+    },
+    {
     "id": 30.0,
     "text": "%s%PLC1.GVL_Motores.Motor[30]::Config::sNome_Funcao%/s%",
     "value": 30.0
-  },
-  {
+    },
+    {
     "id": 31.0,
     "text": "%s%PLC1.GVL_Motores.Motor[31]::Config::sNome_Funcao%/s%",
     "value": 31.0
-  },
-  {
+    },
+    {
     "id": 32.0,
     "text": "%s%PLC1.GVL_Motores.Motor[32]::Config::sNome_Funcao%/s%",
     "value": 32.0
-  },
-  {
+    },
+    {
     "id": 33.0,
     "text": "%s%PLC1.GVL_Motores.Motor[33]::Config::sNome_Funcao%/s%",
     "value": 33.0
-  },
-  {
+    },
+    {
     "id": 34.0,
     "text": "%s%PLC1.GVL_Motores.Motor[34]::Config::sNome_Funcao%/s%",
     "value": 34.0
-  },
-  {
+    },
+    {
     "id": 35.0,
     "text": "%s%PLC1.GVL_Motores.Motor[35]::Config::sNome_Funcao%/s%",
     "value": 35.0
-  },
-  {
+    },
+    {
     "id": 36.0,
     "text": "%s%PLC1.GVL_Motores.Motor[36]::Config::sNome_Funcao%/s%",
     "value": 36.0
-  },
-  {
+    },
+    {
     "id": 37.0,
     "text": "%s%PLC1.GVL_Motores.Motor[37]::Config::sNome_Funcao%/s%",
     "value": 37.0
-  },
-  {
+    },
+    {
     "id": 38.0,
     "text": "%s%PLC1.GVL_Motores.Motor[38]::Config::sNome_Funcao%/s%",
     "value": 38.0
-  },
-  {
+    },
+    {
     "id": 39.0,
     "text": "%s%PLC1.GVL_Motores.Motor[39]::Config::sNome_Funcao%/s%",
     "value": 39.0
-  },
-  {
+    },
+    {
     "id": 40.0,
     "text": "%s%PLC1.GVL_Motores.Motor[40]::Config::sNome_Funcao%/s%",
     "value": 40.0
-  },
-  {
+    },
+    {
     "id": 41.0,
     "text": "%s%PLC1.GVL_Motores.Motor[41]::Config::sNome_Funcao%/s%",
     "value": 41.0
-  },
-  {
+    },
+    {
     "id": 42.0,
     "text": "%s%PLC1.GVL_Motores.Motor[42]::Config::sNome_Funcao%/s%",
     "value": 42.0
-  },
-  {
+    },
+    {
     "id": 43.0,
     "text": "%s%PLC1.GVL_Motores.Motor[43]::Config::sNome_Funcao%/s%",
     "value": 43.0
-  },
-  {
+    },
+    {
     "id": 44.0,
     "text": "%s%PLC1.GVL_Motores.Motor[44]::Config::sNome_Funcao%/s%",
     "value": 44.0
-  },
-  {
+    },
+    {
     "id": 45.0,
     "text": "%s%PLC1.GVL_Motores.Motor[45]::Config::sNome_Funcao%/s%",
     "value": 45.0
-  },
-  {
+    },
+    {
     "id": 46.0,
     "text": "%s%PLC1.GVL_Motores.Motor[46]::Config::sNome_Funcao%/s%",
     "value": 46.0
-  },
-  {
+    },
+    {
     "id": 47.0,
     "text": "%s%PLC1.GVL_Motores.Motor[47]::Config::sNome_Funcao%/s%",
     "value": 47.0
-  },
-  {
+    },
+    {
     "id": 48.0,
     "text": "%s%PLC1.GVL_Motores.Motor[48]::Config::sNome_Funcao%/s%",
     "value": 48.0
-  },
-  {
+    },
+    {
     "id": 49.0,
     "text": "%s%PLC1.GVL_Motores.Motor[49]::Config::sNome_Funcao%/s%",
     "value": 49.0
-  },
-  {
+    },
+    {
     "id": 50.0,
     "text": "%s%PLC1.GVL_Motores.Motor[50]::Config::sNome_Funcao%/s%",
     "value": 50.0
-  },
-  {
+    },
+    {
     "id": 51.0,
     "text": "%s%PLC1.GVL_Motores.Motor[51]::Config::sNome_Funcao%/s%",
     "value": 51.0
-  },
-  {
+    },
+    {
     "id": 52.0,
     "text": "%s%PLC1.GVL_Motores.Motor[52]::Config::sNome_Funcao%/s%",
     "value": 52.0
-  },
-  {
+    },
+    {
     "id": 53.0,
     "text": "%s%PLC1.GVL_Motores.Motor[53]::Config::sNome_Funcao%/s%",
     "value": 53.0
-  },
-  {
+    },
+    {
     "id": 54.0,
     "text": "%s%PLC1.GVL_Motores.Motor[54]::Config::sNome_Funcao%/s%",
     "value": 54.0
-  },
-  {
+    },
+    {
     "id": 55.0,
     "text": "%s%PLC1.GVL_Motores.Motor[55]::Config::sNome_Funcao%/s%",
     "value": 55.0
-  },
-  {
+    },
+    {
     "id": 56.0,
     "text": "%s%PLC1.GVL_Motores.Motor[56]::Config::sNome_Funcao%/s%",
     "value": 56.0
-  },
-  {
+    },
+    {
     "id": 57.0,
     "text": "%s%PLC1.GVL_Motores.Motor[57]::Config::sNome_Funcao%/s%",
     "value": 57.0
-  },
-  {
+    },
+    {
     "id": 58.0,
     "text": "%s%PLC1.GVL_Motores.Motor[58]::Config::sNome_Funcao%/s%",
     "value": 58.0
-  },
-  {
+    },
+    {
     "id": 59.0,
     "text": "%s%PLC1.GVL_Motores.Motor[59]::Config::sNome_Funcao%/s%",
     "value": 59.0
-  },
-  {
+    },
+    {
     "id": 60.0,
     "text": "%s%PLC1.GVL_Motores.Motor[60]::Config::sNome_Funcao%/s%",
     "value": 60.0
-  },
-  {
+    },
+    {
     "id": 61.0,
     "text": "%s%PLC1.GVL_Motores.Motor[61]::Config::sNome_Funcao%/s%",
     "value": 61.0
-  },
-  {
+    },
+    {
     "id": 62.0,
     "text": "%s%PLC1.GVL_Motores.Motor[62]::Config::sNome_Funcao%/s%",
     "value": 62.0
-  },
-  {
+    },
+    {
     "id": 63.0,
     "text": "%s%PLC1.GVL_Motores.Motor[63]::Config::sNome_Funcao%/s%",
     "value": 63.0
-  },
-  {
+    },
+    {
     "id": 64.0,
     "text": "%s%PLC1.GVL_Motores.Motor[64]::Config::sNome_Funcao%/s%",
     "value": 64.0
-  },
-  {
+    },
+    {
     "id": 65.0,
     "text": "%s%PLC1.GVL_Motores.Motor[65]::Config::sNome_Funcao%/s%",
     "value": 65.0
-  },
-  {
+    },
+    {
     "id": 66.0,
     "text": "%s%PLC1.GVL_Motores.Motor[66]::Config::sNome_Funcao%/s%",
     "value": 66.0
-  },
-  {
+    },
+    {
     "id": 67.0,
     "text": "%s%PLC1.GVL_Motores.Motor[67]::Config::sNome_Funcao%/s%",
     "value": 67.0
-  },
-  {
+    },
+    {
     "id": 68.0,
     "text": "%s%PLC1.GVL_Motores.Motor[68]::Config::sNome_Funcao%/s%",
     "value": 68.0
-  },
-  {
+    },
+    {
     "id": 69.0,
     "text": "%s%PLC1.GVL_Motores.Motor[69]::Config::sNome_Funcao%/s%",
     "value": 69.0
-  },
-  {
+    },
+    {
     "id": 70.0,
     "text": "%s%PLC1.GVL_Motores.Motor[70]::Config::sNome_Funcao%/s%",
-    "value": "70"
-  }
-]
+    "value": 70.0
+    },
+    {
+    "id": 71.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[71]::Config::sNome_Funcao%/s%",
+    "value": 71.0
+    },
+    {
+    "id": 72.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[72]::Config::sNome_Funcao%/s%",
+    "value": 72.0
+    },
+    {
+    "id": 73.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[73]::Config::sNome_Funcao%/s%",
+    "value": 73.0
+    },
+    {
+    "id": 74.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[74]::Config::sNome_Funcao%/s%",
+    "value": 74.0
+    },
+    {
+    "id": 75.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[75]::Config::sNome_Funcao%/s%",
+    "value": 75.0
+    },
+    {
+    "id": 76.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[76]::Config::sNome_Funcao%/s%",
+    "value": 76.0
+    },
+    {
+    "id": 77.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[77]::Config::sNome_Funcao%/s%",
+    "value": 77.0
+    },
+    {
+    "id": 78.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[78]::Config::sNome_Funcao%/s%",
+    "value": 78.0
+    },
+    {
+    "id": 79.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[79]::Config::sNome_Funcao%/s%",
+    "value": 79.0
+    },
+    {
+    "id": 80.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[80]::Config::sNome_Funcao%/s%",
+    "value": 80.0
+    },
+    {
+    "id": 81.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[81]::Config::sNome_Funcao%/s%",
+    "value": 81.0
+    },
+    {
+    "id": 82.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[82]::Config::sNome_Funcao%/s%",
+    "value": 82.0
+    },
+    {
+    "id": 83.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[83]::Config::sNome_Funcao%/s%",
+    "value": 83.0
+    },
+    {
+    "id": 84.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[84]::Config::sNome_Funcao%/s%",
+    "value": 84.0
+    },
+    {
+    "id": 85.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[85]::Config::sNome_Funcao%/s%",
+    "value": 85.0
+    },
+    {
+    "id": 86.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[86]::Config::sNome_Funcao%/s%",
+    "value": 86.0
+    },
+    {
+    "id": 87.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[87]::Config::sNome_Funcao%/s%",
+    "value": 87.0
+    },
+    {
+    "id": 88.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[88]::Config::sNome_Funcao%/s%",
+    "value": 88.0
+    },
+    {
+    "id": 89.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[89]::Config::sNome_Funcao%/s%",
+    "value": 89.0
+    },
+    {
+    "id": 90.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[90]::Config::sNome_Funcao%/s%",
+    "value": 90.0
+    },
+    {
+    "id": 91.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[91]::Config::sNome_Funcao%/s%",
+    "value": 91.0
+    },
+    {
+    "id": 92.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[92]::Config::sNome_Funcao%/s%",
+    "value": 92.0
+    },
+    {
+    "id": 93.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[93]::Config::sNome_Funcao%/s%",
+    "value": 93.0
+    },
+    {
+    "id": 94.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[94]::Config::sNome_Funcao%/s%",
+    "value": 94.0
+    },
+    {
+    "id": 95.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[95]::Config::sNome_Funcao%/s%",
+    "value": 95.0
+    },
+    {
+    "id": 96.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[96]::Config::sNome_Funcao%/s%",
+    "value": 96.0
+    },
+    {
+    "id": 97.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[97]::Config::sNome_Funcao%/s%",
+    "value": 97.0
+    },
+    {
+    "id": 98.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[98]::Config::sNome_Funcao%/s%",
+    "value": 98.0
+    },
+    {
+    "id": 99.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[99]::Config::sNome_Funcao%/s%",
+    "value": 99.0
+    },
+    {
+    "id": 100.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[100]::Config::sNome_Funcao%/s%",
+    "value": 100.0
+    },
+    {
+    "id": 101.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[101]::Config::sNome_Funcao%/s%",
+    "value": 101.0
+    },
+    {
+    "id": 102.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[102]::Config::sNome_Funcao%/s%",
+    "value": 102.0
+    },
+    {
+    "id": 103.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[103]::Config::sNome_Funcao%/s%",
+    "value": 103.0
+    },
+    {
+    "id": 104.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[104]::Config::sNome_Funcao%/s%",
+    "value": 104.0
+    },
+    {
+    "id": 105.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[105]::Config::sNome_Funcao%/s%",
+    "value": 105.0
+    },
+    {
+    "id": 106.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[106]::Config::sNome_Funcao%/s%",
+    "value": 106.0
+    },
+    {
+    "id": 107.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[107]::Config::sNome_Funcao%/s%",
+    "value": 107.0
+    },
+    {
+    "id": 108.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[108]::Config::sNome_Funcao%/s%",
+    "value": 108.0
+    },
+    {
+    "id": 109.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[109]::Config::sNome_Funcao%/s%",
+    "value": 109.0
+    },
+    {
+    "id": 110.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[110]::Config::sNome_Funcao%/s%",
+    "value": 110.0
+    },
+    {
+    "id": 111.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[111]::Config::sNome_Funcao%/s%",
+    "value": 111.0
+    },
+    {
+    "id": 112.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[112]::Config::sNome_Funcao%/s%",
+    "value": 112.0
+    },
+    {
+    "id": 113.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[113]::Config::sNome_Funcao%/s%",
+    "value": 113.0
+    },
+    {
+    "id": 114.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[114]::Config::sNome_Funcao%/s%",
+    "value": 114.0
+    },
+    {
+    "id": 115.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[115]::Config::sNome_Funcao%/s%",
+    "value": 115.0
+    },
+    {
+    "id": 116.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[116]::Config::sNome_Funcao%/s%",
+    "value": 116.0
+    },
+    {
+    "id": 117.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[117]::Config::sNome_Funcao%/s%",
+    "value": 117.0
+    },
+    {
+    "id": 118.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[118]::Config::sNome_Funcao%/s%",
+    "value": 118.0
+    },
+    {
+    "id": 119.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[119]::Config::sNome_Funcao%/s%",
+    "value": 119.0
+    },
+    {
+    "id": 120.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[120]::Config::sNome_Funcao%/s%",
+    "value": 120.0
+    },
+    {
+    "id": 121.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[121]::Config::sNome_Funcao%/s%",
+    "value": 121.0
+    },
+    {
+    "id": 122.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[122]::Config::sNome_Funcao%/s%",
+    "value": 122.0
+    },
+    {
+    "id": 123.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[123]::Config::sNome_Funcao%/s%",
+    "value": 123.0
+    },
+    {
+    "id": 124.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[124]::Config::sNome_Funcao%/s%",
+    "value": 124.0
+    },
+    {
+    "id": 125.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[125]::Config::sNome_Funcao%/s%",
+    "value": 125.0
+    },
+    {
+    "id": 126.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[126]::Config::sNome_Funcao%/s%",
+    "value": 126.0
+    },
+    {
+    "id": 127.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[127]::Config::sNome_Funcao%/s%",
+    "value": 127.0
+    },
+    {
+    "id": 128.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[128]::Config::sNome_Funcao%/s%",
+    "value": 128.0
+    },
+    {
+    "id": 129.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[129]::Config::sNome_Funcao%/s%",
+    "value": 129.0
+    },
+    {
+    "id": 130.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[130]::Config::sNome_Funcao%/s%",
+    "value": 130.0
+    },
+    {
+    "id": 131.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[131]::Config::sNome_Funcao%/s%",
+    "value": 131.0
+    },
+    {
+    "id": 132.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[132]::Config::sNome_Funcao%/s%",
+    "value": 132.0
+    },
+    {
+    "id": 133.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[133]::Config::sNome_Funcao%/s%",
+    "value": 133.0
+    },
+    {
+    "id": 134.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[134]::Config::sNome_Funcao%/s%",
+    "value": 134.0
+    },
+    {
+    "id": 135.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[135]::Config::sNome_Funcao%/s%",
+    "value": 135.0
+    },
+    {
+    "id": 136.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[136]::Config::sNome_Funcao%/s%",
+    "value": 136.0
+    },
+    {
+    "id": 137.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[137]::Config::sNome_Funcao%/s%",
+    "value": 137.0
+    },
+    {
+    "id": 138.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[138]::Config::sNome_Funcao%/s%",
+    "value": 138.0
+    },
+    {
+    "id": 139.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[139]::Config::sNome_Funcao%/s%",
+    "value": 139.0
+    },
+    {
+    "id": 140.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[140]::Config::sNome_Funcao%/s%",
+    "value": 140.0
+    },
+    {
+    "id": 141.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[141]::Config::sNome_Funcao%/s%",
+    "value": 141.0
+    },
+    {
+    "id": 142.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[142]::Config::sNome_Funcao%/s%",
+    "value": 142.0
+    },
+    {
+    "id": 143.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[143]::Config::sNome_Funcao%/s%",
+    "value": 143.0
+    },
+    {
+    "id": 144.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[144]::Config::sNome_Funcao%/s%",
+    "value": 144.0
+    },
+    {
+    "id": 145.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[145]::Config::sNome_Funcao%/s%",
+    "value": 145.0
+    },
+    {
+    "id": 146.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[146]::Config::sNome_Funcao%/s%",
+    "value": 146.0
+    },
+    {
+    "id": 147.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[147]::Config::sNome_Funcao%/s%",
+    "value": 147.0
+    },
+    {
+    "id": 148.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[148]::Config::sNome_Funcao%/s%",
+    "value": 148.0
+    },
+    {
+    "id": 149.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[149]::Config::sNome_Funcao%/s%",
+    "value": 149.0
+    },
+    {
+    "id": 150.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[150]::Config::sNome_Funcao%/s%",
+    "value": 150.0
+    },
+    {
+    "id": 151.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[151]::Config::sNome_Funcao%/s%",
+    "value": 151.0
+    },
+    {
+    "id": 152.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[152]::Config::sNome_Funcao%/s%",
+    "value": 152.0
+    },
+    {
+    "id": 153.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[153]::Config::sNome_Funcao%/s%",
+    "value": 153.0
+    },
+    {
+    "id": 154.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[154]::Config::sNome_Funcao%/s%",
+    "value": 154.0
+    },
+    {
+    "id": 155.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[155]::Config::sNome_Funcao%/s%",
+    "value": 155.0
+    },
+    {
+    "id": 156.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[156]::Config::sNome_Funcao%/s%",
+    "value": 156.0
+    },
+    {
+    "id": 157.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[157]::Config::sNome_Funcao%/s%",
+    "value": 157.0
+    },
+    {
+    "id": 158.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[158]::Config::sNome_Funcao%/s%",
+    "value": 158.0
+    },
+    {
+    "id": 159.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[159]::Config::sNome_Funcao%/s%",
+    "value": 159.0
+    },
+    {
+    "id": 160.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[160]::Config::sNome_Funcao%/s%",
+    "value": 160.0
+    },
+    {
+    "id": 161.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[161]::Config::sNome_Funcao%/s%",
+    "value": 161.0
+    },
+    {
+    "id": 162.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[162]::Config::sNome_Funcao%/s%",
+    "value": 162.0
+    },
+    {
+    "id": 163.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[163]::Config::sNome_Funcao%/s%",
+    "value": 163.0
+    },
+    {
+    "id": 164.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[164]::Config::sNome_Funcao%/s%",
+    "value": 164.0
+    },
+    {
+    "id": 165.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[165]::Config::sNome_Funcao%/s%",
+    "value": 165.0
+    },
+    {
+    "id": 166.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[166]::Config::sNome_Funcao%/s%",
+    "value": 166.0
+    },
+    {
+    "id": 167.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[167]::Config::sNome_Funcao%/s%",
+    "value": 167.0
+    },
+    {
+    "id": 168.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[168]::Config::sNome_Funcao%/s%",
+    "value": 168.0
+    },
+    {
+    "id": 169.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[169]::Config::sNome_Funcao%/s%",
+    "value": 169.0
+    },
+    {
+    "id": 170.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[170]::Config::sNome_Funcao%/s%",
+    "value": 170.0
+    },
+    {
+    "id": 171.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[171]::Config::sNome_Funcao%/s%",
+    "value": 171.0
+    },
+    {
+    "id": 172.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[172]::Config::sNome_Funcao%/s%",
+    "value": 172.0
+    },
+    {
+    "id": 173.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[173]::Config::sNome_Funcao%/s%",
+    "value": 173.0
+    },
+    {
+    "id": 174.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[174]::Config::sNome_Funcao%/s%",
+    "value": 174.0
+    },
+    {
+    "id": 175.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[175]::Config::sNome_Funcao%/s%",
+    "value": 175.0
+    },
+    {
+    "id": 176.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[176]::Config::sNome_Funcao%/s%",
+    "value": 176.0
+    },
+    {
+    "id": 177.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[177]::Config::sNome_Funcao%/s%",
+    "value": 177.0
+    },
+    {
+    "id": 178.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[178]::Config::sNome_Funcao%/s%",
+    "value": 178.0
+    },
+    {
+    "id": 179.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[179]::Config::sNome_Funcao%/s%",
+    "value": 179.0
+    },
+    {
+    "id": 180.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[180]::Config::sNome_Funcao%/s%",
+    "value": 180.0
+    },
+    {
+    "id": 181.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[181]::Config::sNome_Funcao%/s%",
+    "value": 181.0
+    },
+    {
+    "id": 182.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[182]::Config::sNome_Funcao%/s%",
+    "value": 182.0
+    },
+    {
+    "id": 183.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[183]::Config::sNome_Funcao%/s%",
+    "value": 183.0
+    },
+    {
+    "id": 184.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[184]::Config::sNome_Funcao%/s%",
+    "value": 184.0
+    },
+    {
+    "id": 185.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[185]::Config::sNome_Funcao%/s%",
+    "value": 185.0
+    },
+    {
+    "id": 186.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[186]::Config::sNome_Funcao%/s%",
+    "value": 186.0
+    },
+    {
+    "id": 187.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[187]::Config::sNome_Funcao%/s%",
+    "value": 187.0
+    },
+    {
+    "id": 188.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[188]::Config::sNome_Funcao%/s%",
+    "value": 188.0
+    },
+    {
+    "id": 189.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[189]::Config::sNome_Funcao%/s%",
+    "value": 189.0
+    },
+    {
+    "id": 190.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[190]::Config::sNome_Funcao%/s%",
+    "value": 190.0
+    },
+    {
+    "id": 191.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[191]::Config::sNome_Funcao%/s%",
+    "value": 191.0
+    },
+    {
+    "id": 192.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[192]::Config::sNome_Funcao%/s%",
+    "value": 192.0
+    },
+    {
+    "id": 193.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[193]::Config::sNome_Funcao%/s%",
+    "value": 193.0
+    },
+    {
+    "id": 194.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[194]::Config::sNome_Funcao%/s%",
+    "value": 194.0
+    },
+    {
+    "id": 195.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[195]::Config::sNome_Funcao%/s%",
+    "value": 195.0
+    },
+    {
+    "id": 196.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[196]::Config::sNome_Funcao%/s%",
+    "value": 196.0
+    },
+    {
+    "id": 197.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[197]::Config::sNome_Funcao%/s%",
+    "value": 197.0
+    },
+    {
+    "id": 198.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[198]::Config::sNome_Funcao%/s%",
+    "value": 198.0
+    },
+    {
+    "id": 199.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[199]::Config::sNome_Funcao%/s%",
+    "value": 199.0
+    },
+    {
+    "id": 200.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[200]::Config::sNome_Funcao%/s%",
+    "value": 200.0
+    },
+    {
+    "id": 201.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[201]::Config::sNome_Funcao%/s%",
+    "value": 201.0
+    },
+    {
+    "id": 202.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[202]::Config::sNome_Funcao%/s%",
+    "value": 202.0
+    },
+    {
+    "id": 203.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[203]::Config::sNome_Funcao%/s%",
+    "value": 203.0
+    },
+    {
+    "id": 204.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[204]::Config::sNome_Funcao%/s%",
+    "value": 204.0
+    },
+    {
+    "id": 205.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[205]::Config::sNome_Funcao%/s%",
+    "value": 205.0
+    },
+    {
+    "id": 206.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[206]::Config::sNome_Funcao%/s%",
+    "value": 206.0
+    },
+    {
+    "id": 207.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[207]::Config::sNome_Funcao%/s%",
+    "value": 207.0
+    },
+    {
+    "id": 208.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[208]::Config::sNome_Funcao%/s%",
+    "value": 208.0
+    },
+    {
+    "id": 209.0,
+    "text": "%s%PLC1.GVL_Motores.Motor[209]::Config::sNome_Funcao%/s%",
+    "value": 209.0
+    }
+    ]
 </script>
 </div>
 <div id="TcHmiImage_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="13.1" data-tchmi-height-unit="%" data-tchmi-left="37.5" data-tchmi-left-unit="%" data-tchmi-top="4.5" data-tchmi-top-unit="%" data-tchmi-width="3.8" data-tchmi-width-unit="%" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-opacity="1" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-src="Images/Diversos/Seta.png" data-tchmi-background-image-width-unit="px" data-tchmi-background-image-height-unit="px">

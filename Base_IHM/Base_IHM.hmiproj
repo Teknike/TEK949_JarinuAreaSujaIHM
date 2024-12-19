@@ -478,7 +478,7 @@
     <Content Include="Images\x-circle.svg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Imports\Arquivos\ProjetoEletrico\PAINEL ELÉTRICO SIEMENS.pdf">
+    <Content Include="Imports\Arquivos\ProjetoEletrico\PAINEL ELÉTRICO CCM ABATEDOURO.pdf">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Imports\Images\analytics-active.svg">
