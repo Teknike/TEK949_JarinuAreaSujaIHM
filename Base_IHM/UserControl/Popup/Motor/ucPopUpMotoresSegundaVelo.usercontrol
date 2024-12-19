@@ -1,0 +1,1568 @@
+<div id="ucPopUpMotoresInterlock_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="710" data-tchmi-height="400" data-tchmi-width-unit="px" data-tchmi-height-unit="px" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500" data-tchmi-zindex="1">
+<div id="EditInterlocks_1" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="400" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="710" data-tchmi-width-unit="px" data-tchmi-zindex="1016" data-tchmi-is-enabled="true" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-visibility="Visible">
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(210, 209, 209, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 1,
+  "right": 1,
+  "top": 1,
+  "bottom": 1,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%stPartida::Config::rSetPointAuto%/pp%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "parts": [
+          {
+            "if": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "symbolExpression": "%pp%stPartida::Config::xTudoComissionado%/pp%"
+                },
+                "compare2": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "value": true
+                },
+                "compareOperator": "==",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%iDecimal%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/Number",
+                  "value": 1.0
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%iVeloMax%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/Number",
+                  "value": 200.0
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "else": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%iDecimal%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/Number",
+                  "value": 0.0
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%iVeloMax%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/Number",
+                  "value": 3600.0
+                },
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_1::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[1]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_2::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[2]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_3::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[3]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_4::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[4]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_5::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[5]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_6::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[6]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_7::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[7]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_8::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[8]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_9::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[9]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_10::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[10]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_11::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[11]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_12::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[12]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_13::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[13]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_14::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[14]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_15::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[15]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_16::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[16]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_17::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[17]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_18::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[18]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_19::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[19]%/pp%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%niVeloAuto_20::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[20]%/pp%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+<div id="TcHmiTextblock_257209" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="15" data-tchmi-left-unit="px" data-tchmi-text="Velocidades em automatico" data-tchmi-top="8" data-tchmi-top-unit="px" data-tchmi-width="230" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="20">
+</div>
+<div id="tbTipoVelo" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="390" data-tchmi-left-unit="px" data-tchmi-text="O motor esta configurado em : RPM" data-tchmi-top="8" data-tchmi-top-unit="px" data-tchmi-width="310" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-vertical-alignment="Bottom" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-font-size="20" data-tchmi-zindex="1017">
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%stPartida::Config::xTudoComissionado%/pp%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "parts": [
+          {
+            "if": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "symbolExpression": "%pp%stPartida::Config::xTudoComissionado%/pp%"
+                },
+                "compare2": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "value": false
+                },
+                "compareOperator": "==",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%tbTipoVelo::Text%/ctrl%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "value": "O motor esta configurado em : RPM"
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "else": [
+              {
+                "objectType": "Condition",
+                "active": true,
+                "parts": [
+                  {
+                    "if": [
+                      {
+                        "compare1": {
+                          "objectType": "Symbol",
+                          "valueType": "tchmi:general#/definitions/BOOL",
+                          "symbolExpression": "%pp%stPartida::Config::xVeloEmMetroPMin%/pp%"
+                        },
+                        "compare2": {
+                          "objectType": "StaticValue",
+                          "valueType": "tchmi:general#/definitions/BOOL",
+                          "value": true
+                        },
+                        "compareOperator": "==",
+                        "logic": null
+                      }
+                    ],
+                    "then": [
+                      {
+                        "objectType": "WriteToSymbol",
+                        "active": true,
+                        "symbolExpression": "%ctrl%tbTipoVelo::Text%/ctrl%",
+                        "value": {
+                          "objectType": "StaticValue",
+                          "valueType": "tchmi:general#/definitions/String",
+                          "value": "O motor esta configurado em : m/min"
+                        },
+                        "asyncWait": true
+                      }
+                    ]
+                  },
+                  {
+                    "else": [
+                      {
+                        "objectType": "Condition",
+                        "active": true,
+                        "parts": [
+                          {
+                            "if": [
+                              {
+                                "compare1": {
+                                  "objectType": "Symbol",
+                                  "valueType": "tchmi:general#/definitions/BOOL",
+                                  "symbolExpression": "%pp%stPartida::Config::xVeloEmPorcentagem%/pp%"
+                                },
+                                "compare2": {
+                                  "objectType": "StaticValue",
+                                  "valueType": "tchmi:general#/definitions/BOOL",
+                                  "value": true
+                                },
+                                "compareOperator": "==",
+                                "logic": null
+                              }
+                            ],
+                            "then": [
+                              {
+                                "objectType": "WriteToSymbol",
+                                "active": true,
+                                "symbolExpression": "%ctrl%tbTipoVelo::Text%/ctrl%",
+                                "value": {
+                                  "objectType": "StaticValue",
+                                  "valueType": "tchmi:general#/definitions/String",
+                                  "value": "O motor esta configurado em : %"
+                                },
+                                "asyncWait": true
+                              }
+                            ]
+                          },
+                          {
+                            "else": [
+                              {
+                                "objectType": "WriteToSymbol",
+                                "active": true,
+                                "symbolExpression": "%ctrl%tbTipoVelo::Text%/ctrl%",
+                                "value": {
+                                  "objectType": "StaticValue",
+                                  "valueType": "tchmi:general#/definitions/String",
+                                  "value": "O motor esta configurado em : RPM"
+                                },
+                                "asyncWait": true
+                              }
+                            ]
+                          }
+                        ],
+                        "asyncWait": true
+                      }
+                    ]
+                  }
+                ],
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="TcHmiContainer_180" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="356" data-tchmi-height-unit="px" data-tchmi-left="6" data-tchmi-left-unit="px" data-tchmi-top="34" data-tchmi-top-unit="px" data-tchmi-width="692" data-tchmi-width-unit="px">
+<div id="niVeloAuto_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="7" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_1.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[1]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_1::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257210" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 1:" data-tchmi-top="7" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 1,
+  "right": 1,
+  "top": 1,
+  "bottom": 1,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+<div id="TcHmiTextblock_257211" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 2:" data-tchmi-top="41" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="41" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_2.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[2]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_2::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257212" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 3:" data-tchmi-top="75" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_3" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="75" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_3.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[3]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_3::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257213" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 4:" data-tchmi-top="109" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_4" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="109" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_4.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[4]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_4::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257214" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 5:" data-tchmi-top="143" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_5" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="143" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_5.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[5]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_5::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257215" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 6:" data-tchmi-top="178" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257216" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 7:" data-tchmi-top="211" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257217" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 9:" data-tchmi-top="279" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257218" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 8:" data-tchmi-top="245" data-tchmi-top-unit="px" data-tchmi-width="103" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257219" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="19" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 10:" data-tchmi-top="313" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_10" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="313" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_10.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[10]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_10::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_8" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="245" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_8.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[8]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_8::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_7" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="211" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_7.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[7]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_7::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_6" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_6.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[6]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_6::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_9" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="139" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="279" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_9.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[9]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_9::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="LCVelo_1" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="8" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==1%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_2" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="42" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==2%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_3" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="76" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==3%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_4" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="110" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==4%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_5" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="144" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==5%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_6" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="178" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==6%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_7" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="212" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==7%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_8" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="246" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==8%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_9" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="280" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==9%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_10" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="255" data-tchmi-left-unit="px" data-tchmi-top="314" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==10%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_11" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="8" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_11.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[11]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_11::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257220" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 11:" data-tchmi-top="8" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257221" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 12:" data-tchmi-top="42" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_12" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="42" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_12.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[12]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_12::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257222" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 13:" data-tchmi-top="76" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_13" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="76" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_13.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[13]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_13::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257223" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 14:" data-tchmi-top="110" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_14" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="110" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_14.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[14]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_14::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257224" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 15:" data-tchmi-top="144" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_15" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="144" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_15.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[15]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_15::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_257225" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 16:" data-tchmi-top="179" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257226" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 17:" data-tchmi-top="212" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257227" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 19:" data-tchmi-top="280" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257228" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 18:" data-tchmi-top="246" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="TcHmiTextblock_257229" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="362" data-tchmi-left-unit="px" data-tchmi-text="Velocidade 20:" data-tchmi-top="314" data-tchmi-top-unit="px" data-tchmi-width="111" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="19" data-tchmi-creator-locked="True">
+</div>
+<div id="niVeloAuto_20" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="314" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_20.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[20]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_20::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_18" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="246" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_18.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[18]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_18::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_17" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="212" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_17.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[17]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_17::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="178" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_16.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[16]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_16::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="niVeloAuto_19" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="%pp%iDecimal%/pp%" data-tchmi-height="32" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-max-value="%pp%iVeloMax%/pp%" data-tchmi-min-value="%pp%iVeloMin%/pp%" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="280" data-tchmi-top-unit="px" data-tchmi-width="110" data-tchmi-width-unit="px" data-tchmi-auto-select-text="false" data-tchmi-is-enabled="true" data-tchmi-value-horizontal-alignment="Center" data-tchmi-value-font-size="20" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{"top":3,"right":3,"bottom":3,"left":3}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "niVeloAuto_19.onUserInteractionFinished",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%stPartida::Config::rSetPointAuto[19]%/pp%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%niVeloAuto_19::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Supervisao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "CasaMaquinas",
+    "permission": "Deny"
+  }
+]
+</script>
+</div>
+<div id="LCVelo_11" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="9" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==11%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_12" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="43" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==12%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_13" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="77" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==13%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_14" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="111" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==14%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_15" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="145" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==15%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_16" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="179" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==16%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_17" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="213" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==17%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_18" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="247" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==18%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_19" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="281" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==19%/f%" data-tchmi-creator-locked="True">
+</div>
+<div id="LCVelo_20" data-tchmi-type="TcHmi.Controls.Legacy_Lamp.Legacy_LampControl" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-lamp-color="Green" data-tchmi-left="598" data-tchmi-left-unit="px" data-tchmi-top="315" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-value="%f%%pp%stPartida::En::iUsaVeloAutoNumero%/pp%==20%/f%" data-tchmi-creator-locked="True">
+</div>
+</div>
+</div>
+</div>

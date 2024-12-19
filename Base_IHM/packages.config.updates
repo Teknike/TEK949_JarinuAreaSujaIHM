@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Beckhoff.TwinCAT.HMI.BaseTemplate",
+    "version": "14.1.15"
+  },
+  {
+    "id": "Beckhoff.TwinCAT.HMI.Controls",
+    "version": "14.1.15"
+  },
+  {
+    "id": "Beckhoff.TwinCAT.HMI.EcDiagnostics",
+    "version": "22.0.5973"
+  },
+  {
+    "id": "Beckhoff.TwinCAT.HMI.EcDiagnosticsControl",
+    "version": "14.1.15"
+  },
+  {
+    "id": "Beckhoff.TwinCAT.HMI.Framework",
+    "version": "14.1.15"
+  },
+  {
+    "id": "Beckhoff.TwinCAT.HMI.Functions",
+    "version": "14.1.15"
+  },
+  {
+    "id": "Beckhoff.TwinCAT.HMI.PDFViewer",
+    "version": "14.1.15"
+  },
+  {
+    "id": "Beckhoff.TwinCAT.HMI.ResponsiveNavigation",
+    "version": "14.1.15"
+  },
+  {
+    "id": "Microsoft.TypeScript.MSBuild",
+    "version": "5.6.0-beta"
+  }
+]

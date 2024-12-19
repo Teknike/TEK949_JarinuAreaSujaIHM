@@ -1,0 +1,3776 @@
+<div id="LayoutContent_1"
+     data-tchmi-type="TcHmi.Controls.System.TcHmiContent"
+     data-tchmi-top="0"
+     data-tchmi-left="0"
+     data-tchmi-width="1800"
+     data-tchmi-height="980"
+     data-tchmi-creator-viewport-width="1920"
+     data-tchmi-creator-viewport-height="1080"
+     data-tchmi-width-mode="Value"
+     data-tchmi-height-mode="Value" data-tchmi-zindex="3">
+    <script data-tchmi-target-attribute="data-tchmi-background-color"
+            type="application/json">
+{
+  "angle": 45.0,
+  "stopPoints": [
+    {
+      "color": "rgba(115, 115, 115, 1)",
+      "stop": "0%"
+    },
+    {
+      "color": "rgba(190, 190, 190, 1)",
+      "stop": "100%"
+    }
+  ]
+}
+</script>
+<div id="TcHmiContainer_ZoomableArea_336"
+         data-tchmi-type="TcHmi.Controls.System.TcHmiContainer"
+         data-tchmi-height="100"
+         data-tchmi-height-unit="%"
+         data-tchmi-left="0"
+         data-tchmi-left-unit="px"
+         data-tchmi-top="0"
+         data-tchmi-top-unit="px"
+         data-tchmi-width="100"
+         data-tchmi-width-unit="%" data-tchmi-creator-visibility="Visible" data-tchmi-zindex="3" data-tchmi-creator-locked="True">
+        <div id="TcHmiHtmlHost_SVGLayout_3"
+             data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost"
+             data-tchmi-height="100"
+             data-tchmi-height-unit="%"
+             data-tchmi-left="0"
+             data-tchmi-left-unit="px"
+             data-tchmi-top="0"
+             data-tchmi-top-unit="px"
+             data-tchmi-width="100"
+             data-tchmi-width-unit="%"
+             data-tchmi-creator-locked="True"
+             data-tchmi-zindex="2"
+             data-tchmi-creator-visibility="Visible">
+
+            <div id="tcHmi" style="
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+          ">
+                <!-- background -->
+                <svg viewBox="-1.9925947189331055 -2.4925928115844727 270 145" fill="none" xmlns="http://www.w3.org/2000/svg" id="svgBackground">
+                    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feDropShadow dx="1.5" dy="1.5" stdDeviation="1" flood-color="black" flood-opacity="0.5"></feDropShadow>
+                    </filter>
+
+                    <g id="background-group" filter="url(#dropShadow)">
+                        <path d="M 115 133 H 136" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 136 133 H 146" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 146 133 C 159 133 159 133 163 130" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 163 130 C 167 127 167 127 180 127" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 180 127 H 200" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 200 127 H 220" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 220 127 H 237" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 237 127 C 247 127 248 127 248 118" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 248 118 C 248 115 250 113 254 113" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 254 113 H 264" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 253 121 H 239" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 239 121 H 211" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 211 121 H 183" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 183 121 H 155" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 155 121 C 152 121 150 119 150 116" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 150 116 V 105" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 146 100 V 86" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 146 86 V 69" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 152 103 H 136" stroke="#ccc" transform="translate(0, 0.5) rotate(0, 0, 0)" style="stroke-width:8.099999999999987"></path>
+                        <path d="M 136 103 H 123" stroke="#ccc" style="stroke-width:6.399999999999993"></path>
+                        <path d="M 123 103 H 107" stroke="#ccc" style="stroke-width:6.399999999999993"></path>
+                        <path d="M 15 7 H 96" stroke="#ccc" transform="translate(-10, 20) rotate(0, 0, 0)" style="stroke-width:4"></path>
+                        <path d="M 107 103 C 103 103 102 101 102 97" stroke="#ccc" style="stroke-width:6.399999999999993"></path>
+                        <path d="M 102 97 V 65" stroke="#ccc" style="stroke-width:6.399999999999993"></path>
+                        <path d="M 102 65 V 11" stroke="#ccc" style="stroke-width:6.399999999999993"></path>
+                        <path d="M 100 79 H 48" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 48 79 H 9" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 100 74 H 27" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 105 82 V 71" stroke="#ccc" transform="translate(-3.1, 0.2) rotate(0, 0, 0)" style="stroke-width:4"></path>
+                        <path d="M 102 70 C 102 66 103 62 97 62" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 97 62 H 76" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 102 54 V 43" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 100 45 H 97" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 97 45 H 87" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 87 45 H 22" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 102 39 C 102 35 103 31 97 31" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 97 31 H 76" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 102 24 C 102 20 103 16 97 16" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 97 16 H 76" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 76 16 H 15" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 15 33 V 60" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 17 58 H 86" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 69 50 H 52" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 54 52 V 56" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 69 66 H 52" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 54 64 V 60" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 52 62 H 37" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 17 42 H 80" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 23 66 H 5" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 7 64 V 26" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 76 31 H 13" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 13 18 V 5" stroke="#ccc" style="stroke-width:4"></path>
+                        <path d="M 15 7 H 96" stroke="#ccc" transform="translate(0, 0) rotate(0, 0, 0)" style="stroke-width:4"></path>
+                        <path d="M 94 9 V 29" stroke="#ccc" style="stroke-width:4"></path>
+                    </g>
+                </svg>
+
+                <!-- Canvas -->
+                <canvas id="canvasShadows"></canvas>
+                <!-- <img id="canvasShadows" alt="" /> -->
+                <!-- parts -->
+                <svg viewBox="-1.9925947189331055 -2.4925928115844727 270 145" fill="none" xmlns="http://www.w3.org/2000/svg" id="svgParts" class="show-texts">
+
+                    <g id="esteiras-group">
+                        <g data-esteira="55" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 115 133 H 136" class="esteira-foreground"></path>
+                            <path d="M 115 133 H 136" class="esteira-animation"></path>
+                            <text x="115" y="133" dx="0.5" dy="-2.2" text-anchor="start">
+                                M55
+                            </text>
+                        </g>
+                        <g data-esteira="56" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 136 133 H 146" class="esteira-foreground"></path>
+                            <path d="M 136 133 H 146" class="esteira-animation"></path>
+                            <line x1="136" x2="136" y1="131" y2="135"></line>
+                            <text x="136" y="133" dx="0.5" dy="-2.2" text-anchor="start">
+                                M56
+                            </text>
+                        </g>
+                        <g data-esteira="27" class="svg-esteira">
+
+                            <path d="M 146 133 C 159 133 159 133 163 130" class="esteira-foreground"></path>
+                            <path d="M 146 133 C 159 133 159 133 163 130" class="esteira-animation"></path>
+                            <line x1="146" x2="146" y1="131" y2="135"></line>
+                            <text x="146" y="133" dx="0.5" dy="4.2" text-anchor="start" transform="translate(0, 0.5) rotate(0, 146, 133)">
+                                M27
+                            </text>
+                        </g>
+                        <g data-esteira="26" class="svg-esteira  ">
+
+                            <path d="M 163 130 C 167 127 167 127 180 127" class="esteira-foreground"></path>
+                            <path d="M 163 130 C 167 127 167 127 180 127" class="esteira-animation"></path>
+                            <line x1="162.4" x2="165" y1="126.7" y2="130" transform="translate(-0.4, 1.4) rotate(0, 0, 0)"></line>
+                            <text x="163" y="130" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(10, 4) rotate(0, 163, 130)">
+                                M26
+                            </text>
+                        </g>
+                        <g data-esteira="25" class="svg-esteira  ">
+
+                            <path d="M 180 127 H 200" class="esteira-foreground"></path>
+                            <path d="M 180 127 H 200" class="esteira-animation"></path>
+                            <line x1="180" x2="180" y1="125" y2="129"></line>
+                            <text x="180" y="127" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0, 7) rotate(0, 180, 127)">
+                                M25
+                            </text>
+                        </g>
+                        <g data-esteira="24" class="svg-esteira  ">
+
+                            <path d="M 200 127 H 220" class="esteira-foreground"></path>
+                            <path d="M 200 127 H 220" class="esteira-animation"></path>
+                            <line x1="200" x2="200" y1="125" y2="129"></line>
+                            <text x="200" y="127" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0, 7) rotate(0, 200, 127)">
+                                M24
+                            </text>
+                        </g>
+                        <g data-esteira="58" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 220 127 H 237" class="esteira-foreground"></path>
+                            <path d="M 220 127 H 237" class="esteira-animation"></path>
+                            <line x1="220" x2="220" y1="125" y2="129"></line>
+                            <text x="220" y="127" dx="0.5" dy="-2.2" text-anchor="start">
+                                M58
+                            </text>
+                        </g>
+                        <g data-esteira="23" class="svg-esteira  ">
+
+                            <path d="M 237 127 C 247 127 248 127 248 118" class="esteira-foreground"></path>
+                            <path d="M 237 127 C 247 127 248 127 248 118" class="esteira-animation"></path>
+                            <line x1="237" x2="237" y1="125" y2="129"></line>
+                            <text x="237" y="127" dx="0.5" dy="4.2" text-anchor="start" transform="translate(0, 0.3) rotate(0, 237, 127)">
+                                M23
+                            </text>
+                        </g>
+                        <g data-esteira="22" class="svg-esteira  ">
+
+                            <path d="M 248 118 C 248 115 250 113 254 113" class="esteira-foreground"></path>
+                            <path d="M 248 118 C 248 115 250 113 254 113" class="esteira-animation"></path>
+                            <line x1="246" x2="250" y1="118" y2="118"></line>
+                            <text x="248" y="118" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(-0.1, -5.4) rotate(0, 248, 118)">
+                                M22
+                            </text>
+                        </g>
+                        <g data-esteira="21" class="svg-esteira  ">
+
+                            <path d="M 254 113 H 264" class="esteira-foreground"></path>
+                            <path d="M 254 113 H 264" class="esteira-animation"></path>
+                            <line x1="254" x2="254" y1="111" y2="115"></line>
+                            <text x="254" y="113" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0, -0.3) rotate(0, 254, 113)">
+                                M21
+                            </text>
+                        </g>
+                        <g data-esteira="14" class="svg-esteira  ">
+
+                            <path d="M 253 121 H 239" class="esteira-foreground"></path>
+                            <path d="M 253 121 H 239" class="esteira-animation"></path>
+                            <text x="239" y="121" dx="0.5" dy="-2.2" text-anchor="start">
+                                M14
+                            </text>
+                        </g>
+                        <g data-esteira="13" class="svg-esteira  ">
+
+                            <path d="M 239 121 H 211" class="esteira-foreground"></path>
+                            <path d="M 239 121 H 211" class="esteira-animation"></path>
+                            <line x1="239" x2="239" y1="119" y2="123"></line>
+                            <text x="211" y="121" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0, -0.3) rotate(0, 211, 121)">
+                                M13
+                            </text>
+                        </g>
+                        <g data-esteira="12" class="svg-esteira  ">
+
+                            <path d="M 211 121 H 183" class="esteira-foreground"></path>
+                            <path d="M 211 121 H 183" class="esteira-animation"></path>
+                            <line x1="211" x2="211" y1="119" y2="123"></line>
+                            <text x="183" y="121" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0, -0.3) rotate(0, 183, 121)">
+                                M12
+                            </text>
+                        </g>
+                        <g data-esteira="11" class="svg-esteira  ">
+
+                            <path d="M 183 121 H 155" class="esteira-foreground"></path>
+                            <path d="M 183 121 H 155" class="esteira-animation"></path>
+                            <line x1="183" x2="183" y1="119" y2="123"></line>
+                            <text x="155" y="121" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0, -0.3) rotate(0, 155, 121)">
+                                M11
+                            </text>
+                        </g>
+                        <g data-esteira="10" class="svg-esteira  ">
+
+                            <path d="M 155 121 C 152 121 150 119 150 116" class="esteira-foreground"></path>
+                            <path d="M 155 121 C 152 121 150 119 150 116" class="esteira-animation"></path>
+                            <line x1="155" x2="155" y1="119" y2="123"></line>
+                            <text x="155" y="121" dx="-0.5" dy="4.2" text-anchor="end" transform="translate(-0.2, 0.2) rotate(0, 155, 121)">
+                                M10
+                            </text>
+                        </g>
+                        <g data-esteira="9" class="svg-esteira  ">
+
+                            <path d="M 150 116 V 105" class="esteira-foreground"></path>
+                            <path d="M 150 116 V 105" class="esteira-animation"></path>
+                            <line x1="148" x2="152" y1="116" y2="116"></line>
+                            <text x="150" y="116" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(-0.3, 0) rotate(-90, 150, 116)">
+                                M9
+                            </text>
+                        </g>
+                        <g data-esteira="60" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 146 100 V 86" class="esteira-foreground"></path>
+                            <path d="M 146 100 V 86" class="esteira-animation"></path>
+                            <text x="146" y="100" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,146,100)">
+                                M60
+                            </text>
+                        </g>
+                        <g data-esteira="61" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 146 86 V 69" class="esteira-foreground"></path>
+                            <path d="M 146 86 V 69" class="esteira-animation"></path>
+                            <line x1="144" x2="148" y1="86" y2="86"></line>
+                            <text x="146" y="86" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,146,86)">
+                                M61
+                            </text>
+                        </g>
+                        <g data-esteira="62" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 152 103 H 136" class="esteira-foreground" transform="translate(0, 0.5) rotate(0, 0, 0)" style="stroke-width:7.699999999999987"></path>
+                            <path d="M 152 103 H 136" transform="translate(0, 0.5) rotate(0, 0, 0)" style="stroke-width: 5.7; animation-play-state: running;" class="esteira-animation"></path>
+                            <text x="136" y="103" dx="0.5" dy="-2.2" text-anchor="start">
+                                M62
+                            </text>
+                        </g>
+                        <g data-esteira="63" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 136 103 H 123" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                            <path d="M 136 103 H 123" style="stroke-width: 4; animation-play-state: running;" class="esteira-animation"></path>
+                            <line x1="136" x2="136" y1="96.69999999999999" y2="105" transform="translate(0, 2.7) rotate(0, 0, 0)"></line>
+                            <text x="123" y="103" dx="0.5" dy="-2.2" text-anchor="start">
+                                M63
+                            </text>
+                        </g>
+                        <g data-esteira="64" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 123 103 H 107" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                            <path d="M 123 103 H 107" style="stroke-width: 4; animation-play-state: running;" class="esteira-animation"></path>
+                            <line x1="123" x2="123" y1="98.5" y2="105" transform="translate(0, 1.3) rotate(0, 0, 0)"></line>
+                            <text x="107" y="103" dx="0.5" dy="-2.2" text-anchor="start">
+                                M64
+                            </text>
+                        </g>
+                        <g data-esteira="16" class="svg-esteira  ">
+
+                            <path d="M 15 7 H 96" class="esteira-foreground" transform="translate(-10, 20) rotate(0, 0, 0)"></path>
+                            <path d="M 15 7 H 96" transform="translate(-10, 20) rotate(0, 0, 0)" class="esteira-animation"></path>
+                            <text x="15" y="7" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(-6, 19.3) rotate(0, 15, 7)">
+                                M16
+                            </text>
+                        </g>
+                        <g data-esteira="8" class="svg-esteira  ">
+
+                            <path d="M 107 103 C 103 103 102 101 102 97" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                            <path d="M 107 103 C 103 103 102 101 102 97" style="stroke-width: 4; animation-play-state: running;" class="esteira-animation"></path>
+                            <line x1="107" x2="107" y1="98.5" y2="105" transform="translate(0, 1.3) rotate(0, 0, 0)"></line>
+                            <text x="107" y="103" dx="-0.5" dy="4.2" text-anchor="end" transform="translate(0, 1.9) rotate(0, 107, 103)">
+                                M8
+                            </text>
+                        </g>
+                        <g data-esteira="66" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 102 97 V 65" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                            <path d="M 102 97 V 65" style="stroke-width: 4; animation-play-state: running;" class="esteira-animation"></path>
+                            <line x1="97.4" x2="104" y1="97" y2="97" transform="translate(1.3, 0) rotate(0, 0, 0)"></line>
+                            <text x="102" y="97" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,102,97)">
+                                M66
+                            </text>
+                        </g>
+                        <g data-esteira="67" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 102 65 V 11" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                            <path d="M 102 65 V 11" style="stroke-width: 4; animation-play-state: running;" class="esteira-animation"></path>
+                            <line x1="100" x2="104" y1="65" y2="65"></line>
+                            <text x="102" y="65" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,102,65)">
+                                M67
+                            </text>
+                        </g>
+                        <g data-esteira="68" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 100 79 H 48" class="esteira-foreground"></path>
+                            <path d="M 100 79 H 48" class="esteira-animation"></path>
+                            <text x="48" y="79" dx="0.5" dy="-2.2" text-anchor="start">
+                                M68
+                            </text>
+                        </g>
+                        <g data-esteira="69" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 48 79 H 9" class="esteira-foreground"></path>
+                            <path d="M 48 79 H 9" class="esteira-animation"></path>
+                            <line x1="48" x2="48" y1="77" y2="81"></line>
+                            <text x="9" y="79" dx="0.5" dy="-2.2" text-anchor="start">
+                                M69
+                            </text>
+                        </g>
+                        <g data-esteira="70" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 100 74 H 27" class="esteira-foreground"></path>
+                            <path d="M 100 74 H 27" class="esteira-animation"></path>
+                            <text x="27" y="74" dx="0.5" dy="-2.2" text-anchor="start">
+                                M70
+                            </text>
+                        </g>
+                        <g data-esteira="7" class="svg-esteira  ">
+
+                            <path d="M 105 82 V 71" class="esteira-foreground" transform="translate(-3.1, 0.2) rotate(0, 0, 0)"></path>
+                            <path d="M 105 82 V 71" transform="translate(-3.1, 0.2) rotate(0, 0, 0)" class="esteira-animation"></path>
+                            <text x="105" y="82" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(1, 2) rotate(0, 105, 82)" class="" x1="0" y1="-0.5" x2="0" y2="0">
+                                M7
+                            </text>
+                        </g>
+                        <g data-esteira="6" class="svg-esteira  ">
+
+                            <path d="M 102 70 C 102 66 103 62 97 62" class="esteira-foreground"></path>
+                            <path d="M 102 70 C 102 66 103 62 97 62" class="esteira-animation"></path>
+                            <text x="102" y="70" dx="-0.5" dy="4.2" text-anchor="start" transform="translate(4.9, -5) rotate(0, 102, 70)" class="" x1="0" y1="-0.5" x2="0" y2="0">
+                                M6
+                            </text>
+                        </g>
+                        <g data-esteira="71" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 97 62 H 76" class="esteira-foreground"></path>
+                            <path d="M 97 62 H 76" class="esteira-animation"></path>
+                            <line x1="97" x2="97" y1="60" y2="64"></line>
+                            <text x="76" y="62" dx="0.5" dy="-2.2" text-anchor="start">
+                                M71
+                            </text>
+                        </g>
+                        <g data-esteira="5" class="svg-esteira  ">
+
+                            <path d="M 102 54 V 43" class="esteira-foreground"></path>
+                            <path d="M 102 54 V 43" class="esteira-animation"></path>
+                            <text x="102" y="54" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(4, 1.9) rotate(0, 102, 54)" class="" x1="0" y1="-0.5" x2="0" y2="0">
+                                M5
+                            </text>
+                        </g>
+                        <g data-esteira="72" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 100 45 H 97" class="esteira-foreground"></path>
+                            <path d="M 100 45 H 97" class="esteira-animation"></path>
+                            <text x="97" y="45" dx="0.5" dy="-2.2" text-anchor="start">
+                                M72
+                            </text>
+                        </g>
+                        <g data-esteira="73" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 97 45 H 87" class="esteira-foreground"></path>
+                            <path d="M 97 45 H 87" class="esteira-animation"></path>
+                            <line x1="97" x2="97" y1="43" y2="47"></line>
+                            <text x="87" y="45" dx="0.5" dy="-2.2" text-anchor="start">
+                                M73
+                            </text>
+                        </g>
+                        <g data-esteira="74" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 87 45 H 22" class="esteira-foreground"></path>
+                            <path d="M 87 45 H 22" class="esteira-animation"></path>
+                            <line x1="87" x2="87" y1="43" y2="47"></line>
+                            <text x="22" y="45" dx="0.5" dy="-2.2" text-anchor="start">
+                                M74
+                            </text>
+                        </g>
+                        <g data-esteira="4" class="svg-esteira  ">
+
+                            <path d="M 102 39 C 102 35 103 31 97 31" class="esteira-foreground"></path>
+                            <path d="M 102 39 C 102 35 103 31 97 31" class="esteira-animation"></path>
+                            <text x="102" y="39" dx="-0.5" dy="4.2" text-anchor="start" transform="translate(5, -4.3) rotate(0, 102, 39)" class="" x1="0" y1="-0.5" x2="0" y2="0">
+                                M4
+                            </text>
+                        </g>
+                        <g data-esteira="75" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 97 31 H 76" class="esteira-foreground"></path>
+                            <path d="M 97 31 H 76" class="esteira-animation"></path>
+                            <line x1="97" x2="97" y1="29" y2="33"></line>
+                            <text x="76" y="31" dx="0.5" dy="-2.2" text-anchor="start">
+                                M75
+                            </text>
+                        </g>
+                        <g data-esteira="3" class="svg-esteira  ">
+
+                            <path d="M 102 24 C 102 20 103 16 97 16" class="esteira-foreground"></path>
+                            <path d="M 102 24 C 102 20 103 16 97 16" class="esteira-animation"></path>
+                            <text x="102" y="24" dx="-0.5" dy="4.2" text-anchor="start" transform="translate(4.9, -5) rotate(0, 102, 24)" class="selected-element" x1="0" y1="-0.5" x2="0" y2="0">
+                                M3
+                            </text>
+                        </g>
+                        <g data-esteira="76" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 97 16 H 76" class="esteira-foreground"></path>
+                            <path d="M 97 16 H 76" class="esteira-animation"></path>
+                            <line x1="97" x2="97" y1="14" y2="18"></line>
+                            <text x="76" y="16" dx="0.5" dy="-2.2" text-anchor="start">
+                                M76
+                            </text>
+                        </g>
+                        <g data-esteira="2" class="svg-esteira  ">
+
+                            <path d="M 76 16 H 15" class="esteira-foreground"></path>
+                            <path d="M 76 16 H 15" class="esteira-animation"></path>
+                            <line x1="76" x2="76" y1="14" y2="18"></line>
+                            <text x="15" y="16" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0.3, -0.4) rotate(0, 15, 16)">
+                                M2
+                            </text>
+                        </g>
+                        <g data-esteira="77" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 15 33 V 60" class="esteira-foreground"></path>
+                            <path d="M 15 33 V 60" class="esteira-animation"></path>
+                            <text x="15" y="60" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,15,60)">
+                                M77
+                            </text>
+                        </g>
+                        <g data-esteira="78" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 17 58 H 86" class="esteira-foreground"></path>
+                            <path d="M 17 58 H 86" class="esteira-animation"></path>
+                            <text x="17" y="58" dx="0.5" dy="-2.2" text-anchor="start">
+                                M78
+                            </text>
+                        </g>
+                        <g data-esteira="79" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 69 50 H 52" class="esteira-foreground"></path>
+                            <path d="M 69 50 H 52" class="esteira-animation"></path>
+                            <text x="52" y="50" dx="0.5" dy="-2.2" text-anchor="start">
+                                M79
+                            </text>
+                        </g>
+                        <g data-esteira="80" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 54 52 V 56" class="esteira-foreground"></path>
+                            <path d="M 54 52 V 56" class="esteira-animation"></path>
+                            <text x="54" y="56" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,54,56)">
+                                M80
+                            </text>
+                        </g>
+                        <g data-esteira="81" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 69 66 H 52" class="esteira-foreground"></path>
+                            <path d="M 69 66 H 52" class="esteira-animation"></path>
+                            <text x="52" y="66" dx="0.5" dy="-2.2" text-anchor="start">
+                                M81
+                            </text>
+                        </g>
+                        <g data-esteira="82" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 54 64 V 60" class="esteira-foreground"></path>
+                            <path d="M 54 64 V 60" class="esteira-animation"></path>
+                            <text x="54" y="64" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,54,64)">
+                                M82
+                            </text>
+                        </g>
+                        <g data-esteira="83" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 52 62 H 37" class="esteira-foreground"></path>
+                            <path d="M 52 62 H 37" class="esteira-animation"></path>
+                            <text x="37" y="62" dx="0.5" dy="-2.2" text-anchor="start">
+                                M83
+                            </text>
+                        </g>
+                        <g data-esteira="84" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 17 42 H 80" class="esteira-foreground"></path>
+                            <path d="M 17 42 H 80" class="esteira-animation"></path>
+                            <text x="17" y="42" dx="0.5" dy="-2.2" text-anchor="start">
+                                M84
+                            </text>
+                        </g>
+                        <g data-esteira="85" class="svg-esteira  esteira-desabilitada">
+
+                            <path d="M 23 66 H 5" class="esteira-foreground"></path>
+                            <path d="M 23 66 H 5" class="esteira-animation"></path>
+                            <text x="5" y="66" dx="0.5" dy="-2.2" text-anchor="start">
+                                M85
+                            </text>
+                        </g>
+                        <g data-esteira="15" class="svg-esteira  ">
+
+                            <path d="M 7 64 V 26" class="esteira-foreground"></path>
+                            <path d="M 7 64 V 26" class="esteira-animation"></path>
+                            <text x="7" y="64" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(-0.2, 0) rotate(-90, 7, 64)">
+                                M15
+                            </text>
+                        </g>
+                        <g data-esteira="17" class="svg-esteira  ">
+
+                            <path d="M 76 31 H 13" class="esteira-foreground"></path>
+                            <path d="M 76 31 H 13" class="esteira-animation"></path>
+                            <text x="13" y="31" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(57.3, 7.1) rotate(0, 13, 31)">
+                                M17
+                            </text>
+                        </g>
+                        <g data-esteira="1" class="svg-esteira  ">
+
+                            <path d="M 13 18 V 5" class="esteira-foreground"></path>
+                            <path d="M 13 18 V 5" class="esteira-animation"></path>
+                            <text x="13" y="18" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(-0.2, 0) rotate(-90, 13, 18)">
+                                M1
+                            </text>
+                        </g>
+                        <g data-esteira="19" class="svg-esteira  ">
+
+                            <path d="M 15 7 H 96" class="esteira-foreground" transform="translate(0, 0) rotate(0, 0, 0)"></path>
+                            <path d="M 15 7 H 96" transform="translate(0, 0) rotate(0, 0, 0)" class="esteira-animation"></path>
+                            <text x="15" y="7" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(0, -0.7) rotate(0, 15, 7)">
+                                M19
+                            </text>
+                        </g>
+                        <g data-esteira="18" class="svg-esteira  ">
+
+                            <path d="M 94 9 V 29" class="esteira-foreground"></path>
+                            <path d="M 94 9 V 29" class="esteira-animation"></path>
+                            <text x="94" y="29" dx="0.5" dy="-2.2" text-anchor="start" transform="translate(-0.4, -2.9) rotate(-90, 94, 29)">
+                                M18
+                            </text>
+                        </g>
+                    </g>
+                    <g id="noria-group">
+                        <g data-esteira="70" class="svg-esteira">
+
+                            <path d="M 40 88 C 40 85 40 85 37 85 H 20 C 17 85 17 85 17 82 V 78 C 17 75 17 75 20 75 H 72 C 75 75 75 75 75 72 A 1 1 0 0 1 78 72 V 88" class="esteira-foreground"
+                                  style="stroke-width:1"></path>
+                            <path d="M 40 88 C 40 85 40 85 37 85 H 20 C 17 85 17 85 17 82 V 78 C 17 75 17 75 20 75 H 72 C 75 75 75 75 75 72 A 1 1 0 0 1 78 72 V 88" style="stroke-width:0.4"
+                                  class="esteira-animation"></path>
+                            <text x="85" y="96" dx="0.5" dy="-2.2" text-anchor="start" transform="rotate(-90,78,95)">
+                                M70
+                            </text>
+                        </g>
+                    </g>
+                    <g id="noria-group">
+                        <g data-esteira="69" class="svg-esteira">
+                            <path d="M 91 91 H 100 C 103 91 103 91 103 88 V 10 A 1 1 0 0 1 105 10 V 91 C 105 94 105 94 102 94 H 91" class="esteira-foreground" style="stroke-width:1"></path>
+                            <path d="M 91 91 H 100 C 103 91 103 91 103 88 V 10 A 1 1 0 0 1 105 10 V 91 C 105 94 105 94 102 94 H 91" class="esteira-animation" style="stroke-width:0.4"></path>
+                            <text x="91" y="92" dx="0.5" dy="-2.2" text-anchor="start">
+                                M69
+                            </text>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <script>
+            let svgElement = document.getElementById('svgBackground');
+            let svgParts = document.getElementById('svgParts');
+            let canvas = document.getElementById('canvasShadows');
+
+            let boundingClientRect = svgParts.getBoundingClientRect();
+            console.log(boundingClientRect)
+
+            canvas.width = boundingClientRect.width;
+            canvas.height = boundingClientRect.height;
+
+            // Create an SVG string and convert it to a Data URL
+            let svgString = new XMLSerializer().serializeToString(svgElement);
+            let svgDataURL = `data:image/svg+xml;base64,${btoa(svgString)}`;
+
+            // Create an image element
+            let img = new Image();
+
+            // Wait for the image to load
+            img.onload = function () {
+                // Get the canvas context
+                const ctx = canvas.getContext('2d');
+
+                // Draw the SVG image onto the canvas
+                ctx.drawImage(img, 0, 0);
+            };
+            img.src = svgDataURL;
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-trigger"
+                    type="application/json">
+[
+  {
+    "event": "TcHmiHtmlHost_SVGLayout_3.onInitialized",
+    "actions": [
+      {
+        "objectType": "Comment",
+        "comment": "Eventos para colorir esteiras"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "console.log(\"criando subscribe esteiras\");",
+          "",
+          "let commands = [];",
+          "let statusEsteiras = [];",
+          "// [",
+          "//     {",
+          "//         'symbol': 'PLC1.GVL_Motores.Motor[0]'",
+          "//     },",
+          "// ]",
+          "",
+          "commands = [{ symbol: `PLC1.GVL_IHM.stStatusEsteiras` }];",
+          "",
+          "const statusClasses = {",
+          "  1: \"esteira-parada-auto\",",
+          "  2: \"esteira-parada-manual\",",
+          "  3: \"esteira-acionada-auto\",",
+          "  4: \"esteira-acionada-manual\",",
+          "  5: \"esteira-bloqueada\",",
+          "  6: \"esteira-falha-contatora\",",
+          "  7: \"esteira-inversor-offline\",",
+          "  8: \"esteira-disjuntor-desarmado\",",
+          "  9: \"esteira-emergencia\",",
+          "  10: \"esteira-interlock\",",
+          "  11: \"esteira-trocando-sentido\",",
+          "  12: \"esteira-falha-inversor\",",
+          "  17: \"esteira-parada-higienizacao\",",
+          "  18: \"esteira-acionada-higienizacao\",",
+          "  default: \"\",",
+          "};",
+          "",
+          "setTimeout(() => {",
+          "  TcHmi.Server.subscribe(commands, 500, function (data) {",
+          "    if (data.error !== TcHmi.Errors.NONE) {",
+          "      // Handle TcHmi.Server class level error here.",
+          "      console.error(data.error);",
+          "      return;",
+          "    }",
+          "",
+          "    var response = data.response;",
+          "    if (!response || response.error !== undefined) {",
+          "      // Handle TwinCAT HMI Server response level error here.",
+          "      console.error(response.error);",
+          "      return;",
+          "    }",
+          "",
+          "    var commands = response.commands;",
+          "    if (commands === undefined) {",
+          "      return;",
+          "    }",
+          "",
+          "    // Handle result...",
+          "    //TcHmi.Log.debugEx(command.symbol, \":\", command.readValue);",
+          "",
+          "    // TYPE ST_StatusEsteiras :",
+          "    // STRUCT",
+          "",
+          "    // \tiStatusAtual \t\t\t: INT;  // Status para mudar cor da esteira na tela",
+          "    // \txEsteiraComissionada\t: BOOL; // Indica se a esteira foi comissionada",
+          "    // \txCmdFwd\t\t\t\t\t: BOOL; // Esteira com comando de avanco",
+          "    // \txCmdRev\t\t\t\t\t: BOOL; // Esteira com comando de recuo",
+          "",
+          "    // END_STRUCT",
+          "    // END_TYPE",
+          "",
+          "    try {",
+          "      let results = data?.results[0]?.value;",
+          "      // console.log(\"results: \", results);",
+          "",
+          "      if (results && results.length > 0) {",
+          "        if (statusEsteiras.length === 0) {",
+          "          statusEsteiras = new Array(results.length);",
+          "          // console.log(\"statusEsteiras: \", statusEsteiras);",
+          "        }",
+          "",
+          "        results.forEach((status, indexEsteira) => {",
+          "            ",
+          "          if (",
+          "            !status ||",
+          "            JSON.stringify(status[indexEsteira]) !== JSON.stringify(results[indexEsteira])",
+          "          ) {",
+          "            // Compara objetos",
+          "            // Atualiza o status da esteira",
+          "",
+          "            // console.log(",
+          "            //   `Esteira ${indexEsteira} mudou para ${JSON.stringify(",
+          "            //     results[indexEsteira]",
+          "            //   )} (${statusClasses[results[indexEsteira].iStatusAtual]})`",
+          "            // );",
+          "",
+          "            let groups = document.querySelectorAll(",
+          "              `[data-esteira=\"${indexEsteira}\"]`",
+          "            );",
+          "",
+          "            groups.forEach((group) => {",
+          "              if (!group || group.classList.contains(\"esteira-desabilitada\")) {",
+          "                return;",
+          "              }",
+          "              group.classList.remove(...group.classList); // Remove all existing classes",
+          "              group.classList.add(\"svg-esteira\");",
+          "",
+          "              // Classes de status",
+          "              group.classList.add(",
+          "                statusClasses[results[indexEsteira].iStatusAtual]",
+          "              ); //",
+          "",
+          "              // Comissionamento",
+          "              if (results[indexEsteira].xEsteiraComissionada) {",
+          "                group.classList.remove(\"esteira-nao-comissionada\");",
+          "              } else {",
+          "                group.classList.add(\"esteira-nao-comissionada\");",
+          "              }",
+          "              // Sentido reverso",
+          "              if (results[indexEsteira].xCmdRev) {",
+          "                group.classList.add(\"esteira-sentido-reverso\");",
+          "              } else {",
+          "                group.classList.remove(\"esteira-sentido-reverso\");",
+          "              }",
+          "",
+          "              group.dataset.status = results[indexEsteira].iStatusAtual;",
+          "",
+          "              statusEsteiras[indexEsteira] = results[indexEsteira];",
+          "            });",
+          "          }",
+          "        });",
+          "      }",
+          "    } catch (error) {",
+          "      console.error(error);",
+          "    }",
+          "  });",
+          "}, 2000);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      },
+      {
+        "objectType": "Comment",
+        "comment": "Eventos para abrir popups"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "setTimeout(() => {",
+          "  try {",
+          "    let svgParts = document.querySelector(\"#svgParts\");",
+          "    svgParts.querySelectorAll(\".svg-esteira\").forEach((esteira) => {",
+          "      if (esteira.classList.contains(\"esteira-desabilitada\")) {",
+          "        return;",
+          "      }",
+          "      esteira.addEventListener(\"click\", (event) => {",
+          "        let indexEsteira = event.currentTarget.dataset.esteira || -1;",
+          "",
+          "        let popupName = \"UcPopUpMotores\";",
+          "        var myControl = TcHmi.Controls.get(popupName);",
+          "",
+          "        if (myControl && indexEsteira >= 0) {",
+          "          TcHmi.Binding.createEx2(",
+          "            `%s%PLC1.GVL_Motores.Motor[${indexEsteira}]|BindingMode=TwoWay%/s%`,",
+          "            \"stPartida\",",
+          "            myControl",
+          "          );",
+          "          $(\"#\" + popupName)",
+          "            .delay(500)",
+          "            .slideDown(\"slow\");",
+          "        } else {",
+          "          alert(\"Esteira\" + indexEsteira + \" não possui motor associado.\");",
+          "        }",
+          "      });",
+          "    });",
+          "  } catch (error) {",
+          "    console.error(error);",
+          "  }",
+          "}, 2000);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+        </div>
+        <div id="TcHmiTextblock_285166410"
+             data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock"
+             data-tchmi-height="65"
+             data-tchmi-height-unit="px"
+             data-tchmi-left="1666"
+             data-tchmi-left-unit="px"
+             data-tchmi-text="Túnel de Congelamento"
+             data-tchmi-top="885"
+             data-tchmi-top-unit="px"
+             data-tchmi-width="112"
+             data-tchmi-width-unit="px"
+             data-tchmi-word-wrap="true"
+             data-tchmi-text-horizontal-alignment="Left"
+             data-tchmi-text-vertical-alignment="Bottom"
+             data-tchmi-text-font-size="16"
+             data-tchmi-zindex="125"
+             data-tchmi-ignore-escape-sequences="false"
+             data-tchmi-text-font-weight="Normal">
+            <script data-tchmi-target-attribute="data-tchmi-transform"
+                    type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 0.0,
+                "vector": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+                }
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-class-names"
+                    type="application/json">
+                ["TagSensor"]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-content-padding"
+                    type="application/json">
+                {
+                "left": 0,
+                "right": 2,
+                "top": 0,
+                "bottom": 0,
+                "leftUnit": "px",
+                "rightUnit": "px",
+                "topUnit": "px",
+                "bottomUnit": "px"
+                }
+            </script>
+        </div>
+
+        <script data-tchmi-target-attribute="data-tchmi-trigger"
+                type="application/json">
+[
+  {
+    "event": "TcHmiContainer_ZoomableArea_336.onInitialized",
+    "actions": [
+      {
+        "objectType": "Comment",
+        "comment": "Efeitos de zoom"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "setTimeout(() => {",
+          "  let zoomScale = 1;",
+          "  let initialPosition = { x: 0, y: 0 };",
+          "  let currentTranslate = { x: 0, y: 0 };",
+          "  let isDragging = false;",
+          "  let isAnimating = false;",
+          "",
+          "  let originalBoundingRect = null;",
+          "",
+          "  let hideOnZoom = [",
+          "    \"TcHmiContainer_Region_1\",",
+          "    \"TcHmiContainer_Region_2\",",
+          "    \"TcHmiContainer_Region_3\",",
+          "  ];",
+          "",
+          "  try {",
+          "    const zoomContent = document.getElementById(\"TcHmiContainer_ZoomableArea\");",
+          "    const miniMap = document.getElementById(\"TcHmiContainer_MiniMap\");",
+          "    let minimapOverlay = document.getElementById(\"Minimap_Overlay\");",
+          "    minimapOverlay.style.display = \"none\";",
+          "",
+          "    originalBoundingRect = zoomContent.getBoundingClientRect();",
+          "",
+          "    miniMap.style.transition = \"opacity 1s\";",
+          "    miniMap.style.transitionDelay = \"1s\";",
+          "    minimapOverlay.style.transition = \"opacity 1s\";",
+          "",
+          "    let hideOnZoomElements = [];",
+          "    hideOnZoom.forEach((id) => {",
+          "      let element = document.getElementById(id);",
+          "      if (element) {",
+          "        hideOnZoomElements.push(element);",
+          "        element.style.pointerEvents = \"all\";",
+          "        element.style.transition = \"opacity 1s\";",
+          "        element.style.opacity = 1;",
+          "      }",
+          "    });",
+          "",
+          "    let minimapTimeout;",
+          "    let minimapOverlayTimeout;",
+          "    let transitionTimeout;",
+          "",
+          "    // Double click to zoom",
+          "    zoomContent.addEventListener(\"dblclick\", function (event) {",
+          "      stopAnimation();",
+          "      isAnimating = true;",
+          "",
+          "      if (transitionTimeout) clearTimeout(transitionTimeout);",
+          "      transitionTimeout = setTimeout(() => {",
+          "        startAnimation();",
+          "        isAnimating = false;",
+          "        // currentTranslate = { x: 0, y: 0 };",
+          "        // initialPosition = { x: 0, y: 0 };",
+          "      }, 1300);",
+          "",
+          "      const rect = zoomContent.getBoundingClientRect();",
+          "      const x = event.clientX - rect.left;",
+          "      const y = event.clientY - rect.top;",
+          "",
+          "      zoomContent.style.transition = \"transform 1s\";",
+          "",
+          "      if (zoomScale > 1) {",
+          "        zoomScale = 1;",
+          "",
+          "        currentTranslate = { x: 0, y: 0 };",
+          "        initialPosition = { x: 0, y: 0 };",
+          "",
+          "        miniMap.style.opacity = 0;",
+          "        minimapOverlay.style.opacity = 0;",
+          "",
+          "        minimapTimeout = setTimeout(() => {",
+          "          miniMap.style.visibility = \"collapsed\";",
+          "          minimapOverlay.style.display = \"none\";",
+          "",
+          "          hideOnZoomElements.forEach((element) => {",
+          "            element.style.opacity = 1;",
+          "            element.style.pointerEvents = \"all\";",
+          "          });",
+          "        }, 2000);",
+          "",
+          "        if (minimapOverlayTimeout) clearTimeout(minimapOverlayTimeout);",
+          "      } else {",
+          "        zoomScale = 1.5;",
+          "",
+          "        zoomContent.style.transformOrigin = `${(x / rect.width) * 100}% ${",
+          "          (y / rect.height) * 100",
+          "        }%`;",
+          "",
+          "        miniMap.style.visibility = \"visible\";",
+          "        miniMap.style.opacity = 1;",
+          "        miniMap.style.display = \"unset\";",
+          "",
+          "        hideOnZoomElements.forEach((element) => {",
+          "          element.style.opacity = 0;",
+          "          element.style.pointerEvents = \"none\";",
+          "        });",
+          "",
+          "        minimapOverlayTimeout = setTimeout(() => {",
+          "          updateTransform();",
+          "          minimapOverlay.style.display = \"unset\";",
+          "          minimapOverlay.style.opacity = 1;",
+          "        }, 1500);",
+          "",
+          "        if (minimapTimeout) clearTimeout(minimapTimeout);",
+          "      }",
+          "",
+          "      updateTransform();",
+          "    });",
+          "",
+          "    // Touch events",
+          "    zoomContent.addEventListener(\"touchstart\", (event) => {",
+          "      zoomContent.style.transition = \"transform 0s\";",
+          "",
+          "      if (event.touches.length === 1 && zoomScale > 1) {",
+          "        stopAnimation();",
+          "        initialPosition.x = event.touches[0].clientX - currentTranslate.x;",
+          "        initialPosition.y = event.touches[0].clientY - currentTranslate.y;",
+          "        isDragging = true;",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"touchmove\", (event) => {",
+          "      event.preventDefault();",
+          "",
+          "      if (isDragging && event.touches.length === 1 && zoomScale > 1) {",
+          "        currentTranslate.x = event.touches[0].clientX - initialPosition.x;",
+          "        currentTranslate.y = event.touches[0].clientY - initialPosition.y;",
+          "        updateTransform();",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"touchend\", () => {",
+          "      isDragging = false;",
+          "      if (!isAnimating) startAnimation();",
+          "    });",
+          "",
+          "    // Mouse events",
+          "    zoomContent.addEventListener(\"mousedown\", (event) => {",
+          "      zoomContent.style.transition = \"transform 0s\";",
+          "",
+          "      if (zoomScale > 1) {",
+          "        stopAnimation();",
+          "        initialPosition.x = event.clientX - currentTranslate.x;",
+          "        initialPosition.y = event.clientY - currentTranslate.y;",
+          "        isDragging = true;",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"mousemove\", (event) => {",
+          "      if (isDragging && zoomScale > 1) {",
+          "        currentTranslate.x = event.clientX - initialPosition.x;",
+          "        currentTranslate.y = event.clientY - initialPosition.y;",
+          "        updateTransform();",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"mouseup\", () => {",
+          "      isDragging = false;",
+          "      if (!isAnimating) startAnimation();",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"mouseleave\", () => {",
+          "      isDragging = false;",
+          "      if (!isAnimating) startAnimation();",
+          "    });",
+          "",
+          "    function updateTransform() {",
+          "      zoomContent.style.transform = `translate(${currentTranslate.x}px, ${currentTranslate.y}px) scale(${zoomScale})`;",
+          "",
+          "      // atualizar posicao overlay minimap",
+          "      let newBoundingRect = zoomContent.getBoundingClientRect();",
+          "",
+          "      let x =",
+          "        -(",
+          "          (newBoundingRect.x - originalBoundingRect.x) /",
+          "          newBoundingRect.width",
+          "        ) * 100;",
+          "      let y =",
+          "        -(",
+          "          (newBoundingRect.y - originalBoundingRect.y) /",
+          "          newBoundingRect.height",
+          "        ) * 100;",
+          "      let height = (originalBoundingRect.width / newBoundingRect.width) * 100;",
+          "      let width = (originalBoundingRect.height / newBoundingRect.height) * 100;",
+          "",
+          "      // console.log(newBoundingRect);",
+          "      // console.log(\"x: \", x);",
+          "      // console.log(\"y: \", y);",
+          "      // console.log(\"height: \", height);",
+          "      // console.log(\"width: \", width);",
+          "",
+          "      minimapOverlay.style.left = x + \"%\";",
+          "      minimapOverlay.style.top = y + \"%\";",
+          "      minimapOverlay.style.height = height + \"%\";",
+          "      minimapOverlay.style.width = width + \"%\";",
+          "    }",
+          "",
+          "\tfunction stopAnimation() {",
+          "      // document.querySelectorAll(\".esteira-animation\").forEach((p) => {",
+          "      //   // p.style.animationPlayState = \"paused\";",
+          "      //   p.classList.add(\"pause-esteira-animation\");",
+          "      // });",
+          "",
+          "      document",
+          "        .querySelector(\"#LayoutContent\")",
+          "        .classList.add(\"pause-all-animations\");",
+          "      ",
+          "    }",
+          "",
+          "    function startAnimation() {",
+          "      // document.querySelectorAll(\".esteira-animation\").forEach((p) => {",
+          "      //   // p.style.animationPlayState = \"running\";",
+          "      //   p.classList.remove(\"pause-esteira-animation\");",
+          "      // });",
+          "      document",
+          "        .querySelector(\"#LayoutContent\")",
+          "        .classList.remove(\"pause-all-animations\");",
+          "      ",
+          "    }",
+          "  } catch (error) {",
+          "    console.error(error);",
+          "  }",
+          "}, 2000);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+        <div id="Sensor_512" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1079" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="749" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[1]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-visibility="Visible" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_513" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1138" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="749" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[2]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_514" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1261" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="749" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[3]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_515" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1320" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="749" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[4]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_516" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1431" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="749" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[5]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_517" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1490" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="749" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[6]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_518" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1560" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="749" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[7]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_519" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1630" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="696" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[8]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_520" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1292" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="892" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[9]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_521" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1252" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="892" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[10]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="Sensor_522" data-tchmi-type="TcHmi.Controls.FrameworkSensor.Sensor" data-tchmi-entradasaida="true" data-tchmi-height="22" data-tchmi-height-unit="px" data-tchmi-left="1211" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-top="892" data-tchmi-top-unit="px" data-tchmi-width="22" data-tchmi-width-unit="px" data-tchmi-zindex="124" data-tchmi-stsensor="%s%PLC1.GVL_Sensores.SenDig[11]%/s%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-locked="True">
+        </div>
+        <div id="TcHmiTextblock_285166411" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1059" data-tchmi-left-unit="px" data-tchmi-text="SO2" data-tchmi-top="700" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166412" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1182" data-tchmi-left-unit="px" data-tchmi-text="SO3" data-tchmi-top="700" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166413" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1241" data-tchmi-left-unit="px" data-tchmi-text="SO4" data-tchmi-top="700" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166414" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1481" data-tchmi-left-unit="px" data-tchmi-text="SO7" data-tchmi-top="700" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166415" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1353" data-tchmi-left-unit="px" data-tchmi-text="SO5" data-tchmi-top="700" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166416" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1411" data-tchmi-left-unit="px" data-tchmi-text="SO6" data-tchmi-top="700" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166417" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1551" data-tchmi-left-unit="px" data-tchmi-text="SO8" data-tchmi-top="647" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166418" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1303" data-tchmi-left-unit="px" data-tchmi-text="SO9" data-tchmi-top="932" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166419" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1263" data-tchmi-left-unit="px" data-tchmi-text="SO10" data-tchmi-top="932" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166420" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1000" data-tchmi-left-unit="px" data-tchmi-text="SO1" data-tchmi-top="700" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285166421" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="1223" data-tchmi-left-unit="px" data-tchmi-text="SO11" data-tchmi-top="932" data-tchmi-top-unit="px" data-tchmi-width="90" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18" data-tchmi-zindex="59" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+            <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+                [
+                "TagSensor"
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 45.0
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+                {
+                "color": "rgba(29, 29, 29, 1)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiRectangle_Tunel_618" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="1653" data-tchmi-left-unit="px" data-tchmi-top="785" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="126" data-tchmi-height="174">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 8.0,
+                "topRight": 8.0,
+                "bottomLeft": 8.0,
+                "bottomRight": 8.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.3921568)"
+                },
+                "offsetX": 5.0,
+                "offsetXUnit": "px",
+                "offsetY": 5.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(209, 209, 209, 0.1960784)"
+}
+</script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_103" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="1666" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/check-circle.svg" data-tchmi-top="795" data-tchmi-top-unit="px" data-tchmi-width="20" data-tchmi-width-unit="px" data-tchmi-zindex="126">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_104" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="1695" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/exclamation-circle.svg" data-tchmi-top="795" data-tchmi-top-unit="px" data-tchmi-width="20" data-tchmi-width-unit="px" data-tchmi-zindex="127">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_105" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="1666" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/pause-circle.svg" data-tchmi-top="827" data-tchmi-top-unit="px" data-tchmi-width="20" data-tchmi-width-unit="px" data-tchmi-zindex="128">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_106" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="1695" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/play-circle.svg" data-tchmi-top="827" data-tchmi-top-unit="px" data-tchmi-width="20" data-tchmi-width-unit="px" data-tchmi-zindex="129">
+        </div>
+        <div id="TcHmiRectangle_618" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="517" data-tchmi-left-unit="px" data-tchmi-top="132" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="134" data-tchmi-height="30">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.2352941)"
+                },
+                "offsetX": 5.0,
+                "offsetXUnit": "px",
+                "offsetY": 5.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiRectangle_M23M24_622" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="533" data-tchmi-left-unit="px" data-tchmi-top="129" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="102" data-tchmi-height="36">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.3921568)"
+                },
+                "offsetX": 0.0,
+                "offsetXUnit": "px",
+                "offsetY": 0.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_108" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="635" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-right-fill.svg" data-tchmi-top="139" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_109" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="517" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-right-fill.svg" data-tchmi-top="139" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmiRectangle_619" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="517" data-tchmi-left-unit="px" data-tchmi-top="225" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="134" data-tchmi-height="30">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.2352941)"
+                },
+                "offsetX": 5.0,
+                "offsetXUnit": "px",
+                "offsetY": 5.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiRectangle_M23M24_623" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="533" data-tchmi-left-unit="px" data-tchmi-top="222" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="102" data-tchmi-height="36">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.3921568)"
+                },
+                "offsetX": 0.0,
+                "offsetXUnit": "px",
+                "offsetY": 0.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_110" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="635" data-tchmi-left-unit="px" data-tchmi-src="Images//caret-right-fill.svg" data-tchmi-top="232" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_111" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="517" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-right-fill.svg" data-tchmi-top="232" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmiRectangle_620" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="584" data-tchmi-left-unit="px" data-tchmi-top="312" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="68" data-tchmi-height="30">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.2352941)"
+                },
+                "offsetX": 5.0,
+                "offsetXUnit": "px",
+                "offsetY": 5.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiRectangle_M23M24_624" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="600" data-tchmi-left-unit="px" data-tchmi-top="309" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="36" data-tchmi-height="36">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.3921568)"
+                },
+                "offsetX": 0.0,
+                "offsetXUnit": "px",
+                "offsetY": 0.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_200" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="636" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-right-fill.svg" data-tchmi-top="319" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_201" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="584" data-tchmi-left-unit="px" data-tchmi-src="Images//caret-right-fill.svg" data-tchmi-top="319" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmiRectangle_621" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="517" data-tchmi-left-unit="px" data-tchmi-top="420" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="134" data-tchmi-height="30">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.2352941)"
+                },
+                "offsetX": 5.0,
+                "offsetXUnit": "px",
+                "offsetY": 5.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiRectangle_M23M24_625" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="533" data-tchmi-left-unit="px" data-tchmi-top="417" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="102" data-tchmi-height="36">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.3921568)"
+                },
+                "offsetX": 0.0,
+                "offsetXUnit": "px",
+                "offsetY": 0.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_202" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="635" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-right-fill.svg" data-tchmi-top="427" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_203" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="517" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-right-fill.svg" data-tchmi-top="427" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="130">
+        </div>
+        <div id="TcHmiRectangle_M23M24_626" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="1436" data-tchmi-left-unit="px" data-tchmi-top="826" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="132" data-tchmi-width="79" data-tchmi-height="36">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.3921568)"
+                },
+                "offsetX": 0.0,
+                "offsetXUnit": "px",
+                "offsetY": 0.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmiRectangle_622" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="1420" data-tchmi-left-unit="px" data-tchmi-top="829" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="111" data-tchmi-height="30">
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 3.0,
+                "topRight": 3.0,
+                "bottomLeft": 3.0,
+                "bottomRight": 3.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.2352941)"
+                },
+                "offsetX": 5.0,
+                "offsetXUnit": "px",
+                "offsetY": 5.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "rgba(209, 209, 209, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_204" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="1420" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-left-fill.svg" data-tchmi-top="836" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="131">
+        </div>
+        <div id="TcHmi_Controls_Beckhoff_TcHmiImage_117" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="16" data-tchmi-height-unit="px" data-tchmi-left="1515" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/caret-left-fill.svg" data-tchmi-top="836" data-tchmi-top-unit="px" data-tchmi-width="16" data-tchmi-width-unit="px" data-tchmi-zindex="131">
+        </div>
+<div id="TcHmiRectangle_Tunel_494" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="146" data-tchmi-left-unit="px" data-tchmi-top="607" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="3" data-tchmi-width="461" data-tchmi-height="82">
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "rgba(0, 0, 0, 0.0392156)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 8.0,
+                "topRight": 8.0,
+                "bottomLeft": 8.0,
+                "bottomRight": 8.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "None",
+                "right": "None",
+                "top": "None",
+                "bottom": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+                [
+                {
+                "color": {
+                "color": "rgba(0, 0, 0, 0.3921568)"
+                },
+                "offsetX": 5.0,
+                "offsetXUnit": "px",
+                "offsetY": 5.0,
+                "offsetYUnit": "px",
+                "inset": false,
+                "blur": 10.0,
+                "blurUnit": "px",
+                "spread": 5.0,
+                "spreadUnit": "px"
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(209, 209, 209, 0.1960784)"
+}
+</script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+                {
+                "color": "rgba(255, 255, 255, 0)"
+                }
+            </script>
+        </div>
+<div id="TcHmiTextblock_285166240" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="31" data-tchmi-height-unit="px" data-tchmi-left="155" data-tchmi-left-unit="px" data-tchmi-text="Sala de Pré-gotejamento" data-tchmi-top="647" data-tchmi-top-unit="px" data-tchmi-width="237" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Bottom" data-tchmi-text-font-size="16" data-tchmi-zindex="125" data-tchmi-ignore-escape-sequences="false" data-tchmi-text-font-weight="Normal">
+<script data-tchmi-target-attribute="data-tchmi-transform"
+                    type="application/json">
+                [
+                {
+                "transformType": "Rotate",
+                "angle": 0.0,
+                "vector": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+                }
+                }
+                ]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-class-names"
+                    type="application/json">
+                ["TagSensor"]
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-content-padding"
+                    type="application/json">
+                {
+                "left": 0,
+                "right": 2,
+                "top": 0,
+                "bottom": 0,
+                "leftUnit": "px",
+                "rightUnit": "px",
+                "topUnit": "px",
+                "bottomUnit": "px"
+                }
+            </script>
+        </div>
+</div>
+    <div id="TcHmiContainer_MiniMap_336"
+         data-tchmi-type="TcHmi.Controls.System.TcHmiContainer"
+         data-tchmi-height="20"
+         data-tchmi-height-unit="%"
+         data-tchmi-width-unit="%"
+         data-tchmi-width="20"
+         data-tchmi-creator-locked="True"
+         data-tchmi-visibility="Visible"
+         data-tchmi-opacity="0"
+         data-tchmi-top="20"
+         data-tchmi-right="20" data-tchmi-zindex="3" data-tchmi-creator-visibility="Collapsed">
+        <script data-tchmi-target-attribute="data-tchmi-border-color"
+                type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color"
+                type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+        <div id="TcHmiHtmlHost_MiniMap_3"
+             data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost"
+             data-tchmi-height="100"
+             data-tchmi-height-unit="%"
+             data-tchmi-left="0"
+             data-tchmi-left-unit="px"
+             data-tchmi-top="0"
+             data-tchmi-top-unit="px"
+             data-tchmi-width="100"
+             data-tchmi-width-unit="%" data-tchmi-zindex="3">
+
+            <svg viewBox="-2.034510612487793 -2.534511089324951 271 145" fill="none" xmlns="http://www.w3.org/2000/svg" id="svgPartsMini" class="show-texts">
+                <!-- conteudo dinamico -->
+                <g id="esteiras-group-mini">
+                    <g data-esteira="55" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 115 133 H 136" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="56" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 136 133 H 146" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="27" class="svg-esteira  ">
+                        <path d="M 146 133 C 159 133 159 133 163 130" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="26" class="svg-esteira  ">
+                        <path d="M 163 130 C 167 127 167 127 180 127" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="25" class="svg-esteira  ">
+                        <path d="M 180 127 H 200" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="24" class="svg-esteira  ">
+                        <path d="M 200 127 H 220" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="58" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 220 127 H 237" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="23" class="svg-esteira  ">
+                        <path d="M 237 127 C 247 127 248 127 248 118" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="22" class="svg-esteira  ">
+                        <path d="M 248 118 C 248 115 250 113 254 113" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="21" class="svg-esteira  ">
+                        <path d="M 254 113 H 264" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="14" class="svg-esteira  ">
+                        <path d="M 253 121 H 239" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="13" class="svg-esteira  ">
+                        <path d="M 239 121 H 211" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="12" class="svg-esteira  ">
+                        <path d="M 211 121 H 183" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="11" class="svg-esteira  ">
+                        <path d="M 183 121 H 155" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="10" class="svg-esteira  ">
+                        <path d="M 155 121 C 152 121 150 119 150 116" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="9" class="svg-esteira  ">
+                        <path d="M 150 116 V 105" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="60" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 146 100 V 86" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="61" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 146 86 V 69" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="62" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 152 103 H 136" class="esteira-foreground" transform="translate(0, 0.5) rotate(0, 0, 0)" style="stroke-width:7.699999999999987"></path>
+                    </g>
+                    <g data-esteira="63" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 136 103 H 123" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="64" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 123 103 H 107" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="16" class="svg-esteira  ">
+                        <path d="M 15 7 H 96" class="esteira-foreground" transform="translate(-10, 20) rotate(0, 0, 0)"></path>
+                    </g>
+                    <g data-esteira="8" class="svg-esteira  ">
+                        <path d="M 107 103 C 103 103 102 101 102 97" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="66" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 102 97 V 65" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="67" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 102 65 V 11" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="68" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 100 79 H 48" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="69" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 48 79 H 9" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="70" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 100 74 H 27" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="7" class="svg-esteira  ">
+                        <path d="M 105 82 V 71" class="esteira-foreground" transform="translate(-3.1, 0.2) rotate(0, 0, 0)"></path>
+                    </g>
+                    <g data-esteira="6" class="svg-esteira  ">
+                        <path d="M 102 70 C 102 66 103 62 97 62" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="71" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 62 H 76" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="5" class="svg-esteira  ">
+                        <path d="M 102 54 V 43" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="72" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 100 45 H 97" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="73" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 45 H 87" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="74" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 87 45 H 22" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="4" class="svg-esteira  ">
+                        <path d="M 102 39 C 102 35 103 31 97 31" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="75" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 31 H 76" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="3" class="svg-esteira  ">
+                        <path d="M 102 24 C 102 20 103 16 97 16" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="76" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 16 H 76" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="2" class="svg-esteira  ">
+                        <path d="M 76 16 H 15" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="77" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 15 33 V 60" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="78" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 17 58 H 86" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="79" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 69 50 H 52" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="80" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 54 52 V 56" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="81" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 69 66 H 52" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="82" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 54 64 V 60" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="83" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 52 62 H 37" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="84" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 17 42 H 80" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="85" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 23 66 H 5" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="15" class="svg-esteira  ">
+                        <path d="M 7 64 V 26" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="17" class="svg-esteira  ">
+                        <path d="M 76 31 H 13" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="1" class="svg-esteira  ">
+                        <path d="M 13 18 V 5" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="19" class="svg-esteira  ">
+                        <path d="M 15 7 H 96" class="esteira-foreground" transform="translate(0, 0) rotate(0, 0, 0)"></path>
+                    </g>
+                    <g data-esteira="18" class="svg-esteira  ">
+                        <path d="M 94 9 V 29" class="esteira-foreground"></path>
+                    </g>
+                </g>
+            </svg>
+
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color"
+                    type="application/json">
+                {
+                "angle": 90.0,
+                "stopPoints": [
+                {
+                "color": "rgba(153, 153, 153, 0.7843137)",
+                "stop": "0%"
+                },
+                {
+                "color": "rgba(229, 229, 229, 0.7843137)",
+                "stop": "100%"
+                }
+                ]
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-width"
+                    type="application/json">
+                {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0,
+                "leftUnit": "px",
+                "rightUnit": "px",
+                "topUnit": "px",
+                "bottomUnit": "px"
+                }
+            </script>
+        </div>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style"
+                type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow"
+                type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.3921568)"
+            },
+            "offsetX": 0.0,
+            "offsetXUnit": "px",
+            "offsetY": 0.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 10.0,
+            "blurUnit": "px",
+            "spread": 5.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+        <div id="Minimap_Overlay_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="50" data-tchmi-left-unit="px" data-tchmi-top="16" data-tchmi-top-unit="px" data-tchmi-width="20" data-tchmi-width-unit="%" data-tchmi-zindex="3" data-tchmi-stroke-thickness="0">
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "rgba(255, 204, 0, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+                {
+                "left": 3,
+                "right": 3,
+                "top": 3,
+                "bottom": 3,
+                "leftUnit": "px",
+                "rightUnit": "px",
+                "topUnit": "px",
+                "bottomUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "Solid",
+                "right": "Solid",
+                "top": "Solid",
+                "bottom": "Solid"
+                }
+            </script>
+        </div>
+    </div>
+    <div id="TcHmiButton_284"
+         data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton"
+         data-tchmi-height="50"
+         data-tchmi-height-unit="px"
+         data-tchmi-left="441"
+         data-tchmi-left-unit="px"
+         data-tchmi-text="Button"
+         data-tchmi-top="1027"
+         data-tchmi-top-unit="px"
+         data-tchmi-width="100"
+         data-tchmi-width-unit="px"
+         data-tchmi-word-wrap="true" data-tchmi-zindex="3">
+        <script data-tchmi-target-attribute="data-tchmi-trigger"
+                type="application/json">
+            [
+            {
+            "event": "TcHmiButton_284.onPressed",
+            "actions": [
+            {
+            "objectType": "JavaScript",
+            "active": true,
+            "sourceLines": ["location.reload(true)"],
+            "injectContextObject": false,
+            "asyncWait": true,
+            "waitMode": "Synchronous"
+            }
+            ]
+            }
+            ]
+        </script>
+    </div>
+    <div id="TcHmiTextblock_285166422"
+         data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock"
+         data-tchmi-height="26"
+         data-tchmi-height-unit="px"
+         data-tchmi-left="9"
+         data-tchmi-left-unit="px"
+         data-tchmi-text="Textblock"
+         data-tchmi-top="999"
+         data-tchmi-top-unit="px"
+         data-tchmi-width="1877"
+         data-tchmi-width-unit="px"
+         data-tchmi-word-wrap="true" data-tchmi-zindex="3"></div>
+    <div id="TcHmiContainer_Region_338" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="402" data-tchmi-height-unit="px" data-tchmi-width="994" data-tchmi-width-unit="px" data-tchmi-zindex="133" data-tchmi-top="29" data-tchmi-right="33" data-tchmi-creator-locked="True">
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 15.0,
+  "topRight": 15.0,
+  "bottomLeft": 15.0,
+  "bottomRight": 15.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+            {
+            "left": 1,
+            "right": 0,
+            "top": 1,
+            "bottom": 0,
+            "leftUnit": "px",
+            "rightUnit": "px",
+            "topUnit": "px",
+            "bottomUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.0784313)"
+            },
+            "offsetX": 3.0,
+            "offsetXUnit": "px",
+            "offsetY": 3.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 50.0,
+            "blurUnit": "px",
+            "spread": 10.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+<div id="TcHmiTextblock_285166423" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Fluxo de caixas por hora (15m)" data-tchmi-top="13" data-tchmi-top-unit="px" data-tchmi-width="316" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(102, 102, 102, 1)"
+}
+</script>
+</div>
+<div id="TcHmiHtmlHost_GraficoCaixaHora_4" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-height="348" data-tchmi-height-unit="px" data-tchmi-left="14" data-tchmi-left-unit="px" data-tchmi-top="40" data-tchmi-top-unit="px" data-tchmi-width="966" data-tchmi-width-unit="px">
+
+    <!--<script src="../../Scripts/d3.v7.min.js"></script>-->
+
+    <div id="d3js-fluxo-caixa-hora" style="width: 100%; height: 100%;"></div>
+
+
+    <script>
+      try {
+        function getTimeFromIncrement(value) {
+          const hours = Math.floor(value / 4); // 4 increments in an hour
+          const minutes = (value % 4) * 15; // Each increment represents 15 minutes
+
+          const formattedHours = String(hours).padStart(2, "0");
+          const formattedMinutes = String(minutes).padStart(2, "0");
+
+          return `${formattedHours}:${formattedMinutes}`;
+        }
+
+        function generateFakeData() {
+          iGraficoCaixaHoraAtual.forEach((_, index) => {
+            iGraficoCaixaHoraAtual[index] =
+              index > 0
+                ? iGraficoCaixaHoraAtual[index - 1] -
+                  100 +
+                  Math.floor(Math.random() * 200)
+                : Math.floor(Math.random() * 1000);
+          });
+
+          iGraficoCaixaHoraPassado.forEach((dia, indexDia) => {
+            dia.forEach((hora, indexHora) => {
+              iGraficoCaixaHoraPassado[indexDia][indexHora] =
+                indexHora > 0
+                  ? iGraficoCaixaHoraPassado[indexDia][indexHora - 1] -
+                    100 +
+                    Math.floor(Math.random() * 200)
+                  : Math.floor(Math.random() * 1000);
+            });
+          });
+
+          updateChart();
+        }
+
+        // Today's data
+        let iGraficoCaixaHoraAtual = new Array(24 * 4).fill(0);
+        let iGraficoCaixaHoraPassado = new Array(7)
+          .fill(null)
+          .map(() => new Array(24 * 4).fill(0));
+
+        let todayData = new Array(24 * 4);
+        let pastData = new Array(7)
+          .fill(null)
+          .map(() => new Array(24 * 4).fill(0));
+
+        let chartContainer = document.getElementById("d3js-fluxo-caixa-hora");
+
+        const margin = { top: 10, right: 0, bottom: 10, left: 40 };
+        const width = chartContainer.clientWidth - margin.left - margin.right; // Subtract margin
+        const height = chartContainer.clientHeight - margin.top - margin.bottom; // Subtract margin
+
+        // Create SVG container
+        const svg = d3
+          .select("#d3js-fluxo-caixa-hora")
+          .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom);
+
+        // Create scales
+        let x = d3
+          .scaleTime()
+          .range([margin.left, width - margin.right])
+          .nice();
+
+        let y = d3
+          .scaleLinear()
+          .nice()
+          .range([height - margin.bottom, margin.top]);
+
+        // -------------------------------------------------------------------------------------------------
+
+        const updateChart = () => {
+          console.log("updateChart");
+
+          if (iGraficoCaixaHoraAtual && iGraficoCaixaHoraAtual.length > 0) {
+            iGraficoCaixaHoraAtual.forEach((caixaHora, indexHora) => {
+              todayData[indexHora] = {
+                hora: getTimeFromIncrement(indexHora),
+                valor: caixaHora,
+              };
+            });
+          }
+
+          if (iGraficoCaixaHoraPassado && iGraficoCaixaHoraPassado.length > 0) {
+            iGraficoCaixaHoraPassado.forEach((dia, indexDia) => {
+              dia.forEach((caixaHora, indexHora) => {
+                pastData[indexDia][indexHora] = {
+                  hora: getTimeFromIncrement(indexHora),
+                  valor: caixaHora,
+                };
+              });
+            });
+          }
+
+          const allPastData = pastData.flat();
+          const allData = [...allPastData, ...todayData];
+
+          if (d3.max(allData, (d) => d.valor) === 0) {
+            return;
+          }
+
+          const parseTime = d3.timeParse("%H:%M");
+          todayData.forEach((d) => (d.hora = parseTime(d.hora)));
+          pastData.forEach((day) =>
+            day.forEach((d) => (d.hora = parseTime(d.hora)))
+          );
+
+          x.domain(d3.extent(todayData, (d) => d.hora))
+            .range([margin.left, width - margin.right])
+            .nice();
+
+          y.domain([
+            d3.min(allData, (d) => d.valor) * 0.9,
+            d3.max(allData, (d) => d.valor) * 1.1,
+          ]).nice();
+
+          const lineGenerator = d3
+            .line()
+            .x((d) => x(d.hora))
+            .y((d) => y(d.valor))
+            .curve(d3.curveStepBefore);
+
+          // Define color interpolation
+          const colorInterpolator = d3
+            .scaleLinear()
+            .domain([-100, 0, 100]) // Differences: -100 → Red, 0 → Grey, 100 → Green
+            .range(["red", "grey", "green"]);
+
+          svg.select("defs").remove();
+
+          // Create a gradient for today's data
+          const gradient = svg
+            .append("defs")
+            .append("linearGradient")
+            .attr("id", "line-gradient")
+            .attr("gradientUnits", "userSpaceOnUse")
+            .attr("x1", 0)
+            .attr("x2", width);
+
+          todayData.forEach((d, i) => {
+              const xPosition = x(d.hora); // Use the actual x-axis value
+              const offset = (xPosition / width) * 100; // Calculate offset as percentage of total width
+
+              const difference = d.valor - pastData[0][i].valor; // Calculate the difference
+
+              gradient
+                .append("stop")
+                .attr("offset", `${offset}%`)
+                .attr(
+                  "stop-color",
+                  d.valor > 0 ? colorInterpolator(difference) : "#0003"
+                );
+          });
+
+
+          // today lines
+          const todayLines = svg.selectAll(".today-line").data([todayData]);
+
+          todayLines
+            .enter()
+            .append("path")
+            .attr("d", lineGenerator)
+            .attr("class", "today-line")
+            .attr("stroke", "url(#line-gradient)")
+            .style("stroke-width", 2)
+            .style("fill", "none")
+            .attr("stroke-dasharray", function () {
+              return this.getTotalLength();
+            })
+            .attr("stroke-dashoffset", function () {
+              return this.getTotalLength();
+            })
+            .transition()
+            .duration(2000) // Duration of the animation
+            .ease(d3.easeLinear)
+            .attr("stroke-dashoffset", 0); // Animate to 0 to make the line "drawn"
+
+          todayLines.merge(todayLines).attr("d", lineGenerator);
+
+          todayLines.exit().remove();
+
+          // past lines
+
+          const pastLines = svg.selectAll(".past-line").data(pastData);
+
+          pastLines
+            .enter()
+            .append("path")
+            .attr("class", "past-line")
+            .attr("d", (d) => lineGenerator(d)) // Bind the line generator to each sub-array (day's data)
+            .attr("stroke", "#555") // Different color for each day, using a color scheme
+            .style("stroke-width", (d, index) => (index === 0 ? 1.5 : 1))
+            .attr("opacity", (d, index) =>
+                index === 0 ? 0.8 : 0.8 - index * 0.1
+            )
+            .attr("stroke-dasharray", (d, index) => (index === 0 ? "" : "3,3"))
+            .style("fill", "none");
+
+          pastLines
+            .merge(pastLines) // Merge the new lines with existing ones to update them
+            .attr("d", (d) => lineGenerator(d)); // Bind the line generator to each sub-array (day's data)
+
+          pastLines.exit().remove(); // Remove lines for any data that no longer exists
+
+          svg
+            .select(".x-axis")
+            .call(
+              d3
+                .axisBottom(x)
+                .ticks(d3.timeHour.every(2))
+                .tickFormat(d3.timeFormat("%H:%M"))
+            );
+
+          svg.select(".y-axis").call(d3.axisLeft(y));
+        };
+        // Create a group for the tooltipCaixaHora line and circles
+        const tooltipCaixaHoraGroup = svg.append("g").style("display", "none");
+
+        // Tooltip line
+        const tooltipCaixaHoraLine = tooltipCaixaHoraGroup
+          .append("line")
+          .attr("stroke", "gray")
+          .attr("stroke-width", 1)
+          .attr("y1", margin.top)
+          .attr("y2", height - margin.bottom);
+
+        // Tooltip circles for todayData and pastData
+        const tooltipCaixaHoraCircles = tooltipCaixaHoraGroup
+          .selectAll(".tooltipCaixaHora-circle")
+          .data([todayData, ...pastData])
+          .enter()
+          .append("circle")
+          .attr("class", "tooltipCaixaHora-circle")
+          .attr("r", 2)
+          .attr("fill", "#000");
+        // .attr("fill", (d, i) =>
+        //   i === 0 ? "blue" : d3.schemeCategory10[i % 10]
+        // );
+
+        // Tooltip container
+        const tooltipCaixaHoraContainer = d3
+          .select("body")
+          .append("div")
+          .attr("class", "tooltipCaixaHora")
+          .style("display", "none");
+
+        // Add a rectangle overlay for capturing mouse events
+        svg
+          .append("rect")
+          .attr("width", width)
+          .attr("height", height)
+          // .attr("fill", "#0000")
+          // .attr("pointer-events", "all")
+          .style("opacity", 0)
+          .on("mouseover", function () {
+            // no arrow function here to use `this`
+            tooltipCaixaHoraGroup.style("display", null);
+            tooltipCaixaHoraContainer.style("display", "block");
+          })
+          .on("mouseout", function () {
+            tooltipCaixaHoraGroup.style("display", "none");
+            tooltipCaixaHoraContainer.style("display", "none");
+          })
+          .on("mousemove", function (event) {
+            updateTooltip.call(this, event); // Use `this` for correct reference
+          })
+          .on("touchmove", function (event) {
+            event.preventDefault(); // Prevent default touch action
+            updateTooltip.call(this, event); // Use `this` for correct reference
+          })
+          .on("touchstart", function (event) {
+            event.preventDefault();
+            tooltipCaixaHoraGroup.style("display", null);
+            tooltipCaixaHoraContainer.style("display", "block");
+            updateTooltip.call(this, event); // Use `this` for correct reference
+          })
+          .on("touchend", function () {
+            tooltipCaixaHoraGroup.style("display", "none");
+            tooltipCaixaHoraContainer.style("display", "none");
+          });
+
+        // Add axes
+        svg
+          .append("g")
+          .attr("class", "x-axis")
+          .attr("transform", `translate(0,${height - margin.bottom})`)
+
+          .attr("color", "#666");
+
+        svg
+          .append("g")
+          .attr("class", "y-axis")
+          .attr("transform", `translate(${margin.left},0)`)
+          .attr("color", "#666");
+
+        function updateTooltip(event) {
+          // For touch events, we use event.changedTouches or event.touches
+          const isTouchEvent = event.touches || event.changedTouches;
+
+          // Get the parent container position relative to the viewport
+          const rectParent = this.getBoundingClientRect();
+
+          const pointerEvent = isTouchEvent
+            ? event.touches[0] || event.changedTouches[0] // Use the first touch point
+            : event;
+
+          const pageX = pointerEvent.pageX || pointerEvent.clientX;
+          const pageY = pointerEvent.pageY || pointerEvent.clientY;
+
+          // Get coordinates relative to the SVG/container
+          const [pointerX, pointerY] = isTouchEvent
+            ? d3.pointer(event.touches[0] || event.changedTouches[0], this)
+            : d3.pointer(event, this);
+
+          const hoveredTime = x.invert(pointerX);
+
+          // Find the nearest data point for each curve
+          const getClosestPoint = (data) =>
+            data.reduce((a, b) =>
+              Math.abs(b.hora - hoveredTime) < Math.abs(a.hora - hoveredTime)
+                ? b
+                : a
+            );
+
+          const todayPoint = getClosestPoint(todayData);
+          const pastPoints = pastData.map(getClosestPoint);
+
+          // Update tooltipCaixaHora line position
+          tooltipCaixaHoraLine.attr("x1", pointerX).attr("x2", pointerX);
+
+          // Update tooltipCaixaHora circles positions
+          tooltipCaixaHoraCircles
+            .data([todayPoint, ...pastPoints])
+            .attr("cx", (d) => x(d.hora))
+            .attr("cy", (d) => y(d.valor));
+
+          // Update tooltipCaixaHora content
+          const tooltipCaixaHoraHTML = [
+            `<div class="tooltipCaixaHora-row">
+                <div class="tooltipCaixaHora-left"><strong>Hora</strong></div>
+                <div class="tooltipCaixaHora-right">${d3.timeFormat("%H:%M")(
+                  todayPoint.hora
+                )}</div>
+              </div>`,
+            `<div class="tooltipCaixaHora-row">
+                <div class="tooltipCaixaHora-left"><strong>Hoje</strong></div>
+                <div class="tooltipCaixaHora-right">${todayPoint.valor.toFixed(
+                  0
+                )}</div>
+              </div>`,
+            ...pastPoints.map((d, i) => {
+              // Calculate the day of the week for each past day
+              const currentDayOfWeek = new Date().getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+              const pastDayOfWeek = (currentDayOfWeek - (i + 1) + 7) % 7; // Ensure a positive index (using modulo)
+
+              // Array of day names
+              const daysOfWeek = [
+                "Domingo",
+                "Segunda-feira",
+                "Terça-feira",
+                "Quarta-feira",
+                "Quinta-feira",
+                "Sexta-feira",
+                "Sábado",
+              ];
+
+              return `<div class="tooltipCaixaHora-row">
+                          <div class="tooltipCaixaHora-left"><strong>${
+                            daysOfWeek[pastDayOfWeek]
+                          }</strong></div>
+                          <div class="tooltipCaixaHora-right">${d.valor.toFixed(
+                            0
+                          )}</div>
+                        </div>`;
+            }),
+          ].join("");
+
+          // Align tooltip's right side with the pointer
+          const tooltipWidth = tooltipCaixaHoraContainer.node().offsetWidth; // Get tooltip width
+          const tooltipHeight = tooltipCaixaHoraContainer.node().offsetHeight; // Get tooltip height
+          // console.log("rectParent: ", rectParent.left, rectParent.top);
+          // console.log("pointer: ", pointerX, pointerY);
+
+          tooltipCaixaHoraContainer
+            .html(tooltipCaixaHoraHTML)
+            .style("left", `${pageX - tooltipWidth - 10}px `) // Align with the parent container
+            .style("top", `${pageY - tooltipHeight - 10}px`); // Align with the parent container
+        }
+
+        // Initial render
+        updateChart();
+
+        // criar subscribe da variavel de falhas
+        let commands = [{ symbol: `PLC1.GVL_IHM.iGraficoCaixaHoraAtual` }];
+        TcHmi.Server.subscribe(commands, 10000, function (data) {
+          // 60 seconds
+          if (data.error !== TcHmi.Errors.NONE) {
+            // Handle TcHmi.Server class level error here.
+            console.error(data.error);
+            return;
+          }
+
+          var response = data.response;
+          if (!response || response.error !== undefined) {
+            // Handle TwinCAT HMI Server response level error here.
+            console.error(response.error);
+            return;
+          }
+
+          var commands = response.commands;
+          if (commands === undefined) {
+            return;
+          }
+
+          // Handle result...
+          //TcHmi.Log.debugEx(command.symbol, ":", command.readValue);
+
+          try {
+            let results = data?.results[0]?.value;
+
+            iGraficoCaixaHoraAtual = [...results];
+            console.log('PLC1.GVL_IHM.iGraficoCaixaHoraAtual', iGraficoCaixaHoraAtual)
+
+            updateChart();
+          } catch (error) {
+            console.error(error);
+          }
+        });
+
+        commands = [{ symbol: `PLC1.GVL_IHM.iGraficoCaixaHoraPassado` }];
+        TcHmi.Server.subscribe(commands, 10000, function (data) {
+          // 60 seconds
+          if (data.error !== TcHmi.Errors.NONE) {
+            // Handle TcHmi.Server class level error here.
+            console.error(data.error);
+            return;
+          }
+
+          var response = data.response;
+          if (!response || response.error !== undefined) {
+            // Handle TwinCAT HMI Server response level error here.
+            console.error(response.error);
+            return;
+          }
+
+          var commands = response.commands;
+          if (commands === undefined) {
+            return;
+          }
+
+          // Handle result...
+          //TcHmi.Log.debugEx(command.symbol, ":", command.readValue);
+
+          try {
+            let results = data?.results[0]?.value;
+
+            iGraficoCaixaHoraPassado = [...results];
+
+            console.log('PLC1.GVL_IHM.iGraficoCaixaHoraPassado', iGraficoCaixaHoraPassado)
+
+            updateChart();
+          } catch (error) {
+            console.error(error);
+          }
+        });
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    </script>
+
+
+</div>
+</div>
+    <div id="TcHmiContainer_Region_339" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="134" data-tchmi-height-unit="px" data-tchmi-left="27" data-tchmi-left-unit="px" data-tchmi-width="711" data-tchmi-width-unit="px" data-tchmi-bottom="61" data-tchmi-zindex="133">
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 15.0,
+  "topRight": 15.0,
+  "bottomLeft": 15.0,
+  "bottomRight": 15.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+            {
+            "left": 1,
+            "right": 0,
+            "top": 1,
+            "bottom": 0,
+            "leftUnit": "px",
+            "rightUnit": "px",
+            "topUnit": "px",
+            "bottomUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.0784313)"
+            },
+            "offsetX": 3.0,
+            "offsetXUnit": "px",
+            "offsetY": 3.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 50.0,
+            "blurUnit": "px",
+            "spread": 10.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+<div id="TcHmiButton_315" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-left="5.5" data-tchmi-left-unit="%" data-tchmi-text="Liga Linha Secundária" data-tchmi-top="26.2" data-tchmi-top-unit="%" data-tchmi-word-wrap="true" data-tchmi-zindex="2" data-tchmi-width="41.5" data-tchmi-height="48.9" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-bottom-unit="%" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-font-size="18">
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 5.0,
+  "topRight": 5.0,
+  "bottomLeft": 5.0,
+  "bottomRight": 5.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+        
+
+</div>
+<div id="TcHmiButton_316" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-left="53" data-tchmi-left-unit="%" data-tchmi-text="Liga Linha de Paletização" data-tchmi-top="26.2" data-tchmi-top-unit="%" data-tchmi-word-wrap="true" data-tchmi-zindex="2" data-tchmi-width="41.5" data-tchmi-height="48.9" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-bottom-unit="%" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-font-size="18">
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 5.0,
+  "topRight": 5.0,
+  "bottomLeft": 5.0,
+  "bottomRight": 5.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+        
+
+</div>
+</div>
+    <div id="TcHmiContainer_Region_340" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="177" data-tchmi-height-unit="px" data-tchmi-width="730" data-tchmi-width-unit="px" data-tchmi-zindex="133" data-tchmi-top="465" data-tchmi-right="33">
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 15.0,
+  "topRight": 15.0,
+  "bottomLeft": 15.0,
+  "bottomRight": 15.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+            {
+            "left": 1,
+            "right": 0,
+            "top": 1,
+            "bottom": 0,
+            "leftUnit": "px",
+            "rightUnit": "px",
+            "topUnit": "px",
+            "bottomUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.0784313)"
+            },
+            "offsetX": 3.0,
+            "offsetXUnit": "px",
+            "offsetY": 3.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 50.0,
+            "blurUnit": "px",
+            "spread": 10.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+    <div id="TcHmiTextblock_285166424" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Caixas no túnel" data-tchmi-top="23" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18">
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(102, 102, 102, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_285166425" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.GVL_IHM.stCaixasNoTunel::diQuantidadeEntrada%/s%" data-tchmi-top="54" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="14" data-tchmi-text-font-weight="Bold">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(25, 135, 84, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_285166426" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.GVL_IHM.stCaixasNoTunel::diQuantidadeSaida%/s%" data-tchmi-top="135" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="14" data-tchmi-text-font-weight="Bold">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(187, 33, 48, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_285166427" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="61" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.GVL_IHM.stCaixasNoTunel::diQuantidadeDentro%/s%" data-tchmi-top="74" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="false" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="60" data-tchmi-ignore-escape-sequences="true">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(68, 68, 68, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_285166428" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="196" data-tchmi-left-unit="px" data-tchmi-top="135" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" 
+data-tchmi-text="Muda nos Events" data-tchmi-text-font-size="14">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(85, 85, 85, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%s%PLC1.GVL_IHM.stCaixaTrancada::diTempoTrancada%/s%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "TcHmi.Symbol.readEx2('%s%PLC1.GVL_IHM.stCaixaTrancada::diTempoTrancada%/s%', data => {",
+          "",
+          "    let tempo = data?.value || 0;                 \t",
+          "\tlet horas = Math.floor(tempo / 3600);",
+          "\tlet minutos = Math.floor((tempo - horas * 3600) / 60);",
+          "\tlet segundos = tempo - horas * 3600 - minutos * 60;",
+          "\t",
+          "\tlet value = '' ",
+          "\tif (horas > 0) {",
+          "\t  value = horas + \"h\" + String(minutos).padStart(2, \"0\") + \"m parada\";",
+          "\t} else if (minutos > 0) {",
+          "\t  value = minutos + \"m\" + String(segundos).padStart(2, \"0\") + \"s parada\";",
+          "\t} else {",
+          "\t  value = segundos + \"s parada\";",
+          "\t}",
+          "\t",
+          "\tTcHmi.Symbol.writeEx(\"%ctrl%TcHmiTextblock_285166428::Text%/ctrl%\", value)",
+          "\t\t",
+          "})"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_285166429" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="61" data-tchmi-height-unit="px" data-tchmi-left="196" data-tchmi-left-unit="px" data-tchmi-text="%f%%s%PLC1.GVL_IHM.stCaixaTrancada::diQuantidade%/s%+'x'%/f%" data-tchmi-top="74" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="false" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="60">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(68, 68, 68, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_285166430" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="196" data-tchmi-left-unit="px" data-tchmi-text="%f%if (%s%PLC1.GVL_IHM.stCaixaTrancada::sUltimaOcorrencia%/s%) {
+'Última: ' + %s%PLC1.GVL_IHM.stCaixaTrancada::sUltimaOcorrencia%/s%
+} else {
+''
+}%/f%" data-tchmi-top="54" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="12">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(85, 85, 85, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_285166431" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="196" data-tchmi-left-unit="px" data-tchmi-text="Caixa trancada" data-tchmi-top="23" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(102, 102, 102, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_285166432" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="372" data-tchmi-left-unit="px" data-tchmi-text="Falha de motores" data-tchmi-top="23" data-tchmi-top-unit="px" data-tchmi-width="171" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(102, 102, 102, 1)"
+}
+</script>
+</div>
+<div id="TcHmiHtmlHost_GraficoFalhaMotores_4" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-height="109" data-tchmi-height-unit="px" data-tchmi-left="337" data-tchmi-left-unit="px" data-tchmi-top="49" data-tchmi-top-unit="px" data-tchmi-width="362" data-tchmi-width-unit="px">
+
+
+    <script src="../../Scripts/d3.v7.min.js"></script>
+    <!--<script src="https://d3js.org/d3.v7.min.js"></script>-->
+
+    <!--<div style="position: absolute; top: 0; right: 0">
+
+        <button id="falha-motores-faults">Falhas</button>
+        <button id="falha-motores-time">Tempo em Falhas</button>
+    </div>-->
+    <div id="d3js-falha-motores" style="width: 100%; height: 100%;"></div>
+
+
+
+    <script>
+
+        try {
+
+            setTimeout(() => {
+
+                let dados = [
+                  //{ motorIndex: 1, falhas: 21, tempoEmFalha: 2101 },
+                  //{ motorIndex: 2, falhas: 2, tempoEmFalha: 1325 },
+                  //{ motorIndex: 3, falhas: 23, tempoEmFalha: 1115 },
+                  //{ motorIndex: 4, falhas: 11, tempoEmFalha: 510 },
+                  //{ motorIndex: 5, falhas: 25, tempoEmFalha: 225 },
+                  //{ motorIndex: 6, falhas: 5, tempoEmFalha: 220 },
+                  //{ motorIndex: 7, falhas: 14, tempoEmFalha: 275 },
+                  //{ motorIndex: 8, falhas: 19, tempoEmFalha: 295 },
+                  //{ motorIndex: 9, falhas: 22, tempoEmFalha: 1125 },
+                  //{ motorIndex: 10, falhas: 0, tempoEmFalha: 25 },
+                ];
+
+                // criar subscribe da variavel de falhas
+                const commands = [{ symbol: `PLC1.GVL_IHM.stFalhasMotores` }];
+
+                TcHmi.Server.subscribe(commands, 10000, function (data) { // A cada 10s
+                    if (data.error !== TcHmi.Errors.NONE) {
+                        // Handle TcHmi.Server class level error here.
+                        console.error(data.error);
+                        return;
+                    }
+
+                    var response = data.response;
+                    if (!response || response.error !== undefined) {
+                        // Handle TwinCAT HMI Server response level error here.
+                        console.error(response.error);
+                        return;
+                    }
+
+                    var commands = response.commands;
+                    if (commands === undefined) {
+                        return;
+                    }
+
+                    // Handle result...
+                    //TcHmi.Log.debugEx(command.symbol, ":", command.readValue);
+
+                    try {
+                        let results = data?.results[0]?.value;
+
+                        if (results && results.length > 0) {
+                            results.forEach((stFalhas, indexMotor) => {
+                                if (!dados[indexMotor]) {
+                                    dados[indexMotor] = {
+                                        motorIndex: 0,
+                                        falhas: 0,
+                                        tempoEmFalha: 0,
+                                    };
+                                }
+
+                                dados[indexMotor].motorIndex = indexMotor;
+                                dados[indexMotor].falhas = results[indexMotor]?.diQuantidade;
+                                dados[indexMotor].tempoEmFalha =
+                                  results[indexMotor]?.diTempoEmFalha;
+                            });
+                        }
+
+                        updateChart();
+                    } catch (error) {
+                        console.error(error);
+                    }
+                });
+
+
+                let chartContainer = document.getElementById("d3js-falha-motores");
+                console.log(chartContainer);
+
+                // Set dimensions and margins
+                const margin = { top: 10, right: 0, bottom: 15, left: 30 };
+                const width = chartContainer.clientWidth - margin.left - margin.right; // Subtract margin
+                const height = chartContainer.clientHeight - margin.top - margin.bottom; // Subtract margin
+
+                // Create SVG
+                const svg = d3
+                  .select("#d3js-falha-motores")
+                  .append("svg")
+                  .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+                let currentMetric = "tempoEmFalha";
+
+                // Color scale
+                const colorScale = d3
+                  .scaleLinear()
+                  .domain([0, 1]) // Relative scale for dynamic color adjustment
+                  .range(["yellow", "red"]);
+
+                // Create scales
+                const x = d3.scaleBand().padding(0.2).range([0, width]);
+                const y = d3.scaleLinear().range([height, 0]);
+
+                const updateChart = () => {
+                    let data = [...dados]; // Create a copy of the data
+
+                    // Sort data by current metric
+                    data.sort((a, b) => b[currentMetric] - a[currentMetric]);
+
+                    // Limit to first 10 elements
+                    data = data.slice(0, 10);
+
+                    // Update scales
+
+                    const maxVal = d3.max(data, (d) => d[currentMetric]);
+
+                    // Determine time unit and formatting
+                    let yAxisFormatter = (d) => d; // Default formatter for "falhas"
+                    let ticks = []; // Custom ticks array
+
+                    if (currentMetric === "tempoEmFalha") {
+                        if (maxVal >= 3600) {
+                            yAxisFormatter = (d) => `${(d / 3600).toFixed(0)}h`;
+                            ticks = [0, Math.round(maxVal / 3600) * 3600];
+                        } else if (maxVal >= 600) {
+                            yAxisFormatter = (d) => `${(d / 60).toFixed(0)}m`;
+                            ticks = d3.range(0, maxVal, 600); // Ticks every 10 minutes (rounded)
+                        } else if (maxVal >= 60) {
+                            yAxisFormatter = (d) => `${(d / 60).toFixed(0)}m`;
+                            ticks = d3.range(0, maxVal, 60); // Ticks every 1 minutes (rounded)
+                        } else {
+                            yAxisFormatter = (d) => `${d}s`;
+                            ticks = d3.range(0, maxVal, 10); // Ticks every 10 seconds (rounded)
+                        }
+                        // Remove duplicate ticks (if any)
+                        // ticks = Array.from(new Set(ticks)); // Convert to Set to remove duplicates, then back to array
+
+                        y.domain([0, maxVal]).nice();
+
+                        // Update y-axis with custom ticks
+                        svg
+                          .select(".y-axis")
+                          .transition()
+                          .duration(1000)
+                          .call(
+                            d3
+                              .axisLeft(y)
+                              .tickSize(0)
+                              .tickValues(ticks)
+                              .tickFormat(yAxisFormatter)
+                          );
+                    } else {
+                        y.domain([0, maxVal]).nice();
+
+                        yAxisFormatter = (d) => `${d}x`;
+
+                        // Update y-axis with custom ticks
+                        svg
+                          .select(".y-axis")
+                          .transition()
+                          .duration(1000)
+                          .call(d3.axisLeft(y).ticks(5).tickSize(0).tickFormat(yAxisFormatter));
+                    }
+
+                    x.domain(data.map((d) => `M${d.motorIndex}`));
+
+                    // Update x-axis
+                    svg
+                      .select(".x-axis")
+                      .transition()
+                      .duration(1000)
+                      .call(d3.axisBottom(x).tickSize(0));
+
+                    svg
+                      .select(".x-axis")
+                      .selectAll("text")
+                      .attr("transform", "translate(0,5)")
+                      .style("text-anchor", "center");
+
+
+                    // Bind data to bars
+                    const bars = svg.selectAll(".bar").data(data, (d) => d.motorIndex);
+
+                    // Exit
+                    bars
+                      .exit()
+                      .transition()
+                      .duration(500)
+                      .attr("y", height)
+                      .attr("height", 0)
+                      .remove();
+
+                    // Enter
+                    const enterBars = bars
+                      .enter()
+                      .append("rect")
+                      .attr("class", "bar")
+                      .attr("x", (d) => x(`M${d.motorIndex}`))
+                      .attr("y", height)
+                      .attr("width", x.bandwidth())
+                      .attr("height", 0)
+                      .attr("fill", (d) =>
+                          colorScale(d[currentMetric] / d3.max(data, (d) => d[currentMetric]))
+                      )
+                      .style("opacity", 0.8);
+
+                    // Merge and update
+                    enterBars
+                      .merge(bars)
+                      .transition()
+                      .duration(1000)
+                      .attr("x", (d) => x(`M${d.motorIndex}`))
+                      .attr("y", (d) => y(d[currentMetric]))
+                      .attr("width", x.bandwidth())
+                      .attr("height", (d) =>
+                          maxVal ? height - y(d[currentMetric]) : maxVal
+                      )
+                      .attr("fill", (d) =>
+                          colorScale(d[currentMetric] / d3.max(data, (d) => d[currentMetric]))
+                      );
+
+                };
+
+                // Add axes
+                svg
+                  .append("g")
+                  .attr("class", "x-axis")
+                  .style("color", "#666")
+                  .style("font-size", "0.8rem")
+                  .attr("transform", `translate(0, ${height})`);
+
+                svg
+                  .append("g")
+                  // .attr("transform", `translate(${width}, 0)`)
+                  .attr("class", "y-axis")
+                  .style("font-size", "0.8rem")
+                  .style("color", "#666");
+
+                // Button handlers
+
+                chartContainer.addEventListener("click", () => {
+                    console.log("clicked");
+                    currentMetric = currentMetric === "falhas" ? "tempoEmFalha" : "falhas";
+                    updateChart();
+                });
+
+                //d3.select("#falha-motores-faults").on("click", () => {
+                //  currentMetric = "falhas";
+                //  updateChart();
+                //});
+
+                //d3.select("#falha-motores-time").on("click", () => {
+                //    currentMetric = "tempoEmFalha";
+                //    updateChart();
+                //});
+
+                // Initial render
+                updateChart();
+
+            }, 100);
+
+        } catch (error) {
+            console.log(error);
+        }
+
+    </script>
+
+</div>
+<div id="TcHmiButton_Zerar_317" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="14" data-tchmi-text="Zerar" data-tchmi-right="10">
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(69, 69, 69, 0.3921568)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 8.0,
+  "topRight": 8.0,
+  "bottomLeft": 8.0,
+  "bottomRight": 8.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiButton_Zerar_317.onPressed",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "Swal.fire({",
+          "  title: 'Deseja zerar os contadores?',",
+          "  showDenyButton: false,",
+          "  showCancelButton: true,",
+          "  confirmButtonText: 'Zerar',",
+          "  // denyButtonText: `xxx`,",
+          "}).then((result) => {",
+          "  /* Read more about isConfirmed, isDenied below */",
+          "  if (result.isConfirmed) {",
+          "      TcHmi.Symbol.writeEx('%s%PLC1.GVL_IHM.xZerarContadores%/s%', true)",
+          "    Swal.fire('Contadores zerados!', '', 'success');",
+          "  // } else if (result.isDenied) {",
+          "  //   Swal.fire('Changes are not saved', '', 'info');",
+          "  //   console.log(\"Not Saved!\");",
+          "  }",
+          "})"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+</div>
+</div>

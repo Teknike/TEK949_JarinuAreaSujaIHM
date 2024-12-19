@@ -1,0 +1,136 @@
+{
+  "controlTypeValues": {
+    "TcHmi.Controls.FrameworkEsteira.Esteira": {
+      "attributes": {
+        "CorTexto": {
+          "color": "rgba(0, 0, 0, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.BlibliotecaGraficos.FrameworkGrafico": {
+      "attributes": {
+        "CorLinha": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "CorPonto": {
+          "color": "rgba(255, 0, 0, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiTextblock": {
+      "attributes": {
+        "TextColor": {
+          "color": "rgba(0, 0, 0, 1)"
+        }
+      },
+      "themedResources": {}
+    }
+  },
+  "controlClassValues": {
+    "background-container": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "divider": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "divider-bottom": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "divider-left": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "divider-right": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "divider-top": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "headline-1": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "headline-2": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "headline-3": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "TagBotoeiras": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "TagEmegencia": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "TagSensor": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "TagValvula": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "TextBlockComInterlock": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TextBlockSemInterlock": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(140, 139, 139, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "text-centered": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "text-color-container": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "text-size-default": {
+      "attributes": {},
+      "themedResources": {}
+    },
+    "TituloCabeçalho": {
+      "attributes": {
+        "TextFontSize": 25.0
+      },
+      "themedResources": {}
+    },
+    "ToggleButtonOff": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(140, 139, 139, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "ToggleButtonOn": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    }
+  },
+  "$schema": "./../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.756.1/runtimes/native1.12-tchmi/Schema/ThemeDescription.Schema.json"
+}

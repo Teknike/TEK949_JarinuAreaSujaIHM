@@ -1,0 +1,202 @@
+<div id="uAlarmeBanner_86" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500" data-tchmi-width-mode="Value" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-height-mode="Value" data-tchmi-width-unit="px" data-tchmi-height-unit="%" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width="40" data-tchmi-background-image-height="50" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Top" data-tchmi-max-width="%f%%ctrl%uAlarmeBanner_86::MinWidth%/ctrl%%/f%" data-tchmi-min-width="100" data-tchmi-max-height="%f%%ctrl%uAlarmeBanner_86::MinHeight%/ctrl%%/f%" data-tchmi-min-height="100" data-tchmi-max-width-unit="%" data-tchmi-max-height-unit="%" data-tchmi-min-width-unit="%" data-tchmi-min-height-unit="%" data-tchmi-width="%f%%ctrl%uAlarmeBanner_86::MinWidth%/ctrl%%/f%" data-tchmi-height="%f%%ctrl%uAlarmeBanner_86::MinHeight%/ctrl%%/f%" data-tchmi-zindex="0">
+
+
+
+<div id="AlarmeBannerDivImg" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-left="%f%if((!%pp%xLinePointLeft%/pp% && !%pp%xLinePointUp%/pp%)||(!%pp%xLinePointLeft%/pp% && %pp%xLinePointUp%/pp%)){0;}else{null;}%/f%" data-tchmi-left-unit="%" data-tchmi-top="%f%if((!%pp%xLinePointLeft%/pp% && !%pp%xLinePointUp%/pp%)||(%pp%xLinePointLeft%/pp% && !%pp%xLinePointUp%/pp%)){0;}else{null;}%/f%" data-tchmi-top-unit="%" data-tchmi-background-image="Imports/Images/warning_rot_pressed (1).svg" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width="50" data-tchmi-background-image-height="50" data-tchmi-background-image-vertical-alignment="Top" data-tchmi-width-unit="px" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-width-mode="Value" data-tchmi-height-mode="Value" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-zindex="4" data-tchmi-right="%f%if((!%pp%xLinePointLeft%/pp% && !%pp%xLinePointUp%/pp%)||(!%pp%xLinePointLeft%/pp% && %pp%xLinePointUp%/pp%)){0;}else{%ctrl%uAlarmeBanner_86::RenderedRight%/ctrl%;}%/f%" data-tchmi-bottom="%f%if((!%pp%xLinePointLeft%/pp% && !%pp%xLinePointUp%/pp%)||(%pp%xLinePointLeft%/pp% && !%pp%xLinePointUp%/pp%)){0;}else{%ctrl%uAlarmeBanner_86::RenderedBottom%/ctrl%;}%/f%">
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(212, 204, 11, 1)"
+}
+</script>
+<div id="AlarmeBannerTxt" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="54" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="45" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size-unit="%" data-tchmi-text-font-size="120" data-tchmi-zindex="2" data-tchmi-text="%pp%sTexto%/pp%">
+</div>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(2, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Dashed",
+  "right": "Dashed",
+  "top": "Dashed",
+  "bottom": "Dashed"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "AlarmeBannerDivImg.onMouseClick",
+    "actions": []
+  }
+]
+</script>
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_199" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="9" data-tchmi-left-unit="px" data-tchmi-src="Imports/Images/warning_rot_pressed.svg" data-tchmi-top="-11" data-tchmi-top-unit="px" data-tchmi-width="80" data-tchmi-width-unit="px">
+</div>
+</div>
+<div id="AlarmeBannerLineLfUpRgDw" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiLine" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-stroke-thickness="5" data-tchmi-scale-mode="ScaleToFill" data-tchmi-zindex="3" data-tchmi-is-enabled="true" data-tchmi-y1="%f%0%/f%" data-tchmi-x2="%f%if(%pp%xLineStraight%/pp%){(%ctrl%uAlarmeBanner_86::Width%/ctrl%/2);}else{1;}%/f%" data-tchmi-x1="%f%if(%pp%xLineStraight%/pp%){(%ctrl%uAlarmeBanner_86::Width%/ctrl%/2);}else{0;}%/f%" data-tchmi-y2="%f%if(%pp%xLineStraight%/pp%){%ctrl%uAlarmeBanner_86::Height%/ctrl%;}else{1;}%/f%" data-tchmi-visibility="%f%if(%pp%xLineVisible%/pp%){if((%pp%xLinePointUp%/pp% &amp;&amp; %pp%xLinePointLeft%/pp%) || (!%pp%xLinePointUp%/pp% &amp;&amp; !%pp%xLinePointLeft%/pp%)){'Visible';}else{'Collapsed';}}else{'Collapsed';}%/f%" data-tchmi-left="%f%if(%pp%xLineStraight%/pp%){%ctrl%uAlarmeBanner_86::Width%/ctrl%/2;}else{0;}%/f%" data-tchmi-creator-visibility="Visible">
+
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "rgba(212, 204, 11, 1)"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "None",
+  "right": "None",
+  "top": "None",
+  "bottom": "None"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+
+</div>
+<div id="AlarmeBannerLineLfDwRgUp" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiLine" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-stroke-thickness="5" data-tchmi-scale-mode="ScaleToFill" data-tchmi-zindex="3" data-tchmi-is-enabled="true" data-tchmi-y1="%f%if(%pp%xLineStraight%/pp%){%ctrl%uAlarmeBanner_86::Height%/ctrl%/2;}else{0;}%/f%" data-tchmi-x2="%f%if(%pp%xLineStraight%/pp%){1;}else{0;}%/f%" data-tchmi-x1="%f%if(%pp%xLineStraight%/pp%){0;}else{1;}%/f%" data-tchmi-y2="%f%if(%pp%xLineStraight%/pp%){%ctrl%uAlarmeBanner_86::Height%/ctrl%/2;}else{1;}%/f%" data-tchmi-visibility="%f%if(%pp%xLineVisible%/pp%){if((%pp%xLinePointUp%/pp% && !%pp%xLinePointLeft%/pp%) || (!%pp%xLinePointUp%/pp% &&  %pp%xLinePointLeft%/pp%)){'Visible';}else{'Collapsed';}}else{'Collapsed';}%/f%" data-tchmi-left="0" data-tchmi-top="%f%if(%pp%xLineStraight%/pp%){%ctrl%uAlarmeBanner_86::Height%/ctrl%/2;}else{null;}%/f%">
+<script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+{
+  "color": "rgba(212, 204, 11, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+
+</div>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%xVisibilidade%/pp%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "parts": [
+          {
+            "if": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/Boolean",
+                  "symbolExpression": "%pp%xVisibilidade%/pp%"
+                },
+                "compare2": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "value": "True"
+                },
+                "compareOperator": "==",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "JavaScript",
+                "active": true,
+                "sourceLines": [
+                  "var sName = TcHmi.Symbol.readEx('%pp%sIdentifier%/pp%');",
+                  "sName=\"#\" + sName;",
+                  "console.log(\"visible for \" + sName + \" is true.\");",
+                  "$(sName).slideDown('fast');"
+                ],
+                "injectContextObject": false,
+                "asyncWait": true,
+                "waitMode": "Synchronous"
+              }
+            ]
+          },
+          {
+            "else": [
+              {
+                "objectType": "JavaScript",
+                "active": true,
+                "sourceLines": [
+                  "var sName = TcHmi.Symbol.readEx('%pp%sIdentifier%/pp%');",
+                  "sName=\"#\" + sName;",
+                  "console.log(\"visible for \" + sName + \" is false.\");",
+                  "$(sName).slideUp('fast');"
+                ],
+                "injectContextObject": false,
+                "asyncWait": true,
+                "waitMode": "Synchronous"
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "uAlarmeBanner_86.onMouseClick",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var sName = TcHmi.Symbol.readEx('%pp%sIdentifier%/pp%');",
+          "sName=\"#\" + sName;",
+          "console.log(\"visible for \" + sName + \" is false.\");",
+          "$(sName).slideUp('fast');"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+
+</div>

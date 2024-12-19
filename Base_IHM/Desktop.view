@@ -1,0 +1,885 @@
+<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-unit="%" data-tchmi-width="100" data-tchmi-height-unit="%" data-tchmi-height="100" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width="100" data-tchmi-background-image-height="100" data-tchmi-is-enabled="true">
+
+    <div id="Header_Top" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiHeader" data-tchmi-height="100" data-tchmi-left="8" data-tchmi-top="8" data-tchmi-right="8" data-tchmi-expandable="true" data-tchmi-is-enabled="true" data-tchmi-height-unit="px">
+        <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+            [
+            "divider",
+            "divider-top"
+            ]
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-header-items" type="application/json">
+            [
+            {
+            "itemType": "Image",
+            "priority": "2",
+            "itemAlign": "Left",
+            "prefWidth": 300.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 80.0,
+            "prefHeightUnit": "px",
+            "minWidth": 128.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [],
+            "image": "Images/Diversos/Novo_logo_Teknike.png",
+            "altText": "Beckhoff",
+            "targetRegion": "%ctrl%Region_Center%/ctrl%",
+            "targetContent": "Pages/PaginaInicial.content"
+            },
+            {
+            "itemType": "Text",
+            "priority": "2",
+            "itemAlign": "Left",
+            "prefWidth": 300.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 100.0,
+            "prefHeightUnit": "px",
+            "minWidth": 128.0,
+            "minWidthUnit": "px",
+            "classList": [
+            "TituloCabeçalho"
+            ],
+            "accessRights": [],
+            "text": null,
+            "targetContent": "\r\n  \"itemType\": \"Text\",\r\n  \"priority\": \"2\",\r\n  \"itemAlign\": \"Left\",\r\n  \"prefWidth\": 300.0,\r\n  \"prefWidthUnit\": \"px\",\r\n  \"prefHeight\": 100.0,\r\n  \"prefHeightUnit\": \"px\",\r\n  \"minWidth\": 128.0,\r\n  \"minWidthUnit\": \"px\",\r\n  \"classList\": [],\r\n  \"accessRights\": [],\r\n  \"text\": \"Intralogística Sidrolândia\",\r\n  \"targetContent\": \"\"\r\n}"
+            },
+            {
+            "itemType": "StateImage",
+            "priority": "3",
+            "itemAlign": "Right",
+            "prefWidth": 180.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 48.0,
+            "prefHeightUnit": "px",
+            "minWidth": 180.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [],
+            "stateVar": "%s%PLC1.GVL_Alarmes.xAlarmeAtivo%/s%",
+            "stateList": [
+            {
+            "state": true,
+            "stateIcon": "Imports/Images/warning_rot_pressed.svg"
+            },
+            {
+            "state": false,
+            "stateIcon": "Imports/Images/thumbs-up.svg"
+            }
+            ],
+            "iconWidth": 48.0,
+            "iconWidthUnit": "px",
+            "text": "%f%%s%PLC1.GVL_Alarmes.iAlarmesAtivos%/s% + \" ALARMES ATIVOS\"%/f%",
+            "textPosition": "Left"
+            },
+            {
+            "itemType": "StateImage",
+            "priority": "5",
+            "itemAlign": "Right",
+            "prefWidth": 160.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 48.0,
+            "prefHeightUnit": "px",
+            "minWidth": 150.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [],
+            "stateVar": "%s%PLC1.GVL_Seguranca.xEmergenciaGeral%/s%",
+            "stateList": [
+            {
+            "state": false,
+            "stateIcon": "Imports/Images/emergencia.png"
+            },
+            {
+            "state": true,
+            "stateIcon": "Imports/Images/EmergenciaOK.png"
+            }
+            ],
+            "iconWidth": 48.0,
+            "iconWidthUnit": "px",
+            "text": "Emergencia Geral",
+            "textPosition": "Right"
+            },
+            {
+            "itemType": "StateImage",
+            "priority": "5",
+            "itemAlign": "Right",
+            "prefWidth": 159.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 48.0,
+            "prefHeightUnit": "px",
+            "minWidth": 120.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [],
+            "stateVar": "%s%PLC1.GVL_Comando.xFaltaDefaseOK%/s%",
+            "stateList": [
+            {
+            "state": true,
+            "stateIcon": "Imports/Images/Falta_de_FaseOK.png"
+            },
+            {
+            "state": false,
+            "stateIcon": "Imports/Images/Falta_de_Fase.png"
+            }
+            ],
+            "iconWidth": 48.0,
+            "iconWidthUnit": "px",
+            "text": "Falta de fase",
+            "textPosition": "Right"
+            },
+            {
+            "itemType": "AdsState",
+            "priority": "3",
+            "itemAlign": "Right",
+            "prefWidth": 48.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 48.0,
+            "prefHeightUnit": "px",
+            "minWidth": 48.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [],
+            "adsRuntime": "TcSysService",
+            "iconWidth": 48.0,
+            "iconWidthUnit": "px",
+            "text": "",
+            "textPosition": "Left",
+            "serverInterval": 1000.0,
+            "serverDomain": "ADS",
+            "stateImages": {
+            "Fallback": "Images/TwinCAT/twincat-fallback.svg",
+            "Run": "Images/TwinCAT/twincat-run.svg",
+            "Stop": "Images/TwinCAT/twincat-stop.svg",
+            "Config": "Images/TwinCAT/twincat-config.svg",
+            "Exception": "Images/TwinCAT/twincat-exeption.svg"
+            }
+            },
+            {
+            "itemType": "AdsState",
+            "priority": "3",
+            "itemAlign": "Right",
+            "prefWidth": 48.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 48.0,
+            "prefHeightUnit": "px",
+            "minWidth": 48.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [],
+            "adsRuntime": "PLC1",
+            "iconWidth": 48.0,
+            "iconWidthUnit": "px",
+            "text": "",
+            "textPosition": "Left",
+            "serverInterval": 1000.0,
+            "serverDomain": "ADS",
+            "stateImages": {
+            "Fallback": "Images/PLC/plc-fallback.svg",
+            "Run": "Images/PLC/plc-run.svg",
+            "Stop": "Images/PLC/plc-stop.svg",
+            "Config": "Images/PLC/plc-config.svg",
+            "Exception": "Images/PLC/plc-exeption.svg"
+            }
+            },
+            {
+            "itemType": "UserManagement",
+            "priority": "2",
+            "itemAlign": "Right",
+            "prefWidth": 288.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 48.0,
+            "prefHeightUnit": "px",
+            "minWidth": 176.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [
+            {
+            "accessright": "operate",
+            "group": "Operacao",
+            "permission": "Allow"
+            },
+            {
+            "accessright": "operate",
+            "group": "Manutencao",
+            "permission": "Allow"
+            },
+            {
+            "accessright": "observe",
+            "group": "Operacao",
+            "permission": "Allow"
+            },
+            {
+            "accessright": "observe",
+            "group": "Manutencao",
+            "permission": "Allow"
+            },
+            {
+            "accessright": "operate",
+            "group": "Adminsitracao",
+            "permission": "Allow"
+            },
+            {
+            "accessright": "observe",
+            "group": "Adminsitracao",
+            "permission": "Allow"
+            }
+            ],
+            "allowLogout": true,
+            "allowSwitchUser": true
+            },
+            {
+            "itemType": "Time",
+            "priority": "2",
+            "itemAlign": "Right",
+            "prefWidth": 128.0,
+            "prefWidthUnit": "px",
+            "prefHeight": 48.0,
+            "prefHeightUnit": "px",
+            "minWidth": 96.0,
+            "minWidthUnit": "px",
+            "classList": [],
+            "accessRights": [],
+            "timeDisplayLayout": "TimeDateMultiLine"
+            }
+            ]
+        </script>
+
+
+
+
+
+
+
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(167, 167, 167, 1)"
+}
+</script>
+
+        <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+            [
+            {
+            "event": "Header_Top.onMouseClick",
+            "actions": [
+            {
+            "objectType": "JavaScript",
+            "active": true,
+            "sourceLines": [
+            "",
+            "var tcHeader = TcHmi.Controls.get(\"Header_Top\");",
+            "",
+            "//console.log(tcHeader.__children);",
+            "",
+            "function myFunction() {",
+            "  //console.log(TcHmi.Controls.get(\"cAlarmes\"));",
+            "  TcHmi.Controls.get(\"cAlarmes\").setVisibility('Visible');",
+            "}",
+            "",
+            "for (let i = 0; i < tcHeader.__children.length; i++) {",
+            "\t//console.log(tcHeader.__children[i]);",
+            "\tif(tcHeader.__children[i].__type == \"TcHmi.Controls.Beckhoff.TcHmiStateImage\"){",
+            "\t\t//console.log(tcHeader.__children[i]);",
+            "\t\t",
+            "\t\t//console.log(tcHeader.__children[i].__id);",
+            "\t\t",
+            "\t\tconsole.log('Gerado evento do click');",
+            "\t\tdocument.getElementById(tcHeader.__children[i].__id).onclick = function() {myFunction()};",
+            "\t}",
+            "}"
+            ],
+            "injectContextObject": false,
+            "asyncWait": true,
+            "waitMode": "Synchronous"
+            }
+            ]
+            },
+            {
+            "event": "Header_Top.onAttached",
+            "actions": [
+            {
+            "objectType": "JavaScript",
+            "active": true,
+            "sourceLines": [
+            "setTimeout(() => {",
+            "\tvar tcHeader = TcHmi.Controls.get(\"Header_Top\");",
+            "\t",
+            "\t//console.log(tcHeader.__children);",
+            "\t",
+            "\tfunction myFunction() {",
+            "\t  //console.log(TcHmi.Controls.get(\"cAlarmes\"));",
+            "\t  TcHmi.Controls.get(\"cAlarmes\").setVisibility('Visible');",
+            "\t}",
+            "\t",
+            "\tfor (let i = 0; i < tcHeader.__children.length; i++) {",
+            "\t\t//console.log(tcHeader.__children[i]);",
+            "\t\tif(tcHeader.__children[i].__type == \"TcHmi.Controls.Beckhoff.TcHmiStateImage\"){",
+            "\t\t\t//console.log(tcHeader.__children[i]);",
+            "\t\t\t",
+            "\t\t\t//console.log(tcHeader.__children[i].__id);",
+            "\t\t\t",
+            "\t\t\tconsole.log('Gerado evento do click');",
+            "\t\t\tdocument.getElementById(tcHeader.__children[i].__id).onclick = function() {myFunction()};",
+            "\t\t}",
+            "\t}",
+            "}, 5000);"
+            ],
+            "injectContextObject": false,
+            "asyncWait": true,
+            "waitMode": "Synchronous"
+            }
+            ]
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+            {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "leftUnit": "px",
+            "rightUnit": "px",
+            "topUnit": "px",
+            "bottomUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 8.0,
+            "topRight": 8.0,
+            "bottomLeft": 8.0,
+            "bottomRight": 8.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.3921568)"
+            },
+            "offsetX": 3.0,
+            "offsetXUnit": "px",
+            "offsetY": 3.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 8.0,
+            "blurUnit": "px",
+            "spread": 0.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+    </div><div id="Navigation_Right" data-tchmi-text-font-size="16" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiNavigation" data-tchmi-width="210" data-tchmi-top="116" data-tchmi-bottom="6" data-tchmi-right="8" data-tchmi-target-region="%ctrl%Region_Center%/ctrl%" data-tchmi-navigation-orientation="Vertical" data-tchmi-keep-lowest-level="true" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-top-unit="px" data-tchmi-show-back-button="false" data-tchmi-scrollbar-style="None">
+
+
+        <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+            [
+            "divider",
+            "divider-right"
+            ]
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-navigation-structure" type="application/json">
+[
+  {
+    "name": "Layout(Modelo antigo)",
+    "content": "Pages/Layout/Layout Principal_Modelo_antigo.content",
+    "icon_a": "Imports/Images/startpage_normal.svg",
+    "icon_n": "Imports/Images/startpage_normal.svg",
+    "icon_p": "Imports/Images/startpage_normal.svg"
+  },
+  {
+    "name": "Sala de Cortes SLC2",
+    "content": "Pages/Layout/Sala de Cortes SLC2.content",
+    "icon_a": "Imports/Images/magazine-active.svg",
+    "icon_n": "Imports/Images/magazine-normal.svg",
+    "icon_p": "Imports/Images/magazine-pressed.svg"
+  },
+  {
+    "name": "Paletização e Secundária",
+    "content": "Pages/Layout/Paletização.content",
+    "icon_a": "Imports/Images/Paletização.png",
+    "icon_n": "Imports/Images/Paletização.png",
+    "icon_p": "Imports/Images/Paletização.png"
+  },
+  {
+    "name": "Layout",
+    "content": "Pages/Layout/Layout2.content",
+    "icon_a": "Imports/Images/startpage_normal.svg",
+    "icon_n": "Imports/Images/startpage_normal.svg",
+    "icon_p": "Imports/Images/startpage_normal.svg"
+  },
+  {
+    "name": "Pendura",
+    "content": "Pages/Layout/Pendura.content"
+  },
+  {
+    "name": "Sala de Cortes SLC1",
+    "content": "Pages/Layout/Sala de cortes SLC1.content",
+    "icon_a": "Imports/Images/magazine-normal.svg",
+    "icon_n": "Imports/Images/magazine-normal.svg",
+    "icon_p": "Imports/Images/magazine-normal.svg"
+  },
+  {
+    "name": "Esviceração",
+    "content": "Pages/Layout/Esiseração e pre resvriamento.content"
+  },
+  {
+    "name": "Miudos",
+    "content": "Pages/Layout/Miudos.content"
+  },
+  {
+    "name": "Emergências",
+    "content": "Pages/Layout/Emergência.content",
+    "icon_a": "Imports/Images/emergencia.png",
+    "icon_n": "Imports/Images/emergencia.png",
+    "icon_p": "Imports/Images/emergencia.png"
+  },
+  {
+    "name": "Grupos",
+    "content": "Pages/Grupos/GruposGeral.content",
+    "icon_a": "Imports/Images/Groups-active.svg",
+    "icon_n": "Imports/Images/Groups-normal.svg",
+    "icon_p": "Imports/Images/Groups-pressed.svg"
+  },
+  {
+    "name": "Configuração Grupos",
+    "content": "Pages/Grupos/GruposConfig.content",
+    "icon_a": "Imports/Images/GrupoEgrenagen-active.svg",
+    "icon_n": "Imports/Images/GrupoEgrenagen-Normal.svg",
+    "icon_p": "Imports/Images/GrupoEgrenagen-pressed.svg",
+    "accessRights": [
+      {
+        "accessright": "observe",
+        "group": "Operacao",
+        "permission": "Deny"
+      }
+    ]
+  },
+  {
+    "name": "Eventos",
+    "content": "Pages/Config/Eventos.content",
+    "icon_a": "Themes/Base/Images/Events/message_active.svg",
+    "icon_n": "Themes/Base/Images/Events/message_normal.svg",
+    "icon_p": "Themes/Base/Images/Events/message_pressed.svg"
+  },
+  {
+    "name": "Alarmes",
+    "content": "Pages/Config/Alarmes.content",
+    "icon_a": "Imports/Images/warning_active.svg",
+    "icon_n": "Imports/Images/warning_normal.svg",
+    "icon_p": "Imports/Images/warning_pressed.svg"
+  },
+  {
+    "name": "Configurações",
+    "content": "Pages/Config/Configurações.content",
+    "icon_a": "Themes/Base/Images/Settings/settings_active.svg",
+    "icon_n": "Themes/Base/Images/Settings/settings_normal.svg",
+    "icon_p": "Themes/Base/Images/Settings/settings_pressed.svg",
+    "accessRights": [
+      {
+        "accessright": "observe",
+        "group": "Operacao",
+        "permission": "Deny"
+      }
+    ]
+  },
+  {
+    "name": "Informativo",
+    "content": "Pages/Config/Informativo.content",
+    "icon_a": "Imports/Images/manual_active.svg",
+    "icon_n": "Imports/Images/manual_normal.svg",
+    "icon_p": "Imports/Images/manual_pressed.svg"
+  },
+  {
+    "name": "Projeto Elétrico",
+    "content": "Pages/Config/ProjetoEletrico.content",
+    "icon_a": "Imports/Images/file-pdf-active.svg",
+    "icon_n": "Imports/Images/file-pdf-normal.svg",
+    "icon_p": "Imports/Images/file-pdf-pressed.svg",
+    "accessRights": [
+      {
+        "accessright": "observe",
+        "group": "Operacao",
+        "permission": "Deny"
+      }
+    ]
+  },
+  {
+    "name": "Arquitetura",
+    "content": "Pages/Config/Arquitetura.content",
+    "icon_a": "Imports/Images/plc-active.svg",
+    "icon_n": "Imports/Images/plc-normal.svg",
+    "icon_p": "Imports/Images/recipe_pressed.svg",
+    "accessRights": [
+      {
+        "accessright": "observe",
+        "group": "Operacao",
+        "permission": "Deny"
+      }
+    ]
+  },
+  {
+    "name": "Listas",
+    "content": "Pages/Config/Listas.content",
+    "icon_a": "Imports/Images/recipe_active.svg",
+    "icon_n": "Imports/Images/recipe_normal.svg",
+    "icon_p": "Imports/Images/recipe_pressed.svg"
+  },
+  {
+    "name": "Comissionamento",
+    "content": "Pages/Config/Comissionamento.content",
+    "icon_a": "Imports/Images/icons_smartphone_active.svg",
+    "icon_n": "Imports/Images/icons_smartphone_normal.svg",
+    "icon_p": "Imports/Images/icons_smartphone_pressed.svg",
+    "accessRights": [
+      {
+        "accessright": "observe",
+        "group": "Operacao",
+        "permission": "Deny"
+      }
+    ]
+  }
+]
+</script>
+
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "None"
+}
+</script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 8.0,
+            "topRight": 8.0,
+            "bottomLeft": 8.0,
+            "bottomRight": 8.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.3921568)"
+            },
+            "offsetX": 3.0,
+            "offsetXUnit": "px",
+            "offsetY": 3.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 8.0,
+            "blurUnit": "px",
+            "spread": 0.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+    </div><div id="Region_Center" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-left="8" data-tchmi-top="116" data-tchmi-scrolling="Auto" data-tchmi-is-enabled="true" data-tchmi-scale-mode="ScaleToFill" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-visibility="Visible" data-tchmi-top-unit="px" data-tchmi-bottom="8" data-tchmi-right="226" data-tchmi-target-content="Pages/Layout/Layout2.content">
+
+        <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(167, 167, 167, 1)"
+}
+</script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 8.0,
+            "topRight": 8.0,
+            "bottomLeft": 8.0,
+            "bottomRight": 8.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.3921568)"
+            },
+            "offsetX": 3.0,
+            "offsetXUnit": "px",
+            "offsetY": 3.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 3.0,
+            "blurUnit": "px",
+            "spread": 1.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+    </div>
+    <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+        [
+        {
+        "event": "%ctrl%Desktop::RenderedWidth%/ctrl%",
+        "actions": [
+        {
+        "objectType": "Function",
+        "active": true,
+        "fn": "TcHmiResponsiveBehaviour",
+        "fnParams": [
+        {
+        "objectType": "Symbol",
+        "valueType": "tchmi:general#/definitions/String",
+        "symbolExpression": "%i%MediaQueryList%/i%"
+        },
+        {
+        "objectType": "Symbol",
+        "valueType": "tchmi:general#/definitions/String",
+        "symbolExpression": "%i%AffectedControls%/i%"
+        }
+        ],
+        "asyncWait": true
+        }
+        ]
+        }
+        ]
+    </script>
+
+    <div id="Teclado" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiKeyboard" data-tchmi-height="200" data-tchmi-height-unit="px" data-tchmi-label-font-size="14" data-tchmi-layout-file="KeyboardLayouts/Numpad.keyboard.json" data-tchmi-left="-3000" data-tchmi-left-unit="px" data-tchmi-scale-mode="ScaleToFit" data-tchmi-top="-3000" data-tchmi-top-unit="px" data-tchmi-width="200" data-tchmi-width-unit="px" data-tchmi-zindex="1000000000000000000">
+        <script data-tchmi-target-attribute="data-tchmi-indirect-input-padding" type="application/json">
+            {"top":3,"right":3,"bottom":3,"left":3}
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-keyboard-padding" type="application/json">
+            {"top":10,"topUnit":"px","right":10,"rightUnit":"px","bottom":10,"bottomUnit":"px","left":10,"leftUnit":"px"}
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-key-padding" type="application/json">
+            {"top":4,"topUnit":"px","right":4,"rightUnit":"px","bottom":4,"bottomUnit":"px","left":4,"leftUnit":"px"}
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-additional-key-backdrop-padding" type="application/json">
+            {"top":10,"topUnit":"px","right":10,"rightUnit":"px","bottom":10,"bottomUnit":"px","left":10,"leftUnit":"px"}
+        </script>
+
+    </div>
+    <div id="Teclado2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiKeyboard" data-tchmi-height="250" data-tchmi-height-unit="px" data-tchmi-label-font-size="14" data-tchmi-layout-file="KeyboardLayouts/US - compact.keyboard.json" data-tchmi-left="-3000" data-tchmi-left-unit="px" data-tchmi-scale-mode="ScaleToFit" data-tchmi-top="-3000" data-tchmi-top-unit="px" data-tchmi-width="790" data-tchmi-width-unit="px" data-tchmi-zindex="1000000000000000000">
+        <script data-tchmi-target-attribute="data-tchmi-indirect-input-padding" type="application/json">
+            {"top":3,"right":3,"bottom":3,"left":3}
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-keyboard-padding" type="application/json">
+            {"top":10,"topUnit":"px","right":10,"rightUnit":"px","bottom":10,"bottomUnit":"px","left":10,"leftUnit":"px"}
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-key-padding" type="application/json">
+            {"top":4,"topUnit":"px","right":4,"rightUnit":"px","bottom":4,"bottomUnit":"px","left":4,"leftUnit":"px"}
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-additional-key-backdrop-padding" type="application/json">
+            {"top":10,"topUnit":"px","right":10,"rightUnit":"px","bottom":10,"bottomUnit":"px","left":10,"leftUnit":"px"}
+        </script>
+
+    </div>
+    <div id="UcConfirmaRecomicionamento" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="210" data-tchmi-height-unit="px" data-tchmi-left="3650" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Comissionamento/ucConfirmaRecomicionamento.usercontrol" data-tchmi-top="257" data-tchmi-top-unit="px" data-tchmi-width="340" data-tchmi-width-unit="px" data-tchmi-indexconfirma="%i%IndexComissionamento%/i%">
+    </div>
+    <div id="Confirmacao" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="210" data-tchmi-height-unit="px" data-tchmi-left="4097" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Comissionamento/ucCaixaDeConfirmacao.usercontrol" data-tchmi-top="255" data-tchmi-top-unit="px" data-tchmi-width="340" data-tchmi-width-unit="px" data-tchmi-indexconfirma="%i%IndexComissionamento%/i%">
+    </div>
+    <div id="UcPopUpMotores" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-escolhe="False" data-tchmi-height="470" data-tchmi-height-unit="px" data-tchmi-left="100" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Popup/Motor/ucPopUpMotores.usercontrol" data-tchmi-top="200" data-tchmi-top-unit="px" data-tchmi-width="750" data-tchmi-width-unit="px" data-tchmi-visibility="Collapsed">
+    </div>
+
+    <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+        {
+        "color": "rgba(227, 227, 227, 1)"
+        }
+    </script>
+    <div id="cAlarmes" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="745" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="%" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-width="883" data-tchmi-width-unit="px" data-tchmi-zindex="1" data-tchmi-visibility="Collapsed">
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "rgba(125, 125, 125, 1)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+            {
+            "color": "rgba(0, 0, 0, 1)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 25.0,
+            "topRight": 25.0,
+            "bottomLeft": 25.0,
+            "bottomRight": 25.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "Solid",
+            "right": "Solid",
+            "top": "Solid",
+            "bottom": "Solid"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+            {
+            "left": 2,
+            "right": 2,
+            "top": 2,
+            "bottom": 2,
+            "leftUnit": "px",
+            "rightUnit": "px",
+            "topUnit": "px",
+            "bottomUnit": "px"
+            }
+        </script>
+        <div id="TcHmiDatagrid_28" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-left="2" data-tchmi-left-unit="%" data-tchmi-top="9.4" data-tchmi-top-unit="%" data-tchmi-src-data="%s%PLC1.GVL_Alarmes.listaAlarmes%/s%" data-tchmi-bottom-unit="%" data-tchmi-right-unit="%" data-tchmi-right="2" data-tchmi-bottom="1.4" data-tchmi-grid-font-size="25" data-tchmi-header-height="0" data-tchmi-zindex="3">
+            <script data-tchmi-target-attribute="data-tchmi-src-column" type="application/json">
+                {
+                "label": "",
+                "control": "TextBlock",
+                "width": 100,
+                "widthUnit": "%",
+                "resize": false,
+                "sortable": false,
+                "minWidth": 100,
+                "minWidthUnit": "%",
+                "editable": false,
+                "horizontalAlignment": "Center",
+                "verticalAlignment": "Center",
+                "headerHorizontalAlignment": "Center",
+                "headerVerticalAlignment": "Center",
+                "ignoreEscapeSequences": false,
+                "autoFocusOut": true,
+                "autoSelectText": false
+                }
+            </script>
+            <script data-tchmi-target-attribute="data-tchmi-src-data" type="application/json">
+                [
+                {
+                "Test1": "Example Data",
+                "Test2": 42,
+                "Test3": true,
+                "Test4": "Editable Data"
+                },
+                {
+                "Test1": "Example Data",
+                "Test2": 3.1415,
+                "Test3": false,
+                "Test4": "Editable Data"
+                }
+                ]
+            </script>
+            <script data-tchmi-target-attribute="data-tchmi-cell-content-padding" type="application/json">
+                {
+                "left": 3,
+                "leftUnit": "px",
+                "right": 3,
+                "rightUnit": "px",
+                "top": 0,
+                "topUnit": "px",
+                "bottom": 0,
+                "bottomUnit": "px"
+                }
+            </script>
+
+        </div>
+        <div id="TcHmiButton_259" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="7" data-tchmi-height-unit="%" data-tchmi-text="X" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="10" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-right-unit="%" data-tchmi-right="0" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="25" data-tchmi-zindex="2">
+
+            <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+                {
+                "topLeft": 0.0,
+                "topRight": 25.0,
+                "bottomLeft": 0.0,
+                "bottomRight": 0.0,
+                "topLeftUnit": "px",
+                "topRightUnit": "px",
+                "bottomLeftUnit": "px",
+                "bottomRightUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+                [
+                {
+                "event": "TcHmiButton_259.onMouseClick",
+                "actions": [
+                {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%cAlarmes::Visibility%/ctrl%",
+                "value": {
+                "objectType": "StaticValue",
+                "valueType": "tchmi:framework#/definitions/Visibility",
+                "value": "Collapsed"
+                },
+                "asyncWait": true
+                }
+                ]
+                }
+                ]
+            </script>
+        </div>
+        <div id="TcHmiTextblock_285165961" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="7" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-text="ALARMES ATIVOS" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100.3" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="45">
+        </div>
+    </div>
+
+    <div id="TcHmiHtmlHost_Stats" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="px">
+
+        <script src="../../Scripts/stats.min.js"></script>
+
+        <script>
+              // stats.js
+              // Create a new Stats object
+              var stats = new Stats();
+              stats.showPanel(0); // Show FPS (frames per second) by default
+
+              // Append the stats panel to the body or a specific element
+              document.body.appendChild(stats.dom);
+
+              function animate() {
+                stats.begin(); // Start measuring performance
+
+                // Your animation or performance-heavy code goes here
+
+                stats.end(); // End measuring performance
+                requestAnimationFrame(animate); // Call animate function for the next frame
+              }
+
+              requestAnimationFrame(animate); // Start the animation loop
+        </script>
+    </div>
+</div>

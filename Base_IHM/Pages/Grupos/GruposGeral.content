@@ -1,0 +1,116 @@
+<div id="Alarmes_8" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1670" data-tchmi-height="1608" data-tchmi-is-enabled="true" data-tchmi-creator-viewport-width="1920" data-tchmi-creator-viewport-height="1080">
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Administracao",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Administracao",
+    "permission": "Allow"
+  },
+  {
+    "accessright": "operate",
+    "group": "Manutencao",
+    "permission": "Allow"
+  },
+  {
+    "accessright": "observe",
+    "group": "Manutencao",
+    "permission": "Allow"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operacao",
+    "permission": "Allow"
+  },
+  {
+    "accessright": "observe",
+    "group": "Operacao",
+    "permission": "Allow"
+  },
+  {
+    "accessright": "operate",
+    "group": "Teknike",
+    "permission": "Allow"
+  },
+  {
+    "accessright": "observe",
+    "group": "Teknike",
+    "permission": "Allow"
+  }
+]
+</script>
+<div id="ControleGrupo_17" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="105" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[1]%/s%">
+</div>
+<div id="ControleGrupo_18" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="583" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[2]%/s%">
+</div>
+<div id="ControleGrupo_19" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="1066" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[3]%/s%">
+</div>
+<div id="ControleGrupo_20" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="105" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="284" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[4]%/s%">
+</div>
+<div id="ControleGrupo_21" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="583" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="284" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[5]%/s%">
+</div>
+<div id="ControleGrupo_22" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="1066" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="284" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[6]%/s%">
+</div>
+<div id="ControleGrupo_23" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="105" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="548" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[7]%/s%">
+</div>
+<div id="ControleGrupo_24" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="583" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="548" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[8]%/s%">
+</div>
+<div id="ControleGrupo_25" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="1066" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="548" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[9]%/s%">
+</div>
+<div id="ControleGrupo_26" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="105" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="812" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[10]%/s%">
+</div>
+<div id="ControleGrupo_27" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="583" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="812" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[11]%/s%">
+</div>
+<div id="ControleGrupo_28" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="1066" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="812" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[12]%/s%">
+</div>
+<div id="ControleGrupo_29" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="105" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="1076" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[13]%/s%">
+</div>
+<div id="ControleGrupo_30" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="583" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="1076" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[14]%/s%">
+</div>
+<div id="ControleGrupo_31" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="1066" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="1076" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[15]%/s%">
+</div>
+<div id="ControleGrupo_32" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="240" data-tchmi-height-unit="px" data-tchmi-left="105" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Grupos/ControleGrupo.usercontrol" data-tchmi-top="1340" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-grupo="%s%PLC1.GVL_Automatico.Grupos[16]%/s%">
+</div>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "Alarmes_8.onAttached",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Center::ScaleMode%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ScaleMode",
+          "value": "ScaleToFitWidth"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "Alarmes_8.onDetached",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%Region_Center::ScaleMode%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ScaleMode",
+          "value": "ScaleToFill"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
