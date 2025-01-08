@@ -461,6 +461,10 @@
     "icon_p": "Imports/Images/emergencia.png"
   },
   {
+    "name": "Esteiras",
+    "content": "Pages/Grupos/Esteiras.content"
+  },
+  {
     "name": "Grupos",
     "content": "Pages/Grupos/GruposGeral.content",
     "icon_a": "Imports/Images/Groups-active.svg",

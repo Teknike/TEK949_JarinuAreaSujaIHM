@@ -770,6 +770,9 @@
       <SubType>Content</SubType>
       <Cache>True</Cache>
     </Content>
+    <Content Include="Pages\Grupos\Esteiras.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\Grupos\GruposConfig.content">
       <SubType>Content</SubType>
       <Cache>True</Cache>

@@ -443,6 +443,13 @@
       "keepAlive": true,
       "loadSync": false,
       "preloadBindings": true
+    },
+    {
+      "url": "Pages/Grupos/Esteiras.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
     }
   ],
   "views": [
