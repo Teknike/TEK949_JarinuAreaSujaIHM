@@ -12,7 +12,7 @@
     <HmiTitle>Jarinu - Intralogística</HmiTitle>
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
-    <HmiCommunicationServerPort>3016</HmiCommunicationServerPort>
+    <HmiCommunicationServerPort>3017</HmiCommunicationServerPort>
     <HmiLogTcHmiServerMessages>false</HmiLogTcHmiServerMessages>
     <HmiLogDesignerModeComMessages>false</HmiLogDesignerModeComMessages>
     <HmiServerVersion>Latest</HmiServerVersion>
@@ -22,8 +22,8 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Base_IHM</Name>
-    <HmiCommunicationRouterPort>10196</HmiCommunicationRouterPort>
-    <HmiCommunicationServerAuthPort>13007</HmiCommunicationServerAuthPort>
+    <HmiCommunicationRouterPort>10197</HmiCommunicationRouterPort>
+    <HmiCommunicationServerAuthPort>13008</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.756.1</HmiInitial>
     <HmiRecent>1.12.762.46</HmiRecent>
     <HmiServerNodeAdvancedView>False</HmiServerNodeAdvancedView>
@@ -814,9 +814,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\Layout\Sala de Cortes SLC2.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Pages\Layout\Secundaria.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Scripts\d3.v7.min.js">
