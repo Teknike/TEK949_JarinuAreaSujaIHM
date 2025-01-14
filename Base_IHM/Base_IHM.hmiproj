@@ -238,10 +238,16 @@
     <Content Include="Images\Diversos\imagem_2024-12-16_171228494-removebg-preview__1_-removebg-preview.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\Icon_Lava botas.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\logotipo-teknike.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\Novo_logo_Teknike.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Diversos\Chuveiro_aspersao.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\pause-circle.svg">
@@ -781,10 +787,10 @@
       <SubType>Content</SubType>
       <Cache>True</Cache>
     </Content>
-    <Content Include="Pages\Layout\Esiseração e pre resvriamento.content">
+    <Content Include="Pages\Layout\Miudos.content">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Pages\Layout\Miudos.content">
+    <Content Include="Pages\Layout\Esviceracao.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\Layout\Sala de cortes SLC1.content">

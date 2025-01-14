@@ -368,18 +368,18 @@
       "preloadBindings": false
     },
     {
-      "url": "Pages/Layout/Esiseração e pre resvriamento.content",
+      "url": "Pages/Layout/Miudos.content",
       "preload": false,
       "keepAlive": false,
       "loadSync": false,
       "preloadBindings": false
     },
     {
-      "url": "Pages/Layout/Miudos.content",
-      "preload": false,
-      "keepAlive": false,
+      "url": "Pages/Layout/Esviceracao.content",
+      "preload": true,
+      "keepAlive": true,
       "loadSync": false,
-      "preloadBindings": false
+      "preloadBindings": true
     },
     {
       "url": "Pages/Layout/Sala de cortes SLC1.content",

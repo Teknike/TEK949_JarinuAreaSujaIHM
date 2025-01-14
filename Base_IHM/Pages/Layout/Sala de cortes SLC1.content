@@ -2362,7 +2362,7 @@ rgba(255, 255, 255, 0.75)
 </div>
 <div id="TcHmi_Controls_Beckhoff_TcHmiImage_360" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="118" data-tchmi-height-unit="px" data-tchmi-left="1105" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/Funil.png" data-tchmi-top="184" data-tchmi-top-unit="px" data-tchmi-width="104" data-tchmi-width-unit="px" data-tchmi-zindex="146">
 </div>
-<div id="TcHmi_Controls_Beckhoff_TcHmiImage_361" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="118" data-tchmi-height-unit="px" data-tchmi-left="1347" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/Funil.png" data-tchmi-top="185" data-tchmi-top-unit="px" data-tchmi-width="104" data-tchmi-width-unit="px" data-tchmi-zindex="146">
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_361" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="118" data-tchmi-height-unit="px" data-tchmi-left="1347" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/Funil.png" data-tchmi-top="182" data-tchmi-top-unit="px" data-tchmi-width="104" data-tchmi-width-unit="px" data-tchmi-zindex="146">
 </div>
 <div id="Esteira_1698" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="10" data-tchmi-cima="2" data-tchmi-esquerda="14" data-tchmi-fonte="30" data-tchmi-height="68" data-tchmi-height-unit="px" data-tchmi-largura="10" data-tchmi-left="1124" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="true" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="183" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-nome="M93" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[93]%/s%" data-tchmi-zindex="7" data-tchmi-mostratexto="true">
 <script data-tchmi-target-attribute="data-tchmi-cortexto" type="application/json">
@@ -2379,5 +2379,101 @@ rgba(255, 255, 255, 0.75)
 <div id="Esteira_MI10S_1703" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="20" data-tchmi-esquerda="0" data-tchmi-fonte="25" data-tchmi-height="498" data-tchmi-height-unit="px" data-tchmi-index="10" data-tchmi-largura="10" data-tchmi-left="1352" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-posicao="SD" data-tchmi-tipoesteira="Vertical" data-tchmi-top="305" data-tchmi-top-unit="px" data-tchmi-width="24" data-tchmi-width-unit="px" data-tchmi-abrepopup="false" data-tchmi-temcomissionamento="true" data-tchmi-gvl="GVL_Motores" data-tchmi-struct="stPartida" data-tchmi-vetor="Motor" data-tchmi-cima="45" data-tchmi-zindex="144" data-tchmi-opacity="0.8" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[90]%/s%" data-tchmi-nome="M90" data-tchmi-angulotext="270">
 </div>
 <div id="Esteira_MI10S_1704" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="20" data-tchmi-esquerda="0" data-tchmi-fonte="25" data-tchmi-height="498" data-tchmi-height-unit="px" data-tchmi-index="10" data-tchmi-largura="10" data-tchmi-left="1419" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-posicao="SD" data-tchmi-tipoesteira="Vertical" data-tchmi-top="300" data-tchmi-top-unit="px" data-tchmi-width="24" data-tchmi-width-unit="px" data-tchmi-abrepopup="false" data-tchmi-temcomissionamento="true" data-tchmi-gvl="GVL_Motores" data-tchmi-struct="stPartida" data-tchmi-vetor="Motor" data-tchmi-cima="45" data-tchmi-zindex="144" data-tchmi-opacity="0.8" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[92]%/s%" data-tchmi-nome="M92" data-tchmi-angulotext="270">
+</div>
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_367" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="130" data-tchmi-height-unit="px" data-tchmi-left="1566" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/Icon_Lava botas.png" data-tchmi-top="803" data-tchmi-top-unit="px" data-tchmi-width="130" data-tchmi-width-unit="px" data-tchmi-zindex="135">
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmi_Controls_Beckhoff_TcHmiImage_367.onMouseClick",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "// lê o nome do Motor",
+          "var index = TcHmi.Symbol.readEx('%ctrl%TcHmi_Controls_Beckhoff_TcHmiImage_367::Zindex%/ctrl%');",
+          "var GVL = 'GVL_Motores';",
+          "var NomeVetor = 'Motor';",
+          "var NomeUC = 'UcPopUpMotores';",
+          "\t",
+          "\t\t",
+          "// faz o binding com a struct do motor\t",
+          "var ItemProperty = 'stPartida';",
+          "var UserControl = TcHmi.Controls.get(NomeUC);",
+          "var Variavel = \"%s%PLC1.\" + GVL + \".\" + NomeVetor +\"[\"+ index +\"]\"+ \"|BindingMode=TwoWay%/s%\";",
+          "//var Variavel = \"%s%PLC1.GVL_Motor.\" + TipoPartida +\"[\"+ motor +\"]\"+ \"|BindingMode=TwoWay%/s%\";",
+          "",
+          "console.log(index);",
+          "try {",
+          "    TcHmi.Binding.createEx2(Variavel, ItemProperty, UserControl);",
+          "} catch(e) {",
+          "    console.log(e);",
+          "    console.log(Variavel);",
+          "    console.log(ItemProperty);",
+          "    console.log(UserControl);",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var index = TcHmi.Symbol.readEx('%ctrl%TcHmi_Controls_Beckhoff_TcHmiImage_367::Zindex%/ctrl%');",
+          "var id = TcHmi.Symbol.readEx('%ctrl%TcHmi_Controls_Beckhoff_TcHmiImage_367::Zindex%/ctrl%') + 1;",
+          "",
+          "",
+          "\tvar NomeUC = 'UcPopUpMotores';",
+          "                ",
+          "    var _id = 'cbMotores';",
+          "\tvar _uc = TcHmi.Controls.get(_id);",
+          "\tvar TamXTela = 1920;",
+          "\tvar TamYTela = 1080;",
+          "",
+          "// referencia a popup",
+          "\tvar UserControl = TcHmi.Controls.get(NomeUC);",
+          "\t _uc_width = UserControl.getWidth();",
+          "\t _uc_height = UserControl.getHeight();",
+          "\t",
+          "// coordenadas do User Control",
+          "\tvar _top = _uc.getTop();",
+          "\tvar _left = _uc.getLeft();",
+          "\tvar _width = _uc.getWidth();",
+          "\tvar _height = _uc.getHeight();",
+          "\t",
+          "// coordenadas da popup",
+          "\tif (_left + _width + _uc_width > TamXTela){",
+          "\t\tvar __left = _left - _uc_width;",
+          "\t} else {",
+          "\t\tvar __left = _left + _width + 10;",
+          "\t}",
+          "",
+          "\tif (_top + _uc_height > TamYTela){",
+          "\t\tvar __top = _top + _height - _uc_height;",
+          "\t} else {",
+          "\t\tvar __top = _top;",
+          "\t}",
+          "",
+          "__top = 150;",
+          "__left = 250;",
+          "",
+          "UserControl.setTop(__top);",
+          "UserControl.setLeft(__left);",
+          "",
+          "$(\"#\" + NomeUC).slideDown('slow');"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_285166557" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="1533" data-tchmi-left-unit="px" data-tchmi-text="M135" data-tchmi-top="853" data-tchmi-top-unit="px" data-tchmi-width="66" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="25">
 </div>
 </div>
