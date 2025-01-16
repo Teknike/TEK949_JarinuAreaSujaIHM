@@ -12,7 +12,7 @@
     <HmiTitle>Jarinu - Intralogística</HmiTitle>
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
-    <HmiCommunicationServerPort>3017</HmiCommunicationServerPort>
+    <HmiCommunicationServerPort>3018</HmiCommunicationServerPort>
     <HmiLogTcHmiServerMessages>false</HmiLogTcHmiServerMessages>
     <HmiLogDesignerModeComMessages>false</HmiLogDesignerModeComMessages>
     <HmiServerVersion>Latest</HmiServerVersion>
@@ -22,7 +22,7 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Base_IHM</Name>
-    <HmiCommunicationRouterPort>10199</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10200</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13008</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.756.1</HmiInitial>
     <HmiRecent>1.12.762.46</HmiRecent>
@@ -241,6 +241,9 @@
     <Content Include="Images\Diversos\Icon_Lava botas.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\Mangueira_icone.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\logotipo-teknike.png">
       <SubType>Content</SubType>
     </Content>
@@ -248,6 +251,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\Chuveiro_aspersao.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Diversos\Icone Pendura.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\pause-circle.svg">
@@ -793,6 +799,9 @@
     <Content Include="Pages\Layout\Esviceracao.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Pages\Layout\Salas especificas.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\Layout\Sala de cortes SLC1.content">
       <SubType>Content</SubType>
     </Content>
@@ -811,9 +820,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\Layout\Layout2.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Pages\Layout\Paletização.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\Layout\Pendura.content">

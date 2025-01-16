@@ -414,20 +414,6 @@
     "icon_p": "Imports/Images/startpage_normal.svg"
   },
   {
-    "name": "Sala de Cortes SLC2",
-    "content": "Pages/Layout/Sala de Cortes SLC2.content",
-    "icon_a": "Imports/Images/magazine-active.svg",
-    "icon_n": "Imports/Images/magazine-normal.svg",
-    "icon_p": "Imports/Images/magazine-pressed.svg"
-  },
-  {
-    "name": "Paletização e Secundária",
-    "content": "Pages/Layout/Paletização.content",
-    "icon_a": "Imports/Images/Paletização.png",
-    "icon_n": "Imports/Images/Paletização.png",
-    "icon_p": "Imports/Images/Paletização.png"
-  },
-  {
     "name": "Layout",
     "content": "Pages/Layout/Layout2.content",
     "icon_a": "Imports/Images/startpage_normal.svg",
@@ -436,7 +422,17 @@
   },
   {
     "name": "Pendura",
-    "content": "Pages/Layout/Pendura.content"
+    "content": "Pages/Layout/Pendura.content",
+    "icon_a": "Images/Diversos/Icone Pendura.png",
+    "icon_n": "Images/Diversos/Icone Pendura.png",
+    "icon_p": "Images/Diversos/Icone Pendura.png"
+  },
+  {
+    "name": "Esviceração",
+    "content": "Pages/Layout/Esviceracao.content",
+    "icon_a": "Imports/Images/automatic_normal.svg",
+    "icon_n": "Imports/Images/automatic_normal.svg",
+    "icon_p": "Imports/Images/automatic_normal.svg"
   },
   {
     "name": "Sala de Cortes SLC1",
@@ -446,12 +442,18 @@
     "icon_p": "Imports/Images/magazine-normal.svg"
   },
   {
-    "name": "Esviceração",
-    "content": "Pages/Layout/Esviceracao.content"
+    "name": "Sala de Cortes SLC2",
+    "content": "Pages/Layout/Sala de Cortes SLC2.content",
+    "icon_a": "Imports/Images/magazine-active.svg",
+    "icon_n": "Imports/Images/magazine-normal.svg",
+    "icon_p": "Imports/Images/magazine-pressed.svg"
   },
   {
     "name": "Miudos",
-    "content": "Pages/Layout/Miudos.content"
+    "content": "Pages/Layout/Miudos.content",
+    "icon_a": "Imports/Images/manual_normal.svg",
+    "icon_n": "Imports/Images/manual_normal.svg",
+    "icon_p": "Imports/Images/manual_normal.svg"
   },
   {
     "name": "Emergências",
