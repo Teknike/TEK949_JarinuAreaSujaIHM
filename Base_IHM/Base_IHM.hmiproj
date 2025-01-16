@@ -22,7 +22,7 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Base_IHM</Name>
-    <HmiCommunicationRouterPort>10200</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10201</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13008</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.756.1</HmiInitial>
     <HmiRecent>1.12.762.46</HmiRecent>
@@ -241,6 +241,9 @@
     <Content Include="Images\Diversos\Icon_Lava botas.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\Icon_Moedor.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\Mangueira_icone.png">
       <SubType>Content</SubType>
     </Content>
@@ -257,6 +260,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\pause-circle.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Diversos\Pia icone.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\play-circle.svg">
@@ -509,6 +515,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Imports\Images\BLK.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\circulo.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Imports\Images\close_active.svg">

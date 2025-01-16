@@ -382,6 +382,13 @@
       "preloadBindings": true
     },
     {
+      "url": "Pages/Layout/Salas especificas.content",
+      "preload": true,
+      "keepAlive": true,
+      "loadSync": false,
+      "preloadBindings": true
+    },
+    {
       "url": "Pages/Layout/Sala de cortes SLC1.content",
       "preload": true,
       "keepAlive": true,
@@ -432,13 +439,6 @@
     },
     {
       "url": "Pages/Layout/Sala de Cortes SLC2.content",
-      "preload": true,
-      "keepAlive": true,
-      "loadSync": false,
-      "preloadBindings": true
-    },
-    {
-      "url": "Pages/Layout/Salas especificas.content",
       "preload": true,
       "keepAlive": true,
       "loadSync": false,

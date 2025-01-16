@@ -449,6 +449,11 @@
     "icon_p": "Imports/Images/magazine-pressed.svg"
   },
   {
+    "name": "Salas Adicionais",
+    "content": "Pages/Layout/Salas especificas.content",
+    "icon_a": ""
+  },
+  {
     "name": "Miudos",
     "content": "Pages/Layout/Miudos.content",
     "icon_a": "Imports/Images/manual_normal.svg",
