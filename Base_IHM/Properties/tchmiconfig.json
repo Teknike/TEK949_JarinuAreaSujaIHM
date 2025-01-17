@@ -266,6 +266,9 @@
     },
     {
       "url": "UserControl/SKUs/ConfigSKU.usercontrol"
+    },
+    {
+      "url": "UserControl/Geral/ucMotoresemPNG.usercontrol"
     }
   ],
   "content": [

@@ -259,6 +259,9 @@
     <Content Include="Images\Diversos\Icone Pendura.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\Evaporadores.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\pause-circle.svg">
       <SubType>Content</SubType>
     </Content>
@@ -1048,6 +1051,13 @@
     <Content Include="UserControl\Geral\ucKPIMotor.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Geral\ucKPIMotor.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControl\Geral\ucMotoresemPNG.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\Geral\ucMotoresemPNG.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\Geral\ucMotoresemPNG.usercontrol</DependentUpon>
     </Content>
     <Content Include="UserControl\Geral\ucSinalMaquina.usercontrol">
       <SubType>Content</SubType>

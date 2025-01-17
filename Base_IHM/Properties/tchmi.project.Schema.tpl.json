@@ -2857,6 +2857,38 @@
       "frameworkUserControlConfig": "UserControl\\Alarmes\\uAlarmeBanner.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/uAlarmeBanner"
+    },
+    "UserControl1_1": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Geral\\UserControl1.usercontrol.json",
+      "id": "tchmi:project#/definitions/UserControl1_1",
+      "type": "object"
+    },
+    "MyType": {
+      "properties": {},
+      "type": "object"
+    },
+    "Copy_of_Stringrg": {
+      "additionalProperties": {},
+      "definitions": {},
+      "properties": {},
+      "type": "object",
+      "title": "rg",
+      "description": "rg",
+      "required": [
+        "oerphtm"
+      ],
+      "id": "tchmi:general#/definitions/String"
+    },
+    "ucMotoresemPNG": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Geral\\ucMotoresemPNG.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ucMotoresemPNG"
     }
   }
 }
