@@ -23,7 +23,7 @@
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Base_IHM</Name>
     <HmiCommunicationRouterPort>10201</HmiCommunicationRouterPort>
-    <HmiCommunicationServerAuthPort>13008</HmiCommunicationServerAuthPort>
+    <HmiCommunicationServerAuthPort>13009</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.756.1</HmiInitial>
     <HmiRecent>1.12.762.46</HmiRecent>
     <HmiServerNodeAdvancedView>False</HmiServerNodeAdvancedView>
@@ -1024,6 +1024,13 @@
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Geral\ucBotaoDeParada.usercontrol</DependentUpon>
     </Content>
+    <Content Include="UserControl\Geral\ucDadosbomba.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\Geral\ucDadosbomba.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\Geral\ucDadosbomba.usercontrol</DependentUpon>
+    </Content>
     <Content Include="UserControl\Geral\ucEmergenciaTela.usercontrol">
       <SubType>Content</SubType>
     </Content>
@@ -1051,13 +1058,6 @@
     <Content Include="UserControl\Geral\ucKPIMotor.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Geral\ucKPIMotor.usercontrol</DependentUpon>
-    </Content>
-    <Content Include="UserControl\Geral\ucMotoresemPNG.usercontrol">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="UserControl\Geral\ucMotoresemPNG.usercontrol.json">
-      <SubType>Content</SubType>
-      <DependentUpon>UserControl\Geral\ucMotoresemPNG.usercontrol</DependentUpon>
     </Content>
     <Content Include="UserControl\Geral\ucSinalMaquina.usercontrol">
       <SubType>Content</SubType>

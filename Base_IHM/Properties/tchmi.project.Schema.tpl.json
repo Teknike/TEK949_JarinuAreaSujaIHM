@@ -2882,13 +2882,13 @@
       ],
       "id": "tchmi:general#/definitions/String"
     },
-    "ucMotoresemPNG": {
+    "ucDadosbomba": {
       "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
       "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
       "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
-      "frameworkUserControlConfig": "UserControl\\Geral\\ucMotoresemPNG.usercontrol.json",
-      "type": "object",
-      "id": "tchmi:project#/definitions/ucMotoresemPNG"
+      "frameworkUserControlConfig": "UserControl\\Geral\\ucDadosbomba.usercontrol.json",
+      "id": "tchmi:project#/definitions/ucDadosbomba",
+      "type": "object"
     }
   }
 }
