@@ -190,6 +190,9 @@
       "url": "UserControl/Geral/ucBotaoDeParada.usercontrol"
     },
     {
+      "url": "UserControl/Geral/ucDadosbomba.usercontrol"
+    },
+    {
       "url": "UserControl/Geral/ucEmergenciaTela.usercontrol"
     },
     {
@@ -266,9 +269,6 @@
     },
     {
       "url": "UserControl/SKUs/ConfigSKU.usercontrol"
-    },
-    {
-      "url": "UserControl/Geral/ucDadosbomba.usercontrol"
     }
   ],
   "content": [

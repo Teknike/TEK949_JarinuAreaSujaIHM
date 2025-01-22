@@ -454,6 +454,10 @@
     "icon_a": ""
   },
   {
+    "name": "Sala CMS",
+    "content": "Pages/Layout/CMS.content"
+  },
+  {
     "name": "Miudos",
     "content": "Pages/Layout/Miudos.content",
     "icon_a": "Imports/Images/manual_normal.svg",
