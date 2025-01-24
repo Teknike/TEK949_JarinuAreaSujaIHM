@@ -2106,7 +2106,7 @@
             }
         </script>
     </div>
-<div id="TcHmiRectangle_52241902" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="706" data-tchmi-height-unit="px" data-tchmi-left="13" data-tchmi-left-unit="px" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="841" data-tchmi-width-unit="px" data-tchmi-zindex="4">
+<div id="TcHmiRectangle_52241902" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="706" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="26" data-tchmi-top-unit="px" data-tchmi-width="841" data-tchmi-width-unit="px" data-tchmi-zindex="4">
 </div>
 <div id="TcHmiRectangle_M23M24_52241911" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="533" data-tchmi-left-unit="px" data-tchmi-top="86" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="363" data-tchmi-width="75" data-tchmi-height="62">
 <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
@@ -5112,7 +5112,7 @@
 ]
 </script>
 </div>
-<div id="TcHmiRectangle_52241924" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="705" data-tchmi-height-unit="px" data-tchmi-left="905" data-tchmi-left-unit="px" data-tchmi-top="26" data-tchmi-top-unit="px" data-tchmi-width="791" data-tchmi-width-unit="px" data-tchmi-zindex="4">
+<div id="TcHmiRectangle_52241924" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="705" data-tchmi-height-unit="px" data-tchmi-left="872" data-tchmi-left-unit="px" data-tchmi-top="26" data-tchmi-top-unit="px" data-tchmi-width="791" data-tchmi-width-unit="px" data-tchmi-zindex="4">
 </div>
 <div id="TcHmiRectangle_52241925" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="285" data-tchmi-height-unit="px" data-tchmi-left="530" data-tchmi-left-unit="px" data-tchmi-top="756" data-tchmi-top-unit="px" data-tchmi-width="1166" data-tchmi-width-unit="px" data-tchmi-zindex="4">
 </div>

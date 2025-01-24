@@ -22,7 +22,7 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Base_IHM</Name>
-    <HmiCommunicationRouterPort>10201</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10204</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13009</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.756.1</HmiInitial>
     <HmiRecent>1.12.762.46</HmiRecent>
@@ -804,6 +804,9 @@
     <Content Include="Pages\Grupos\GruposGeral.content">
       <SubType>Content</SubType>
       <Cache>True</Cache>
+    </Content>
+    <Content Include="Pages\Layout\CMS.content">
+      <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\Layout\Miudos.content">
       <SubType>Content</SubType>

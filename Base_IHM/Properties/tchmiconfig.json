@@ -446,6 +446,13 @@
       "keepAlive": true,
       "loadSync": false,
       "preloadBindings": true
+    },
+    {
+      "url": "Pages/Layout/CMS.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
     }
   ],
   "views": [

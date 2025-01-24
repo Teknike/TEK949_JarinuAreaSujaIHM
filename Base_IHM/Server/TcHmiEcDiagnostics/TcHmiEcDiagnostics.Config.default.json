@@ -3,7 +3,7 @@
         "Device1": {
             "enabled": true,
             "masterNetId": "192.168.100.20.10.1",
-            "targetNetId": "192.168.100.166.1.1"
+            "targetNetId": "127.0.0.1.1.1"
         }
     },
     "updateIntervals": {
