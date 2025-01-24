@@ -371,6 +371,13 @@
       "preloadBindings": false
     },
     {
+      "url": "Pages/Layout/CMS.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
+    },
+    {
       "url": "Pages/Layout/Miudos.content",
       "preload": false,
       "keepAlive": false,
@@ -446,13 +453,6 @@
       "keepAlive": true,
       "loadSync": false,
       "preloadBindings": true
-    },
-    {
-      "url": "Pages/Layout/CMS.content",
-      "preload": false,
-      "keepAlive": false,
-      "loadSync": false,
-      "preloadBindings": false
     }
   ],
   "views": [

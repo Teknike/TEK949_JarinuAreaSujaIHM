@@ -407,13 +407,6 @@
         <script data-tchmi-target-attribute="data-tchmi-navigation-structure" type="application/json">
 [
   {
-    "name": "Layout(Modelo antigo)",
-    "content": "Pages/Layout/Layout Principal_Modelo_antigo.content",
-    "icon_a": "Imports/Images/startpage_normal.svg",
-    "icon_n": "Imports/Images/startpage_normal.svg",
-    "icon_p": "Imports/Images/startpage_normal.svg"
-  },
-  {
     "name": "Layout",
     "content": "Pages/Layout/Layout2.content",
     "icon_a": "Imports/Images/startpage_normal.svg",
@@ -423,16 +416,16 @@
   {
     "name": "Pendura",
     "content": "Pages/Layout/Pendura.content",
-    "icon_a": "Images/Diversos/Icone Pendura.png",
-    "icon_n": "Images/Diversos/Icone Pendura.png",
-    "icon_p": "Images/Diversos/Icone Pendura.png"
+    "icon_a": "Imports/Images/automatic_normal.svg",
+    "icon_n": "Imports/Images/automatic_normal.svg",
+    "icon_p": "Imports/Images/automatic_normal.svg"
   },
   {
     "name": "Esviceração",
     "content": "Pages/Layout/Esviceracao.content",
-    "icon_a": "Imports/Images/automatic_normal.svg",
-    "icon_n": "Imports/Images/automatic_normal.svg",
-    "icon_p": "Imports/Images/automatic_normal.svg"
+    "icon_a": "Imports/Images/upload_normal.svg",
+    "icon_n": "Imports/Images/upload_normal.svg",
+    "icon_p": "Imports/Images/upload_normal.svg"
   },
   {
     "name": "Sala de Cortes SLC1",
@@ -451,7 +444,9 @@
   {
     "name": "Salas Adicionais",
     "content": "Pages/Layout/Salas especificas.content",
-    "icon_a": ""
+    "icon_a": "Imports/Images/palletize_normal.svg",
+    "icon_n": "Imports/Images/palletize_normal.svg",
+    "icon_p": "Imports/Images/palletize_normal.svg"
   },
   {
     "name": "Sala CMS",
