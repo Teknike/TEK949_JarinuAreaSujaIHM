@@ -106,7 +106,7 @@
     "userName": "",
     "encryptedPassword": "",
     "encryptedTcHmiServerPassword": "rRCbuqpxI/MKFXNJEBHC+w==",
-    "tcHmiServerHost": "192.168.100.185",
+    "tcHmiServerHost": "127.0.01",
     "tcHmiServerPort": "1020",
     "uploadTimeout": "60",
     "connectionTimeout": "5",
@@ -118,7 +118,7 @@
     "launchBrowserAfterPublish": true,
     "createVirtualDirectoriesOnTargetSystem": true,
     "tcHmiServerUserName": "__SystemAdministrator",
-    "tcHmiDestinationUrl": "https://192.168.100.185:1020/",
+    "tcHmiDestinationUrl": "https://127.0.0.1:1020/",
     "publishConfiguration": "remote",
     "tcHmiSavePassword": true,
     "tcHmiIgnoreCertificateErrors": true
