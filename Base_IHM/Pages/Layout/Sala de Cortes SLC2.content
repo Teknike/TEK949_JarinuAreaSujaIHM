@@ -103,7 +103,7 @@ rgba(255, 255, 255, 0.75)
 }
 </script>
 </div>
-<div id="Esteira_1283" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="10" data-tchmi-cima="5" data-tchmi-esquerda="40" data-tchmi-fonte="30" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-largura="10" data-tchmi-left="234" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="492" data-tchmi-top-unit="px" data-tchmi-width="596" data-tchmi-width-unit="px" data-tchmi-nome="M116" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[116]%/s%" data-tchmi-zindex="12" data-tchmi-mostratexto="false">
+<div id="Esteira_1283" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="10" data-tchmi-cima="5" data-tchmi-esquerda="40" data-tchmi-fonte="30" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-largura="10" data-tchmi-left="240" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="492" data-tchmi-top-unit="px" data-tchmi-width="590" data-tchmi-width-unit="px" data-tchmi-nome="M116" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[116]%/s%" data-tchmi-zindex="12" data-tchmi-mostratexto="false">
 <script data-tchmi-target-attribute="data-tchmi-cortexto" type="application/json">
 rgba(255, 255, 255, 0.75)
 </script>
@@ -214,7 +214,7 @@ rgba(255, 255, 255, 0.75)
 </script>
 
 </div>
-<div id="Esteira_1297" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="35" data-tchmi-cima="45" data-tchmi-esquerda="4" data-tchmi-fonte="30" data-tchmi-height="108" data-tchmi-height-unit="px" data-tchmi-largura="25" data-tchmi-left="1404" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="760" data-tchmi-top-unit="px" data-tchmi-width="40" data-tchmi-width-unit="px" data-tchmi-nome="MI26" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[126]%/s%" data-tchmi-zindex="16" data-tchmi-mostratexto="false" data-tchmi-angulotext="-90">
+<div id="Esteira_1297" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="35" data-tchmi-cima="45" data-tchmi-esquerda="4" data-tchmi-fonte="30" data-tchmi-height="108" data-tchmi-height-unit="px" data-tchmi-largura="25" data-tchmi-left="1404" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="760" data-tchmi-top-unit="px" data-tchmi-width="40" data-tchmi-width-unit="px" data-tchmi-nome="M126" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[126]%/s%" data-tchmi-zindex="16" data-tchmi-mostratexto="false" data-tchmi-angulotext="-90">
 <script data-tchmi-target-attribute="data-tchmi-cortexto" type="application/json">
 rgba(255, 255, 255, 0.75)
 </script>
@@ -4211,5 +4211,11 @@ rgba(255, 255, 255, 0.75)
   }
 ]
 </script>
+</div>
+<div id="Esteira_165666513" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="10" data-tchmi-cima="0" data-tchmi-esquerda="95" data-tchmi-fonte="30" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-largura="10" data-tchmi-left="366" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="497" data-tchmi-top-unit="px" data-tchmi-width="387" data-tchmi-width-unit="px" data-tchmi-nome="M115" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[115]%/s%" data-tchmi-zindex="16" data-tchmi-mostratexto="false">
+<script data-tchmi-target-attribute="data-tchmi-cortexto" type="application/json">
+rgba(255, 255, 255, 0.75)
+</script>
+
 </div>
 </div>

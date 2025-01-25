@@ -13,7 +13,7 @@
         "PLC1": {
             "ENABLED": true,
             "NETID": "127.0.0.1.1.1",
-            "PORT": 851,
+            "PORT": 10000,
             "READ_ONLY": false,
             "SYMBOLS": {},
             "USE_WHITELISTING": false
