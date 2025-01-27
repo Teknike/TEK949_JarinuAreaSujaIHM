@@ -8,241 +8,241 @@
             ]
         </script>
         <script data-tchmi-target-attribute="data-tchmi-header-items" type="application/json">
-            [
-            {
-            "itemType": "Image",
-            "priority": "2",
-            "itemAlign": "Left",
-            "prefWidth": 300.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 80.0,
-            "prefHeightUnit": "px",
-            "minWidth": 128.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [],
-            "image": "Images/Diversos/Novo_logo_Teknike.png",
-            "altText": "Beckhoff",
-            "targetRegion": "%ctrl%Region_Center%/ctrl%",
-            "targetContent": "Pages/PaginaInicial.content"
-            },
-            {
-            "itemType": "Text",
-            "priority": "2",
-            "itemAlign": "Left",
-            "prefWidth": 300.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 100.0,
-            "prefHeightUnit": "px",
-            "minWidth": 128.0,
-            "minWidthUnit": "px",
-            "classList": [
-            "TituloCabeçalho"
-            ],
-            "accessRights": [],
-            "text": null,
-            "targetContent": "\r\n  \"itemType\": \"Text\",\r\n  \"priority\": \"2\",\r\n  \"itemAlign\": \"Left\",\r\n  \"prefWidth\": 300.0,\r\n  \"prefWidthUnit\": \"px\",\r\n  \"prefHeight\": 100.0,\r\n  \"prefHeightUnit\": \"px\",\r\n  \"minWidth\": 128.0,\r\n  \"minWidthUnit\": \"px\",\r\n  \"classList\": [],\r\n  \"accessRights\": [],\r\n  \"text\": \"Intralogística Sidrolândia\",\r\n  \"targetContent\": \"\"\r\n}"
-            },
-            {
-            "itemType": "StateImage",
-            "priority": "3",
-            "itemAlign": "Right",
-            "prefWidth": 180.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 48.0,
-            "prefHeightUnit": "px",
-            "minWidth": 180.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [],
-            "stateVar": "%s%PLC1.GVL_Alarmes.xAlarmeAtivo%/s%",
-            "stateList": [
-            {
-            "state": true,
-            "stateIcon": "Imports/Images/warning_rot_pressed.svg"
-            },
-            {
-            "state": false,
-            "stateIcon": "Imports/Images/thumbs-up.svg"
-            }
-            ],
-            "iconWidth": 48.0,
-            "iconWidthUnit": "px",
-            "text": "%f%%s%PLC1.GVL_Alarmes.iAlarmesAtivos%/s% + \" ALARMES ATIVOS\"%/f%",
-            "textPosition": "Left"
-            },
-            {
-            "itemType": "StateImage",
-            "priority": "5",
-            "itemAlign": "Right",
-            "prefWidth": 160.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 48.0,
-            "prefHeightUnit": "px",
-            "minWidth": 150.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [],
-            "stateVar": "%s%PLC1.GVL_Seguranca.xEmergenciaGeral%/s%",
-            "stateList": [
-            {
-            "state": false,
-            "stateIcon": "Imports/Images/emergencia.png"
-            },
-            {
-            "state": true,
-            "stateIcon": "Imports/Images/EmergenciaOK.png"
-            }
-            ],
-            "iconWidth": 48.0,
-            "iconWidthUnit": "px",
-            "text": "Emergencia Geral",
-            "textPosition": "Right"
-            },
-            {
-            "itemType": "StateImage",
-            "priority": "5",
-            "itemAlign": "Right",
-            "prefWidth": 159.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 48.0,
-            "prefHeightUnit": "px",
-            "minWidth": 120.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [],
-            "stateVar": "%s%PLC1.GVL_Comando.xFaltaDefaseOK%/s%",
-            "stateList": [
-            {
-            "state": true,
-            "stateIcon": "Imports/Images/Falta_de_FaseOK.png"
-            },
-            {
-            "state": false,
-            "stateIcon": "Imports/Images/Falta_de_Fase.png"
-            }
-            ],
-            "iconWidth": 48.0,
-            "iconWidthUnit": "px",
-            "text": "Falta de fase",
-            "textPosition": "Right"
-            },
-            {
-            "itemType": "AdsState",
-            "priority": "3",
-            "itemAlign": "Right",
-            "prefWidth": 48.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 48.0,
-            "prefHeightUnit": "px",
-            "minWidth": 48.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [],
-            "adsRuntime": "TcSysService",
-            "iconWidth": 48.0,
-            "iconWidthUnit": "px",
-            "text": "",
-            "textPosition": "Left",
-            "serverInterval": 1000.0,
-            "serverDomain": "ADS",
-            "stateImages": {
-            "Fallback": "Images/TwinCAT/twincat-fallback.svg",
-            "Run": "Images/TwinCAT/twincat-run.svg",
-            "Stop": "Images/TwinCAT/twincat-stop.svg",
-            "Config": "Images/TwinCAT/twincat-config.svg",
-            "Exception": "Images/TwinCAT/twincat-exeption.svg"
-            }
-            },
-            {
-            "itemType": "AdsState",
-            "priority": "3",
-            "itemAlign": "Right",
-            "prefWidth": 48.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 48.0,
-            "prefHeightUnit": "px",
-            "minWidth": 48.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [],
-            "adsRuntime": "PLC1",
-            "iconWidth": 48.0,
-            "iconWidthUnit": "px",
-            "text": "",
-            "textPosition": "Left",
-            "serverInterval": 1000.0,
-            "serverDomain": "ADS",
-            "stateImages": {
-            "Fallback": "Images/PLC/plc-fallback.svg",
-            "Run": "Images/PLC/plc-run.svg",
-            "Stop": "Images/PLC/plc-stop.svg",
-            "Config": "Images/PLC/plc-config.svg",
-            "Exception": "Images/PLC/plc-exeption.svg"
-            }
-            },
-            {
-            "itemType": "UserManagement",
-            "priority": "2",
-            "itemAlign": "Right",
-            "prefWidth": 288.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 48.0,
-            "prefHeightUnit": "px",
-            "minWidth": 176.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [
-            {
-            "accessright": "operate",
-            "group": "Operacao",
-            "permission": "Allow"
-            },
-            {
-            "accessright": "operate",
-            "group": "Manutencao",
-            "permission": "Allow"
-            },
-            {
-            "accessright": "observe",
-            "group": "Operacao",
-            "permission": "Allow"
-            },
-            {
-            "accessright": "observe",
-            "group": "Manutencao",
-            "permission": "Allow"
-            },
-            {
-            "accessright": "operate",
-            "group": "Adminsitracao",
-            "permission": "Allow"
-            },
-            {
-            "accessright": "observe",
-            "group": "Adminsitracao",
-            "permission": "Allow"
-            }
-            ],
-            "allowLogout": true,
-            "allowSwitchUser": true
-            },
-            {
-            "itemType": "Time",
-            "priority": "2",
-            "itemAlign": "Right",
-            "prefWidth": 128.0,
-            "prefWidthUnit": "px",
-            "prefHeight": 48.0,
-            "prefHeightUnit": "px",
-            "minWidth": 96.0,
-            "minWidthUnit": "px",
-            "classList": [],
-            "accessRights": [],
-            "timeDisplayLayout": "TimeDateMultiLine"
-            }
-            ]
-        </script>
+[
+  {
+    "itemType": "Image",
+    "priority": "2",
+    "itemAlign": "Left",
+    "prefWidth": 300.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 80.0,
+    "prefHeightUnit": "px",
+    "minWidth": 128.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "image": "Images/Diversos/Novo_logo_Teknike.png",
+    "altText": "Beckhoff",
+    "targetRegion": "%ctrl%Region_Center%/ctrl%",
+    "targetContent": "Pages/PaginaInicial.content"
+  },
+  {
+    "itemType": "Text",
+    "priority": "2",
+    "itemAlign": "Left",
+    "prefWidth": 300.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 100.0,
+    "prefHeightUnit": "px",
+    "minWidth": 128.0,
+    "minWidthUnit": "px",
+    "classList": [
+      "TituloCabeçalho"
+    ],
+    "accessRights": [],
+    "text": null,
+    "targetContent": "\r\n  \"itemType\": \"Text\",\r\n  \"priority\": \"2\",\r\n  \"itemAlign\": \"Left\",\r\n  \"prefWidth\": 300.0,\r\n  \"prefWidthUnit\": \"px\",\r\n  \"prefHeight\": 100.0,\r\n  \"prefHeightUnit\": \"px\",\r\n  \"minWidth\": 128.0,\r\n  \"minWidthUnit\": \"px\",\r\n  \"classList\": [],\r\n  \"accessRights\": [],\r\n  \"text\": \"Intralogística Sidrolândia\",\r\n  \"targetContent\": \"\"\r\n}"
+  },
+  {
+    "itemType": "StateImage",
+    "priority": "3",
+    "itemAlign": "Right",
+    "prefWidth": 180.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 180.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "stateVar": "%s%PLC1.GVL_Alarmes.xAlarmeAtivo%/s%",
+    "stateList": [
+      {
+        "state": true,
+        "stateIcon": "Imports/Images/warning_rot_pressed.svg"
+      },
+      {
+        "state": false,
+        "stateIcon": "Imports/Images/thumbs-up.svg"
+      }
+    ],
+    "iconWidth": 48.0,
+    "iconWidthUnit": "px",
+    "text": "%f%%s%PLC1.GVL_Alarmes.iAlarmesAtivos%/s% + \" ALARMES ATIVOS\"%/f%",
+    "textPosition": "Left"
+  },
+  {
+    "itemType": "StateImage",
+    "priority": "5",
+    "itemAlign": "Right",
+    "prefWidth": 160.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 150.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "stateVar": "%s%PLC1.GVL_Seguranca.xEmergenciaGeral%/s%",
+    "stateList": [
+      {
+        "state": false,
+        "stateIcon": "Imports/Images/emergencia.png"
+      },
+      {
+        "state": true,
+        "stateIcon": "Imports/Images/EmergenciaOK.png"
+      }
+    ],
+    "iconWidth": 48.0,
+    "iconWidthUnit": "px",
+    "text": "Emergencia Geral",
+    "textPosition": "Right"
+  },
+  {
+    "itemType": "StateImage",
+    "priority": "5",
+    "itemAlign": "Right",
+    "prefWidth": 159.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 120.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "stateVar": "%f%(%s%PLC1.GVL_Comando.xFaltaDefasePlaca01OK%/s%&&%s%PLC1.GVL_Comando.xFaltaDefasePlaca05OK%/s%)%/f%",
+    "stateList": [
+      {
+        "state": true,
+        "stateIcon": "Imports/Images/Falta_de_FaseOK.png"
+      },
+      {
+        "state": false,
+        "stateIcon": "Imports/Images/Falta_de_Fase.png"
+      }
+    ],
+    "iconWidth": 48.0,
+    "iconWidthUnit": "px",
+    "text": "Falta de fase",
+    "textPosition": "Right"
+  },
+  {
+    "itemType": "AdsState",
+    "priority": "3",
+    "itemAlign": "Right",
+    "prefWidth": 48.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 48.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "adsRuntime": "TcSysService",
+    "iconWidth": 48.0,
+    "iconWidthUnit": "px",
+    "text": "",
+    "textPosition": "Left",
+    "serverInterval": 1000.0,
+    "serverDomain": "ADS",
+    "stateImages": {
+      "Fallback": "Images/TwinCAT/twincat-fallback.svg",
+      "Run": "Images/TwinCAT/twincat-run.svg",
+      "Stop": "Images/TwinCAT/twincat-stop.svg",
+      "Config": "Images/TwinCAT/twincat-config.svg",
+      "Exception": "Images/TwinCAT/twincat-exeption.svg"
+    }
+  },
+  {
+    "itemType": "AdsState",
+    "priority": "3",
+    "itemAlign": "Right",
+    "prefWidth": 48.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 48.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "adsRuntime": "PLC1",
+    "iconWidth": 48.0,
+    "iconWidthUnit": "px",
+    "text": "",
+    "textPosition": "Left",
+    "serverInterval": 1000.0,
+    "serverDomain": "ADS",
+    "stateImages": {
+      "Fallback": "Images/PLC/plc-fallback.svg",
+      "Run": "Images/PLC/plc-run.svg",
+      "Stop": "Images/PLC/plc-stop.svg",
+      "Config": "Images/PLC/plc-config.svg",
+      "Exception": "Images/PLC/plc-exeption.svg"
+    }
+  },
+  {
+    "itemType": "UserManagement",
+    "priority": "2",
+    "itemAlign": "Right",
+    "prefWidth": 288.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 176.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [
+      {
+        "accessright": "operate",
+        "group": "Operacao",
+        "permission": "Allow"
+      },
+      {
+        "accessright": "operate",
+        "group": "Manutencao",
+        "permission": "Allow"
+      },
+      {
+        "accessright": "observe",
+        "group": "Operacao",
+        "permission": "Allow"
+      },
+      {
+        "accessright": "observe",
+        "group": "Manutencao",
+        "permission": "Allow"
+      },
+      {
+        "accessright": "operate",
+        "group": "Adminsitracao",
+        "permission": "Allow"
+      },
+      {
+        "accessright": "observe",
+        "group": "Adminsitracao",
+        "permission": "Allow"
+      }
+    ],
+    "allowLogout": true,
+    "allowSwitchUser": true
+  },
+  {
+    "itemType": "Time",
+    "priority": "2",
+    "itemAlign": "Right",
+    "prefWidth": 128.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 96.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "timeDisplayLayout": "TimeDateMultiLine"
+  }
+]
+</script>
 
 
 
