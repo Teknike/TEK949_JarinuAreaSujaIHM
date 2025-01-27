@@ -1915,7 +1915,7 @@ rgba(255, 255, 255, 0.75)
   "bottomRightUnit": "px"
 }
 </script>
-<div id="UserControl1_78" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="104" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucToggleBotão.usercontrol" data-tchmi-top="58" data-tchmi-top-unit="px" data-tchmi-width="312" data-tchmi-width-unit="px" data-tchmi-textoligado="Liga Chiller's Miudos" data-tchmi-textodesligado="Desliga Chiller Miudos" data-tchmi-ifonte="30" data-tchmi-variavel="%s%PLC1.GVL_Automatico.Grupos[8]::En::xLiga%/s%" data-tchmi-zindex="9">
+<div id="UserControl1_78" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="104" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucToggleBotão.usercontrol" data-tchmi-top="58" data-tchmi-top-unit="px" data-tchmi-width="312" data-tchmi-width-unit="px" data-tchmi-textoligado="Liga Chiller's Miudos" data-tchmi-textodesligado="Desliga Chiller Miudos" data-tchmi-ifonte="30" data-tchmi-variavel="%s%PLC1.GVL_Automatico.Grupos[7]::En::xLiga%/s%" data-tchmi-zindex="9">
 </div>
 <div id="TcHmiContainer_345" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="54" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="-2" data-tchmi-top-unit="px" data-tchmi-width="365" data-tchmi-width-unit="px" data-tchmi-zindex="3">
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">

@@ -1,4 +1,4 @@
-<div id="Partidas_16" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="-4" data-tchmi-width="1720" data-tchmi-height="1080" data-tchmi-zindex="11" data-tchmi-creator-viewport-width="1920" data-tchmi-creator-viewport-height="1080">
+<div id="Partidas_16" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="-15" data-tchmi-left="-4" data-tchmi-width="1720" data-tchmi-height="1080" data-tchmi-zindex="11" data-tchmi-creator-viewport-width="1920" data-tchmi-creator-viewport-height="1080">
 <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiTextblock_285166468" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="4.1" data-tchmi-height-unit="%" data-tchmi-left="1.6" data-tchmi-left-unit="%" data-tchmi-text="Ligado em Automático" data-tchmi-top="877" data-tchmi-top-unit="%" data-tchmi-width="25.8" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-text-font-size-unit="%" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="200" data-tchmi-zindex="12" data-tchmi-background-image-width-unit="px" data-tchmi-background-image-height-unit="px" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px">
 </div>
 <div id="cKPIs_John_5" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="522" data-tchmi-height-unit="px" data-tchmi-left="1557" data-tchmi-left-unit="px" data-tchmi-top="74" data-tchmi-top-unit="px" data-tchmi-width="148" data-tchmi-width-unit="px" data-tchmi-zindex="345" data-tchmi-creator-visibility="Visible" data-tchmi-visibility="Collapsed">
@@ -1023,13 +1023,13 @@ rgba(255, 255, 255, 0.75)
 </script>
 
 </div>
-<div id="Esteira_1614" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="35" data-tchmi-cima="45" data-tchmi-esquerda="10" data-tchmi-fonte="30" data-tchmi-height="399" data-tchmi-height-unit="px" data-tchmi-largura="25" data-tchmi-left="992" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="457" data-tchmi-top-unit="px" data-tchmi-width="55" data-tchmi-width-unit="px" data-tchmi-nome="M98" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[98]%/s%" data-tchmi-zindex="12" data-tchmi-mostratexto="false" data-tchmi-angulotext="-90">
+<div id="Esteira_1614" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="35" data-tchmi-cima="45" data-tchmi-esquerda="10" data-tchmi-fonte="30" data-tchmi-height="344" data-tchmi-height-unit="px" data-tchmi-largura="25" data-tchmi-left="992" data-tchmi-left-unit="px" data-tchmi-operavel="true" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Horizontal" data-tchmi-top="457" data-tchmi-top-unit="px" data-tchmi-width="55" data-tchmi-width-unit="px" data-tchmi-nome="M98" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[98]%/s%" data-tchmi-zindex="12" data-tchmi-mostratexto="false" data-tchmi-angulotext="-90">
 <script data-tchmi-target-attribute="data-tchmi-cortexto" type="application/json">
 rgba(255, 255, 255, 0.75)
 </script>
 
 </div>
-<div id="Esteira_1615" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="35" data-tchmi-cima="5" data-tchmi-esquerda="10" data-tchmi-fonte="30" data-tchmi-height="55" data-tchmi-height-unit="px" data-tchmi-largura="25" data-tchmi-left="1046" data-tchmi-left-unit="px" data-tchmi-operavel="false" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Vertical" data-tchmi-top="801" data-tchmi-top-unit="px" data-tchmi-width="426" data-tchmi-width-unit="px" data-tchmi-nome="M98" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[96]%/s%" data-tchmi-zindex="150" data-tchmi-mostratexto="false" data-tchmi-angulotext="0">
+<div id="Esteira_1615" data-tchmi-type="TcHmi.Controls.FrameworkEsteira.Esteira" data-tchmi-altura="35" data-tchmi-cima="5" data-tchmi-esquerda="10" data-tchmi-fonte="30" data-tchmi-height="55" data-tchmi-height-unit="px" data-tchmi-largura="25" data-tchmi-left="991" data-tchmi-left-unit="px" data-tchmi-operavel="false" data-tchmi-popup="Popup_Esteira_1" data-tchmi-semborda="false" data-tchmi-tipoesteira="Vertical" data-tchmi-top="801" data-tchmi-top-unit="px" data-tchmi-width="481" data-tchmi-width-unit="px" data-tchmi-nome="M98" data-tchmi-esteira="%s%PLC1.GVL_Motores.Motor[96]%/s%" data-tchmi-zindex="150" data-tchmi-mostratexto="false" data-tchmi-angulotext="0">
 <script data-tchmi-target-attribute="data-tchmi-cortexto" type="application/json">
 rgba(255, 255, 255, 0.75)
 </script>
@@ -2140,7 +2140,7 @@ rgba(255, 255, 255, 0.75)
   "color": "rgba(0, 0, 0, 1)"
 }
 </script>
-<div id="UserControl1_74" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucToggleBotão.usercontrol" data-tchmi-top="62" data-tchmi-top-unit="px" data-tchmi-width="316" data-tchmi-width-unit="px" data-tchmi-textoligado="Liga Sala de Cortes SLC1" data-tchmi-textodesligado="Desl. Sala ce Cortes SLC1" data-tchmi-ifonte="30" data-tchmi-variavel="%s%PLC1.GVL_Automatico.Grupos[2]::En::xLiga%/s%" data-tchmi-zindex="3">
+<div id="UserControl1_74" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucToggleBotão.usercontrol" data-tchmi-top="62" data-tchmi-top-unit="px" data-tchmi-width="316" data-tchmi-width-unit="px" data-tchmi-textoligado="Liga Sala de Cortes SLC1" data-tchmi-textodesligado="Desl. Sala ce Cortes SLC1" data-tchmi-ifonte="30" data-tchmi-variavel="%s%PLC1.GVL_Automatico.Grupos[6]::En::xLiga%/s%" data-tchmi-zindex="3">
 </div>
 
 <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
@@ -2348,17 +2348,17 @@ rgba(255, 255, 255, 0.75)
 ]
 </script>
 </div>
-<div id="TcHmiTextblock_285166638" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1497" data-tchmi-left-unit="px" data-tchmi-text="M156" data-tchmi-top="697" data-tchmi-top-unit="px" data-tchmi-width="72" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
+<div id="TcHmiTextblock_285166638" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1503" data-tchmi-left-unit="px" data-tchmi-text="M156" data-tchmi-top="631" data-tchmi-top-unit="px" data-tchmi-width="72" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
 </div>
-<div id="TcHmiTextblock_285166639" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1497" data-tchmi-left-unit="px" data-tchmi-text="M135" data-tchmi-top="559" data-tchmi-top-unit="px" data-tchmi-width="72" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
+<div id="TcHmiTextblock_285166639" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1503" data-tchmi-left-unit="px" data-tchmi-text="M135" data-tchmi-top="517" data-tchmi-top-unit="px" data-tchmi-width="72" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
 </div>
-<div id="FmrMotor_71" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Evaporador" data-tchmi-escondetexto="true" data-tchmi-height="88" data-tchmi-height-unit="px" data-tchmi-left="1585" data-tchmi-left-unit="px" data-tchmi-top="534" data-tchmi-top-unit="px" data-tchmi-width="99" data-tchmi-width-unit="px" data-tchmi-index="135" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
+<div id="FmrMotor_71" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Evaporador" data-tchmi-escondetexto="true" data-tchmi-height="88" data-tchmi-height-unit="px" data-tchmi-left="1578" data-tchmi-left-unit="px" data-tchmi-top="492" data-tchmi-top-unit="px" data-tchmi-width="99" data-tchmi-width-unit="px" data-tchmi-index="135" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
 </div>
-<div id="FmrMotor_72" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Evaporador" data-tchmi-escondetexto="true" data-tchmi-height="88" data-tchmi-height-unit="px" data-tchmi-left="1584" data-tchmi-left-unit="px" data-tchmi-top="674" data-tchmi-top-unit="px" data-tchmi-width="99" data-tchmi-width-unit="px" data-tchmi-index="156" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
+<div id="FmrMotor_72" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Evaporador" data-tchmi-escondetexto="true" data-tchmi-height="88" data-tchmi-height-unit="px" data-tchmi-left="1578" data-tchmi-left-unit="px" data-tchmi-top="608" data-tchmi-top-unit="px" data-tchmi-width="99" data-tchmi-width-unit="px" data-tchmi-index="156" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
 </div>
-<div id="Udadosbomba_6" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-besconderinfo="false" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="1493" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucDadosbomba.usercontrol" data-tchmi-top="832" data-tchmi-top-unit="px" data-tchmi-width="217" data-tchmi-width-unit="px" data-tchmi-ifonte="20" data-tchmi-snomemotor="M157-Limpa botas">
+<div id="Udadosbomba_6" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-besconderinfo="false" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="1478" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucDadosbomba.usercontrol" data-tchmi-top="832" data-tchmi-top-unit="px" data-tchmi-width="230" data-tchmi-width-unit="px" data-tchmi-ifonte="20" data-tchmi-snomemotor="M157-Limpa botas">
 </div>
-<div id="FmrMotor_92" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Motor" data-tchmi-escondetexto="true" data-tchmi-height="64" data-tchmi-height-unit="px" data-tchmi-left="1505" data-tchmi-left-unit="px" data-tchmi-top="859" data-tchmi-top-unit="px" data-tchmi-width="117" data-tchmi-width-unit="px" data-tchmi-index="157" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida">
+<div id="FmrMotor_92" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Motor" data-tchmi-escondetexto="true" data-tchmi-height="64" data-tchmi-height-unit="px" data-tchmi-left="1502" data-tchmi-left-unit="px" data-tchmi-top="859" data-tchmi-top-unit="px" data-tchmi-width="117" data-tchmi-width-unit="px" data-tchmi-index="157" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida">
 </div>
 <div id="TcHmiContainer_337" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="54" data-tchmi-height-unit="px" data-tchmi-left="181" data-tchmi-left-unit="px" data-tchmi-top="217" data-tchmi-top-unit="px" data-tchmi-width="365" data-tchmi-width-unit="px">
 
@@ -2449,11 +2449,11 @@ rgba(255, 255, 255, 0.75)
 ]
 </script>
 </div>
-<div id="TcHmi_Controls_Beckhoff_TcHmiImage_496" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="142" data-tchmi-height-unit="px" data-tchmi-left="1545" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/imagem_2025-01-20_100936087-removebg-preview.png" data-tchmi-top="400" data-tchmi-top-unit="px" data-tchmi-width="165" data-tchmi-width-unit="px">
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_496" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="142" data-tchmi-height-unit="px" data-tchmi-left="1545" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/imagem_2025-01-20_100936087-removebg-preview.png" data-tchmi-top="357" data-tchmi-top-unit="px" data-tchmi-width="165" data-tchmi-width-unit="px">
 </div>
-<div id="TcHmiTextblock_285166749" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1497" data-tchmi-left-unit="px" data-tchmi-text="ALM12" data-tchmi-top="445" data-tchmi-top-unit="px" data-tchmi-width="85" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
+<div id="TcHmiTextblock_285166749" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1497" data-tchmi-left-unit="px" data-tchmi-text="ALM12" data-tchmi-top="402" data-tchmi-top-unit="px" data-tchmi-width="85" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
 </div>
-<div id="TcHmiTextblock_285166750" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="23" data-tchmi-height-unit="px" data-tchmi-left="1493" data-tchmi-left-unit="px" data-tchmi-text="Iluminação esviceração" data-tchmi-top="393" data-tchmi-top-unit="px" data-tchmi-width="194" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="348">
+<div id="TcHmiTextblock_285166750" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="23" data-tchmi-height-unit="px" data-tchmi-left="1494" data-tchmi-left-unit="px" data-tchmi-text="Iluminação esviceração" data-tchmi-top="350" data-tchmi-top-unit="px" data-tchmi-width="194" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="348">
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
   "color": "rgba(255, 255, 255, 1)"
@@ -2473,11 +2473,11 @@ rgba(255, 255, 255, 0.75)
 }
 </script>
 </div>
-<div id="TcHmi_Controls_Beckhoff_TcHmiImage_497" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="142" data-tchmi-height-unit="px" data-tchmi-left="1545" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/imagem_2025-01-20_100936087-removebg-preview.png" data-tchmi-top="237" data-tchmi-top-unit="px" data-tchmi-width="165" data-tchmi-width-unit="px">
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_497" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="142" data-tchmi-height-unit="px" data-tchmi-left="1545" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/imagem_2025-01-20_100936087-removebg-preview.png" data-tchmi-top="195" data-tchmi-top-unit="px" data-tchmi-width="165" data-tchmi-width-unit="px">
 </div>
-<div id="TcHmiTextblock_285166751" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1497" data-tchmi-left-unit="px" data-tchmi-text="ALM41" data-tchmi-top="282" data-tchmi-top-unit="px" data-tchmi-width="85" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
+<div id="TcHmiTextblock_285166751" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1497" data-tchmi-left-unit="px" data-tchmi-text="ALM41" data-tchmi-top="239" data-tchmi-top-unit="px" data-tchmi-width="85" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
 </div>
-<div id="TcHmiTextblock_285166752" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="23" data-tchmi-height-unit="px" data-tchmi-left="1493" data-tchmi-left-unit="px" data-tchmi-text="Alimentação Lavanderia" data-tchmi-top="230" data-tchmi-top-unit="px" data-tchmi-width="194" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="348">
+<div id="TcHmiTextblock_285166752" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="23" data-tchmi-height-unit="px" data-tchmi-left="1494" data-tchmi-left-unit="px" data-tchmi-text="Alimentação Lavanderia" data-tchmi-top="188" data-tchmi-top-unit="px" data-tchmi-width="194" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="348">
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
   "color": "rgba(255, 255, 255, 1)"
@@ -2496,5 +2496,33 @@ rgba(255, 255, 255, 0.75)
   "bottomRightUnit": "px"
 }
 </script>
+</div>
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_525" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="142" data-tchmi-height-unit="px" data-tchmi-left="1545" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/imagem_2025-01-20_100936087-removebg-preview.png" data-tchmi-top="34" data-tchmi-top-unit="px" data-tchmi-width="165" data-tchmi-width-unit="px">
+</div>
+<div id="TcHmiTextblock_285166811" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="1497" data-tchmi-left-unit="px" data-tchmi-text="ALM41" data-tchmi-top="79" data-tchmi-top-unit="px" data-tchmi-width="85" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
+</div>
+<div id="TcHmiTextblock_285166812" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="23" data-tchmi-height-unit="px" data-tchmi-left="1472" data-tchmi-left-unit="px" data-tchmi-text="Alimentação esviceração AUT." data-tchmi-top="26" data-tchmi-top-unit="px" data-tchmi-width="239" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="348">
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 5.0,
+  "topRight": 5.0,
+  "bottomLeft": 5.0,
+  "bottomRight": 5.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+<div id="Udadosbomba_12" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-besconderinfo="true" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="1478" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucDadosbomba.usercontrol" data-tchmi-top="714" data-tchmi-top-unit="px" data-tchmi-width="230" data-tchmi-width-unit="px" data-tchmi-ifonte="20" data-tchmi-snomemotor="M57-Motor Esviceração AUT." data-tchmi-ifonte_textoparametros="15" data-tchmi-stmotor="%s%PLC1.GVL_Motores.Motor[57]%/s%">
+</div>
+<div id="FmrMotor_101" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Motor" data-tchmi-escondetexto="true" data-tchmi-height="64" data-tchmi-height-unit="px" data-tchmi-left="1502" data-tchmi-left-unit="px" data-tchmi-top="743" data-tchmi-top-unit="px" data-tchmi-width="117" data-tchmi-width-unit="px" data-tchmi-index="57" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida">
 </div>
 </div>

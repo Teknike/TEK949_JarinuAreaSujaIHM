@@ -14499,8 +14499,7 @@
     "DISCOVERY": 2,
     "ENABLE_SERVER_UPDATE": true,
     "ENDPOINTS": [
-        "http://192.168.1.122:13009",
-        "http://192.168.1.122:3018",
+        "http://127.0.0.1:13009",
         "http://127.0.0.1:3018"
     ],
     "ETAGENABLED": true,
@@ -14926,6 +14925,11 @@
     "SESSIONSTORAGE": {
         "08a28c04cddebb1578882e7529f262f476b2bc9c6b3b25cff0948541ad730477adbbfffcaeac5fa63478127a1a30e76db7c61312c74cd37a821d14bda546896a": {
             "created": "2023-09-18T18:43:43.2891173Z",
+            "domain": "TcHmiUserManagement",
+            "userName": "Teknike"
+        },
+        "0cbc210e8bd90c255e76b0332f8f453a1384a92704ce8e790048ae8080e2684f9102ff2ae6493b4fba323ef6e83f41863a94ab4340a9ae24ec783ec639656a95": {
+            "created": "2025-01-27T17:32:23.7416389Z",
             "domain": "TcHmiUserManagement",
             "userName": "Teknike"
         },

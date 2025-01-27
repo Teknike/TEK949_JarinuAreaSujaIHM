@@ -407,13 +407,6 @@
         <script data-tchmi-target-attribute="data-tchmi-navigation-structure" type="application/json">
 [
   {
-    "name": "Layout",
-    "content": "Pages/Layout/Layout2.content",
-    "icon_a": "Imports/Images/startpage_normal.svg",
-    "icon_n": "Imports/Images/startpage_normal.svg",
-    "icon_p": "Imports/Images/startpage_normal.svg"
-  },
-  {
     "name": "Pendura",
     "content": "Pages/Layout/Pendura.content",
     "icon_a": "Imports/Images/automatic_normal.svg",
@@ -471,13 +464,6 @@
     "content": "Pages/Grupos/Esteiras.content"
   },
   {
-    "name": "Grupos",
-    "content": "Pages/Grupos/GruposGeral.content",
-    "icon_a": "Imports/Images/Groups-active.svg",
-    "icon_n": "Imports/Images/Groups-normal.svg",
-    "icon_p": "Imports/Images/Groups-pressed.svg"
-  },
-  {
     "name": "Configuração Grupos",
     "content": "Pages/Grupos/GruposConfig.content",
     "icon_a": "Imports/Images/GrupoEgrenagen-active.svg",
@@ -490,6 +476,20 @@
         "permission": "Deny"
       }
     ]
+  },
+  {
+    "name": "Grupos",
+    "content": "Pages/Grupos/GruposGeral.content",
+    "icon_a": "Imports/Images/Groups-active.svg",
+    "icon_n": "Imports/Images/Groups-normal.svg",
+    "icon_p": "Imports/Images/Groups-pressed.svg"
+  },
+  {
+    "name": "Layout",
+    "content": "Pages/Layout/Layout2.content",
+    "icon_a": "Imports/Images/startpage_normal.svg",
+    "icon_n": "Imports/Images/startpage_normal.svg",
+    "icon_p": "Imports/Images/startpage_normal.svg"
   },
   {
     "name": "Eventos",
@@ -865,31 +865,5 @@
         </div>
         <div id="TcHmiTextblock_285165961" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="7" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-text="ALARMES ATIVOS" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100.3" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="45">
         </div>
-    </div>
-
-    <div id="TcHmiHtmlHost_Stats" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="px">
-
-        <script src="../../Scripts/stats.min.js"></script>
-
-        <script>
-              // stats.js
-              // Create a new Stats object
-              var stats = new Stats();
-              stats.showPanel(0); // Show FPS (frames per second) by default
-
-              // Append the stats panel to the body or a specific element
-              document.body.appendChild(stats.dom);
-
-              function animate() {
-                stats.begin(); // Start measuring performance
-
-                // Your animation or performance-heavy code goes here
-
-                stats.end(); // End measuring performance
-                requestAnimationFrame(animate); // Call animate function for the next frame
-              }
-
-              requestAnimationFrame(animate); // Start the animation loop
-        </script>
     </div>
 </div>
