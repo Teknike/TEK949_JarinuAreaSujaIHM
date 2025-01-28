@@ -442,6 +442,13 @@
     "icon_p": "Imports/Images/palletize_normal.svg"
   },
   {
+    "name": "Higienização",
+    "content": "Pages/Layout/HIgienização.content",
+    "icon_a": "Imports/Images/temperature-normal.svg",
+    "icon_n": "Imports/Images/temperature-normal.svg",
+    "icon_p": "Imports/Images/temperature-normal.svg"
+  },
+  {
     "name": "Sala CMS",
     "content": "Pages/Layout/CMS.content"
   },

@@ -1,0 +1,575 @@
+<div id="ucStatusSensor_70" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500" data-tchmi-tooltip="%pp%ToolTiip%/pp%">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(158, 157, 157, 1)"
+}
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+<div id="TcHmiTextblock_2823958" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-left="8" data-tchmi-left-unit="%" data-tchmi-text="%f%TcHmi.Functions.Beckhoff.GaugeValueFormatter(%pp%rSensor%/pp%, %pp%iCasasDepoisDaVirgula%/pp%) + &quot; &quot;  + %pp%sUnidade%/pp%%/f%" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="%pp%iFonteSensor%/pp%" data-tchmi-text-font-weight="Bold" data-tchmi-right="8" data-tchmi-bottom="10" data-tchmi-right-unit="%" data-tchmi-bottom-unit="%">
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%rSensor%/pp%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "parts": [
+          {
+            "if": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/REAL",
+                  "symbolExpression": "%pp%rValorMinAmarelo%/pp%"
+                },
+                "compare2": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%rSensor%/pp%"
+                },
+                "compareOperator": ">",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%ucStatusSensor_70::BackgroundColor%/ctrl%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:framework#/definitions/Color",
+                  "value": {
+                    "color": "rgba(193, 0, 0, 1)"
+                  }
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "Function",
+                "active": false,
+                "fn": "TcHmi.Functions.Beckhoff.Log",
+                "fnParams": [
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:framework#/definitions/TcHmi.Functions.Beckhoff.Log.Level",
+                    "value": "Error"
+                  },
+                  {
+                    "objectType": "Symbol",
+                    "valueType": "tchmi:general#/definitions/String",
+                    "symbolExpression": "%f%\"MinAmarelo -> \" + %pp%rValorMinAmarelo%/pp% + \"  > \" + %pp%rSensor%/pp%%/f%"
+                  }
+                ],
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "elseif": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/REAL",
+                  "symbolExpression": "%pp%rValorMinCinza%/pp%"
+                },
+                "compare2": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%rSensor%/pp%"
+                },
+                "compareOperator": ">",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%ucStatusSensor_70::BackgroundColor%/ctrl%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:framework#/definitions/Color",
+                  "value": {
+                    "color": "rgba(238, 211, 40, 1)"
+                  }
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "Function",
+                "active": false,
+                "fn": "TcHmi.Functions.Beckhoff.Log",
+                "fnParams": [
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:framework#/definitions/TcHmi.Functions.Beckhoff.Log.Level",
+                    "value": "Error"
+                  },
+                  {
+                    "objectType": "FunctionExpression",
+                    "functionExpression": "\"MinCinza -> \" + %pp%rValorMinCinza%/pp% + \"  > \" + %pp%rSensor%/pp%"
+                  }
+                ],
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "elseif": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/REAL",
+                  "symbolExpression": "%pp%rValorMaxCinza%/pp%"
+                },
+                "compare2": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%rSensor%/pp%"
+                },
+                "compareOperator": ">",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%ucStatusSensor_70::BackgroundColor%/ctrl%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:framework#/definitions/Color",
+                  "value": {
+                    "color": "rgba(158, 157, 157, 1)"
+                  }
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "Function",
+                "active": false,
+                "fn": "TcHmi.Functions.Beckhoff.Log",
+                "fnParams": [
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:framework#/definitions/TcHmi.Functions.Beckhoff.Log.Level",
+                    "value": "Error"
+                  },
+                  {
+                    "objectType": "Symbol",
+                    "valueType": "tchmi:general#/definitions/String",
+                    "symbolExpression": "%f%\"MaxCinza -> \" + %pp%rValorMaxCinza%/pp% + \"  > \" + %pp%rSensor%/pp%%/f%"
+                  }
+                ],
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "elseif": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/REAL",
+                  "symbolExpression": "%pp%rValorMaxAmarelo%/pp%"
+                },
+                "compare2": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%rSensor%/pp%"
+                },
+                "compareOperator": ">",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%ucStatusSensor_70::BackgroundColor%/ctrl%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:framework#/definitions/Color",
+                  "value": {
+                    "color": "rgba(238, 211, 40, 1)"
+                  }
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "Function",
+                "active": false,
+                "fn": "TcHmi.Functions.Beckhoff.Log",
+                "fnParams": [
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:framework#/definitions/TcHmi.Functions.Beckhoff.Log.Level",
+                    "value": "Error"
+                  },
+                  {
+                    "objectType": "Symbol",
+                    "valueType": "tchmi:general#/definitions/String",
+                    "symbolExpression": "%f%\"MaxAmarelo -> \" + %pp%rValorMaxAmarelo%/pp% + \"  > \" + %pp%rSensor%/pp%%/f%"
+                  }
+                ],
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "else": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%ucStatusSensor_70::BackgroundColor%/ctrl%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:framework#/definitions/Color",
+                  "value": {
+                    "color": "rgba(193, 0, 0, 1)"
+                  }
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "Function",
+                "active": false,
+                "fn": "TcHmi.Functions.Beckhoff.Log",
+                "fnParams": [
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:framework#/definitions/TcHmi.Functions.Beckhoff.Log.Level",
+                    "value": "Error"
+                  },
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:general#/definitions/String",
+                    "value": "Final"
+                  }
+                ],
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      },
+      {
+        "objectType": "Condition",
+        "active": false,
+        "parts": [
+          {
+            "if": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/REAL",
+                  "symbolExpression": "%pp%rValorMaxAmarelo%/pp%"
+                },
+                "compare2": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%rSensor%/pp%"
+                },
+                "compareOperator": ">=",
+                "logic": null
+              },
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/REAL",
+                  "symbolExpression": "%pp%rValorMinAmarelo%/pp%"
+                },
+                "compare2": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%rSensor%/pp%"
+                },
+                "compareOperator": "<=",
+                "logic": "AND"
+              }
+            ],
+            "then": [
+              {
+                "objectType": "Condition",
+                "active": true,
+                "parts": [
+                  {
+                    "if": [
+                      {
+                        "compare1": {
+                          "objectType": "Symbol",
+                          "valueType": "tchmi:general#/definitions/REAL",
+                          "symbolExpression": "%pp%rValorMaxCinza%/pp%"
+                        },
+                        "compare2": {
+                          "objectType": "Symbol",
+                          "valueType": "tchmi:general#/definitions/String",
+                          "symbolExpression": "%pp%rSensor%/pp%"
+                        },
+                        "compareOperator": ">=",
+                        "logic": null
+                      },
+                      {
+                        "compare1": {
+                          "objectType": "Symbol",
+                          "valueType": "tchmi:general#/definitions/REAL",
+                          "symbolExpression": "%pp%rValorMinCinza%/pp%"
+                        },
+                        "compare2": {
+                          "objectType": "Symbol",
+                          "valueType": "tchmi:general#/definitions/String",
+                          "symbolExpression": "%pp%rSensor%/pp%"
+                        },
+                        "compareOperator": "<=",
+                        "logic": "AND"
+                      }
+                    ],
+                    "then": [
+                      {
+                        "objectType": "WriteToSymbol",
+                        "active": true,
+                        "symbolExpression": "%ctrl%ucStatusSensor_70::BorderColor%/ctrl%",
+                        "value": {
+                          "objectType": "StaticValue",
+                          "valueType": "tchmi:framework#/definitions/Color",
+                          "value": {
+                            "color": "rgba(158, 157, 157, 1)"
+                          }
+                        },
+                        "asyncWait": true
+                      }
+                    ]
+                  },
+                  {
+                    "else": [
+                      {
+                        "objectType": "WriteToSymbol",
+                        "active": true,
+                        "symbolExpression": "%ctrl%ucStatusSensor_70::BackgroundColor%/ctrl%",
+                        "value": {
+                          "objectType": "StaticValue",
+                          "valueType": "tchmi:framework#/definitions/Color",
+                          "value": {
+                            "color": "rgba(238, 211, 40, 1)"
+                          }
+                        },
+                        "asyncWait": true
+                      }
+                    ]
+                  }
+                ],
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "else": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%ucStatusSensor_70::BackgroundColor%/ctrl%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:framework#/definitions/Color",
+                  "value": {
+                    "color": "rgba(193, 0, 0, 1)"
+                  }
+                },
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "ucStatusSensor_70.onMouseClick",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "// lê o nome da Valvulas",
+          "var iIndexsensor = TcHmi.Symbol.readEx('%pp%iIndexSensor%/pp%');",
+          "console.log(iIndexsensor);",
+          "var NomeVetor = 'SenAna';",
+          "//console.log(PopUp);",
+          "  try {",
+          "\t",
+          "\t// faz o binding com a struct do motor\t",
+          "\tvar ItemProperty = 'stAnalogica';",
+          "\tvar UserControl = TcHmi.Controls.get('UcPopUpSensorAnalogico_4');",
+          "\tvar Variavel = \"%s%PLC1.\" + 'GVL_Sensores'+ \".\" + NomeVetor +\"[\"+ iIndexsensor +\"]\"+ \"|BindingMode=TwoWay%/s%\";",
+          "",
+          "\t",
+          "\tTcHmi.Binding.createEx2(Variavel, ItemProperty, UserControl);",
+          "\t\t",
+          "\t\t\t   } catch (error) {",
+          "\t\t\t       alert(\"Erro no binding\");",
+          "\t\t\t       console.log(error.message);",
+          "\t\t\t       console.log(Variavel);",
+          "\t\t\t       console.log(ItemProperty);",
+          "\t\t\t       console.log(UserControl);",
+          "\t\t\t   }",
+          "",
+          "",
+          "UserControl.setTop(0);",
+          "UserControl.setLeft(0);",
+          "$(\"#UcPopUpSensorAnalogico_4\").slideDown('slow');"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": false,
+        "sourceLines": [
+          "var nome = 'UcPopUpSensorAnalogico_4';",
+          "var objeto = TcHmi.Controls.get(nome);",
+          "",
+          "if (objeto === undefined){",
+          "\tnome = 'UcPopUpSensorAnalogico_4';",
+          "}",
+          "",
+          "var instancia = TcHmi.Controls.get(nome);",
+          "",
+          "var evento;",
+          "",
+          "var leftPop = 0;",
+          "var topPop = 0;",
+          "var leftMouse = 0;",
+          "var topMouse = 0;",
+          "",
+          "var leftDiferenca = 0;",
+          "var topDiferenca = 0;",
+          "",
+          "$(\"#\" + nome).on(\"mousedown\", function (event) {",
+          "    evento = true;",
+          "    ",
+          "    leftPop = instancia.getLeft();",
+          "    topPop = instancia.getTop();",
+          "    leftMouse = event.pageX;",
+          "    topMouse = event.pageY;",
+          "",
+          "    leftDiferenca = leftPop - leftMouse;",
+          "    topDiferenca = topPop - topMouse;",
+          "",
+          "});",
+          "",
+          "",
+          "$(\"#\" + nome).on(\"mouseup\", function (event) {",
+          "    evento = false;",
+          "    leftDiferenca = 0;",
+          "    topDiferenca = 0;",
+          "});",
+          "",
+          "$(\"#Desktop\").on(\"mouseleave\", function (event) {",
+          "    evento = false;",
+          "    leftDiferenca = 0;",
+          "    topDiferenca = 0;",
+          "});",
+          "",
+          "$(\"#Desktop\").on(\"mousemove\", function (event) {",
+          "    if (evento) {",
+          "\t\tinstancia.setTop(event.pageY + topDiferenca);",
+          "        instancia.setLeft(event.pageX + leftDiferenca);",
+          "    }",
+          "});",
+          "",
+          "//-----------------------MOUSE----------------------------------------",
+          "",
+          "//-----------------------TOUCH----------------------------------------",
+          "",
+          "document.addEventListener('touchstart', { passive: false });",
+          "document.addEventListener('touchend', { passive: false });",
+          "document.addEventListener('touchmove', { passive: false });",
+          "",
+          "var evento2;",
+          "",
+          "var leftPop2 = 0;",
+          "var topPop2 = 0;",
+          "var leftTouch = 0;",
+          "var topTouch = 0;",
+          "",
+          "var leftDiferenca2 = 0;",
+          "var topDiferenca2 = 0;",
+          "",
+          "$(\"#\" + nome).on(\"touchstart\", function (event) {",
+          "    evento2 = true;",
+          "    leftPop2 = instancia.getLeft();",
+          "    topPop2 = instancia.getTop();",
+          "    leftTouch = event.originalEvent.touches[0].pageX;",
+          "    topTouch = event.originalEvent.touches[0].pageY;",
+          "",
+          "    leftDiferenca2 = leftPop2 - leftTouch;",
+          "    topDiferenca2 = topPop2 - topTouch;",
+          "});",
+          "",
+          "$(\"#\" + nome).on(\"touchend\", function (event) {",
+          "    evento2 = false;",
+          "    leftDiferenca2 = 0;",
+          "    topDiferenca2 = 0;",
+          "});",
+          "",
+          "$(\"#\" + nome).on(\"touchmove\", function (event) {",
+          "    event.preventDefault();",
+          "    if (evento2) {",
+          "        instancia.setTop(event.originalEvent.touches[0].pageY + topDiferenca2);",
+          "        instancia.setLeft(event.originalEvent.touches[0].pageX + leftDiferenca2);",
+          "    }",
+          "});",
+          "",
+          "//-----------------------TOUCH----------------------------------------"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>

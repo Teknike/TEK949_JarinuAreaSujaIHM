@@ -2826,12 +2826,6 @@ rgba(255, 255, 255, 0.75)
 }
 </script>
 </div>
-<div id="EmergenciaCorda_34" data-tchmi-type="TcHmi.Controls.FrameworkEmergencia.EmergenciaCorda" data-tchmi-height="10" data-tchmi-height-unit="px" data-tchmi-left="132" data-tchmi-left-unit="px" data-tchmi-top="931" data-tchmi-top-unit="px" data-tchmi-width="650" data-tchmi-width-unit="px" data-tchmi-zindex="5">
-</div>
-<div id="EmergenciaCirculo_23" data-tchmi-type="TcHmi.Controls.FrameworkEmergencia.EmergenciaCirculo" data-tchmi-height="27" data-tchmi-height-unit="px" data-tchmi-left="766" data-tchmi-left-unit="px" data-tchmi-top="923" data-tchmi-top-unit="px" data-tchmi-width="44" data-tchmi-width-unit="px" data-tchmi-zindex="5">
-</div>
-<div id="TcHmiTextblock_285166525" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="33" data-tchmi-height-unit="px" data-tchmi-left="809" data-tchmi-left-unit="px" data-tchmi-text="SO5" data-tchmi-top="923" data-tchmi-top-unit="px" data-tchmi-width="50" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-zindex="10">
-</div>
 <div id="FmrMotor" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Bomba" data-tchmi-escondetexto="true" data-tchmi-height="47" data-tchmi-height-unit="px" data-tchmi-left="1361" data-tchmi-left-unit="px" data-tchmi-top="76" data-tchmi-top-unit="px" data-tchmi-width="81" data-tchmi-width-unit="px" data-tchmi-zindex="362" data-tchmi-index="28" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
 
 <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
@@ -3411,7 +3405,7 @@ rgba(255, 255, 255, 0.75)
 </div>
 <div id="TcHmiTextblock_285166542" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="114" data-tchmi-left-unit="px" data-tchmi-text="M9" data-tchmi-top="222" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
 </div>
-<div id="TcHmiTextblock_285166543" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="114" data-tchmi-left-unit="px" data-tchmi-text="M10" data-tchmi-top="349" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
+<div id="TcHmiTextblock_285166543" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="114" data-tchmi-left-unit="px" data-tchmi-text="M10" data-tchmi-top="337" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="16">
 </div>
 <div id="TcHmiTextblock_285166544" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="33" data-tchmi-height-unit="px" data-tchmi-left="798" data-tchmi-left-unit="px" data-tchmi-text="Tanque lava Gaiola" data-tchmi-top="334" data-tchmi-top-unit="px" data-tchmi-width="167" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="22" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Top" data-tchmi-zindex="365">
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -3444,7 +3438,7 @@ rgba(255, 255, 255, 0.75)
 </div>
 <div id="FmrMotor_13" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Bomba" data-tchmi-escondetexto="true" data-tchmi-height="49" data-tchmi-height-unit="px" data-tchmi-left="682" data-tchmi-left-unit="px" data-tchmi-top="202" data-tchmi-top-unit="px" data-tchmi-width="92" data-tchmi-width-unit="px" data-tchmi-index="7" data-tchmi-zindex="1" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
 </div>
-<div id="FmrMotor_14" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Motor" data-tchmi-escondetexto="true" data-tchmi-height="45" data-tchmi-height-unit="px" data-tchmi-left="1050" data-tchmi-left-unit="px" data-tchmi-top="663" data-tchmi-top-unit="px" data-tchmi-width="74" data-tchmi-width-unit="px" data-tchmi-index="7" data-tchmi-zindex="372" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
+<div id="FmrMotor_14" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Motor" data-tchmi-escondetexto="true" data-tchmi-height="45" data-tchmi-height-unit="px" data-tchmi-left="1050" data-tchmi-left-unit="px" data-tchmi-top="663" data-tchmi-top-unit="px" data-tchmi-width="74" data-tchmi-width-unit="px" data-tchmi-index="12" data-tchmi-zindex="372" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true">
 
 <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
 [
@@ -3890,7 +3884,7 @@ rgba(255, 255, 255, 0.75)
 ]
 </script>
 </div>
-<div id="FmrMotor_29" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Bomba" data-tchmi-escondetexto="true" data-tchmi-height="45" data-tchmi-height-unit="px" data-tchmi-left="1487" data-tchmi-left-unit="px" data-tchmi-top="606" data-tchmi-top-unit="px" data-tchmi-width="74" data-tchmi-width-unit="px" data-tchmi-index="19" data-tchmi-zindex="1" data-tchmi-operavel="true">
+<div id="FmrMotor_29" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Bomba" data-tchmi-escondetexto="true" data-tchmi-height="45" data-tchmi-height-unit="px" data-tchmi-left="1487" data-tchmi-left-unit="px" data-tchmi-top="606" data-tchmi-top-unit="px" data-tchmi-width="74" data-tchmi-width-unit="px" data-tchmi-index="19" data-tchmi-zindex="1" data-tchmi-operavel="true" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida">
 <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
 [
   {

@@ -4289,6 +4289,39 @@ rgba(255, 255, 255, 0.75)
         "waitMode": "Synchronous"
       }
     ]
+  },
+  {
+    "event": "TcHmiButton_377.onMouseClick",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "toastr.options = {",
+          "  \"closeButton\": false,",
+          "  \"debug\": false,",
+          "  \"newestOnTop\": true,",
+          "  \"progressBar\": true,",
+          "  \"positionClass\": \"toast-top-right\",",
+          "  \"preventDuplicates\": true,",
+          "  \"onclick\": null,",
+          "  \"showDuration\": \"5000\",",
+          "  \"hideDuration\": \"1000\",",
+          "  \"timeOut\": \"10000\",",
+          "  \"extendedTimeOut\": \"2000\",",
+          "  \"showEasing\": \"swing\",",
+          "  \"hideEasing\": \"linear\",",
+          "  \"showMethod\": \"fadeIn\",",
+          "  \"hideMethod\": \"fadeOut\"",
+          "};",
+          "",
+          "toastr[\"warning\"](\"Ícones de Botas são interativos: abrem os status e as configurações do motor.\", \"INFO\");"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
   }
 ]
 </script>

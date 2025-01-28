@@ -191,6 +191,9 @@
     <Content Include="Images\Comisionamento\SetaPreta.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\357bea55-c394-4318-8daa-d43c40103448-removebg-preview.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\box-arrow-down.svg">
       <SubType>Content</SubType>
     </Content>
@@ -236,6 +239,9 @@
     <Content Include="Images\Diversos\FlechaCurva.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\imagem_2024-05-14_210102021-removebg-preview.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\imagem_2024-12-16_171228494-removebg-preview__1_-removebg-preview.png">
       <SubType>Content</SubType>
     </Content>
@@ -263,6 +269,9 @@
     <Content Include="Images\Diversos\Evaporadores.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\output-onlinepngtools %2812%29.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\pause-circle.svg">
       <SubType>Content</SubType>
     </Content>
@@ -270,6 +279,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\play-circle.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Diversos\PT100.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Diversos\SelecionaExibirAreas.png">
@@ -806,6 +818,9 @@
       <SubType>Content</SubType>
       <Cache>True</Cache>
     </Content>
+    <Content Include="Pages\Layout\HIgienização.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\Layout\CMS.content">
       <SubType>Content</SubType>
     </Content>
@@ -1063,12 +1078,26 @@
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Geral\ucKPIMotor.usercontrol</DependentUpon>
     </Content>
+    <Content Include="UserControl\Geral\ucNIveltamqueBoia.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\Geral\ucNIveltamqueBoia.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\Geral\ucNIveltamqueBoia.usercontrol</DependentUpon>
+    </Content>
     <Content Include="UserControl\Geral\ucSinalMaquina.usercontrol">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UserControl\Geral\ucSinalMaquina.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Geral\ucSinalMaquina.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControl\Geral\ucStatusSensorSemTexto.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\Geral\ucStatusSensorSemTexto.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\Geral\ucStatusSensorSemTexto.usercontrol</DependentUpon>
     </Content>
     <Content Include="UserControl\Geral\ucToggleBotão.usercontrol">
       <SubType>Content</SubType>

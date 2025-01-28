@@ -2889,6 +2889,22 @@
       "frameworkUserControlConfig": "UserControl\\Geral\\ucDadosbomba.usercontrol.json",
       "id": "tchmi:project#/definitions/ucDadosbomba",
       "type": "object"
+    },
+    "ucNIveltamqueBoia": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Geral\\ucNIveltamqueBoia.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ucNIveltamqueBoia"
+    },
+    "ucStatusSensorSemTexto": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Geral\\ucStatusSensorSemTexto.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ucStatusSensorSemTexto"
     }
   }
 }
