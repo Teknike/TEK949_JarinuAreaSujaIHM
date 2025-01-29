@@ -1150,7 +1150,7 @@
 <div id="UserControl1_83" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="104" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucToggleBotão.usercontrol" data-tchmi-top="341" data-tchmi-top-unit="px" data-tchmi-width="312" data-tchmi-width-unit="px" data-tchmi-textoligado="Liga Linha Sala de CMS" data-tchmi-textodesligado="Desliga linha Sala CMS" data-tchmi-ifonte="30" data-tchmi-variavel="%s%PLC1.GVL_Automatico.Grupos[8]::En::xLiga%/s%" data-tchmi-zindex="13">
 </div>
 </div>
-<div id="TcHmi_Controls_Beckhoff_TcHmiImage_1825" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="674" data-tchmi-height-unit="px" data-tchmi-left="506" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/357bea55-c394-4318-8daa-d43c40103448-removebg-preview.png" data-tchmi-top="24" data-tchmi-top-unit="px" data-tchmi-width="730" data-tchmi-width-unit="px" data-tchmi-zindex="3" data-tchmi-right="12">
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_1825" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="674" data-tchmi-height-unit="px" data-tchmi-left="482" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/357bea55-c394-4318-8daa-d43c40103448-removebg-preview.png" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="730" data-tchmi-width-unit="px" data-tchmi-zindex="3" data-tchmi-right="36">
 </div>
 <div id="UcNIveltamqueBoia_18" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="971" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucNIveltamqueBoia.usercontrol" data-tchmi-top="149" data-tchmi-top-unit="px" data-tchmi-width="84" data-tchmi-width-unit="px" data-tchmi-zindex="197" data-tchmi-ifonte="19" data-tchmi-sniveltamque="Max." data-tchmi-stvariavelsensor="%s%PLC1.GVL_Sensores.SenDig[9]%/s%">
 </div>
@@ -2294,5 +2294,7 @@
   "color": "rgba(66, 66, 66, 1)"
 }
 </script>
+</div>
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_1902" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="182" data-tchmi-height-unit="px" data-tchmi-left="280" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/Tanque de agua.png" data-tchmi-top="298" data-tchmi-top-unit="px" data-tchmi-width="400" data-tchmi-width-unit="px">
 </div>
 </div>

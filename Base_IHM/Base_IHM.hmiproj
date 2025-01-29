@@ -305,6 +305,9 @@
     <Content Include="Images\Diversos\Warning.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Diversos\Tanque de agua.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Diversos\x-circle.svg">
       <SubType>Content</SubType>
     </Content>
