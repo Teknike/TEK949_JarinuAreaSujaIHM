@@ -1,0 +1,41 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-stmaxparametros",
+      "displayName": "stMaxParametros",
+      "allowSymbolExpressionsInObject": false,
+      "visible": true,
+      "type": "tchmi:server#/definitions/PLC1.stConfigMaxMinSet",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "stMaxParametros",
+      "propertySetterName": "setStMaxParametros",
+      "propertyGetterName": "getStMaxParametros",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-stconfigparametros",
+      "displayName": "stConfigParametros",
+      "allowSymbolExpressionsInObject": false,
+      "visible": true,
+      "type": "tchmi:server#/definitions/PLC1.stPID",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "stConfigParametros",
+      "propertySetterName": "setStConfigParametros",
+      "propertyGetterName": "getStConfigParametros",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "./../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.762.42/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

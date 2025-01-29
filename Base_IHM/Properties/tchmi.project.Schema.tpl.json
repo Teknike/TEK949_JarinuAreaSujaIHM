@@ -2905,6 +2905,46 @@
       "frameworkUserControlConfig": "UserControl\\Geral\\ucStatusSensorSemTexto.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/ucStatusSensorSemTexto"
+    },
+    "ucConfigPid": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Geral\\ucConfigPid.usercontrol.json",
+      "id": "tchmi:project#/definitions/ucConfigPid",
+      "type": "object"
+    },
+    "ConfigPID": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Config\\ConfigPID.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ConfigPID"
+    },
+    "ConfigMaxMinSet": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Config\\ConfigMaxMinSet.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ConfigMaxMinSet"
+    },
+    "ConfigPID_0": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Geral\\ConfigPID.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ConfigPID_0"
+    },
+    "ConfigMaxMinSet_0": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Geral\\ConfigMaxMinSet.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ConfigMaxMinSet_0"
     }
   }
 }

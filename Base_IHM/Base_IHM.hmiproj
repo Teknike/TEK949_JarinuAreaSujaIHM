@@ -12,7 +12,7 @@
     <HmiTitle>Jarinu - Intralogística</HmiTitle>
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
-    <HmiCommunicationServerPort>3018</HmiCommunicationServerPort>
+    <HmiCommunicationServerPort>3019</HmiCommunicationServerPort>
     <HmiLogTcHmiServerMessages>false</HmiLogTcHmiServerMessages>
     <HmiLogDesignerModeComMessages>false</HmiLogDesignerModeComMessages>
     <HmiServerVersion>Latest</HmiServerVersion>
@@ -990,6 +990,20 @@
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Config\ucTextBoxBloqueio.usercontrol</DependentUpon>
     </Content>
+    <Content Include="UserControl\Geral\ConfigMaxMinSet.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\Geral\ConfigMaxMinSet.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\Geral\ConfigMaxMinSet.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControl\Geral\ConfigPID.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\Geral\ConfigPID.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\Geral\ConfigPID.usercontrol</DependentUpon>
+    </Content>
     <Content Include="UserControl\Geral\Troubleshooting\ucFalhaContatoInversor.usercontrol">
       <SubType>Content</SubType>
     </Content>
@@ -1045,6 +1059,13 @@
     <Content Include="UserControl\Geral\ucBotaoDeParada.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Geral\ucBotaoDeParada.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControl\Geral\ucConfigPid.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\Geral\ucConfigPid.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\Geral\ucConfigPid.usercontrol</DependentUpon>
     </Content>
     <Content Include="UserControl\Geral\ucDadosbomba.usercontrol">
       <SubType>Content</SubType>
