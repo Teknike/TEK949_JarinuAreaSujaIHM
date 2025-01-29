@@ -120,6 +120,16 @@
       "name": "CSS/SVGPathAnimation.css",
       "description": "",
       "type": "Stylesheet"
+    },
+    {
+      "name": "Scripts/GraficoTempoReal.js",
+      "description": "",
+      "type": "JavaScript"
+    },
+    {
+      "name": "Scripts/GraficoTempoReal.css",
+      "description": "",
+      "type": "Stylesheet"
     }
   ],
   "userControls": [
@@ -166,6 +176,12 @@
       "url": "UserControl/Config/ucTextBoxBloqueio.usercontrol"
     },
     {
+      "url": "UserControl/Geral/ConfigMaxMinSet.usercontrol"
+    },
+    {
+      "url": "UserControl/Geral/ConfigPID.usercontrol"
+    },
+    {
       "url": "UserControl/Geral/Troubleshooting/ucFalhaContatoInversor.usercontrol"
     },
     {
@@ -188,9 +204,6 @@
     },
     {
       "url": "UserControl/Geral/ucBotaoDeParada.usercontrol"
-    },
-    {
-      "url": "UserControl/Geral/ucConfigPid.usercontrol"
     },
     {
       "url": "UserControl/Geral/ucDadosbomba.usercontrol"
@@ -278,12 +291,6 @@
     },
     {
       "url": "UserControl/SKUs/ConfigSKU.usercontrol"
-    },
-    {
-      "url": "UserControl/Geral/ConfigPID.usercontrol"
-    },
-    {
-      "url": "UserControl/Geral/ConfigMaxMinSet.usercontrol"
     }
   ],
   "content": [
@@ -388,7 +395,7 @@
     {
       "url": "Pages/Layout/HIgienização.content",
       "preload": false,
-      "keepAlive": false,
+      "keepAlive": true,
       "loadSync": false,
       "preloadBindings": false
     },
@@ -475,6 +482,13 @@
       "keepAlive": true,
       "loadSync": false,
       "preloadBindings": true
+    },
+    {
+      "url": "Pages/Layout/GraficosHigienizacao.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
     }
   ],
   "views": [

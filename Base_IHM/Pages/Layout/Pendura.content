@@ -4451,9 +4451,9 @@ rgba(255, 255, 255, 0.75)
 </div>
 <div id="FmrMotor_100" data-tchmi-type="TcHmi.Controls.Motor.FmrMotor" data-tchmi-elemento="Evaporador" data-tchmi-escondetexto="false" data-tchmi-height="81" data-tchmi-height-unit="px" data-tchmi-left="1111" data-tchmi-left-unit="px" data-tchmi-top="94" data-tchmi-top-unit="px" data-tchmi-width="97" data-tchmi-width-unit="px" data-tchmi-index="31" data-tchmi-zindex="1" data-tchmi-gvl="GVL_Motores" data-tchmi-vetor="Motor" data-tchmi-struct="stPartida" data-tchmi-operavel="true" data-tchmi-popupouliga="true">
 </div>
-<div id="TcHmi_Controls_Beckhoff_TcHmiImage_524" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="89" data-tchmi-height-unit="px" data-tchmi-left="1278" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/imagem_2025-01-20_100936087-removebg-preview.png" data-tchmi-top="516" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-zindex="371">
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_524" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="89" data-tchmi-height-unit="px" data-tchmi-left="1278" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/imagem_2025-01-20_100936087-removebg-preview.png" data-tchmi-top="506" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-zindex="371">
 </div>
-<div id="TcHmiTextblock_285166810" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="33" data-tchmi-height-unit="px" data-tchmi-left="1309" data-tchmi-left-unit="px" data-tchmi-text="ALM9" data-tchmi-top="586" data-tchmi-top-unit="px" data-tchmi-width="50" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-zindex="369">
+<div id="TcHmiTextblock_285166810" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="33" data-tchmi-height-unit="px" data-tchmi-left="1307" data-tchmi-left-unit="px" data-tchmi-text="ALM9" data-tchmi-top="570" data-tchmi-top-unit="px" data-tchmi-width="50" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="20" data-tchmi-zindex="369">
 <script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
 [
   {

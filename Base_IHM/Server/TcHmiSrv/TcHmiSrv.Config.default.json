@@ -18447,6 +18447,40 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo1": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rPressaoSaidaGrupo1",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 10
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo2": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rPressaoSaidaGrupo2",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 14
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GVL_Automatico.Higienizacao.rPressaoSetPointGrupo1": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -18464,6 +18498,57 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.GVL_Automatico.Higienizacao.rPressaoSetPointGrupo2": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rPressaoSetPointGrupo2",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 15
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.rTemperaturaHisterese": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rTemperaturaHisterese",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 9
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.rTemperaturaSaidaTrocador": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rTemperaturaSaidaTrocador",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 7
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GVL_Automatico.Higienizacao.rTemperaturaSetPoint": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -18476,6 +18561,23 @@
                     },
                     {
                         "propertyOrder": 8
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xLgaValvRecirculacao": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xLgaValvRecirculacao",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 26
                     }
                 ]
             },
@@ -18527,6 +18629,108 @@
                     },
                     {
                         "propertyOrder": 22
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xLigaControleTemperatura": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xLigaControleTemperatura",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 20
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xLigaControledeNivel": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xLigaControledeNivel",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 19
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xPressaoAltaGrupo1": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xPressaoAltaGrupo1",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 12
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xPressaoAltaGrupo2": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xPressaoAltaGrupo2",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 16
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xPressaoBaixaGrupo1": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xPressaoBaixaGrupo1",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 13
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xPressaoBaixaGrupo2": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xPressaoBaixaGrupo2",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 17
                     }
                 ]
             },
@@ -21530,12 +21734,23 @@
                 "PLC1.GVL_Automatico.Grupos": 3,
                 "PLC1.GVL_Automatico.Grupos.1.Sa.iIndex": 3,
                 "PLC1.GVL_Automatico.Higienizacao": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo1": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo2": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rPressaoSetPointGrupo1": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rPressaoSetPointGrupo2": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rTemperaturaHisterese": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rTemperaturaSaidaTrocador": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rTemperaturaSetPoint": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xLgaValvRecirculacao": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xLigaCentralHigienizacao": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xLigaControlePressao1": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xLigaControlePressao2": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xLigaControleTemperatura": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xLigaControledeNivel": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xPressaoAltaGrupo1": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xPressaoAltaGrupo2": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xPressaoBaixaGrupo1": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xPressaoBaixaGrupo2": 3,
                 "PLC1.GVL_Automatico.LiberaBracinhoCones.0": 3,
                 "PLC1.GVL_Automatico.LiberaBracinhoCones.1": 3,
                 "PLC1.GVL_Automatico.LiberaBracinhoCones.2": 3,

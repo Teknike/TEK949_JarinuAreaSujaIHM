@@ -22,7 +22,7 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Base_IHM</Name>
-    <HmiCommunicationRouterPort>10206</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10207</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13009</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.756.1</HmiInitial>
     <HmiRecent>1.12.762.46</HmiRecent>
@@ -821,6 +821,9 @@
       <SubType>Content</SubType>
       <Cache>True</Cache>
     </Content>
+    <Content Include="Pages\Layout\GraficosHigienizacao.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\Layout\HIgienização.content">
       <SubType>Content</SubType>
     </Content>
@@ -863,6 +866,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Scripts\d3.v7.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\GraficoTempoReal.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\GraficoTempoReal.css">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Scripts\sweetalert2%4011.js">
@@ -1059,13 +1068,6 @@
     <Content Include="UserControl\Geral\ucBotaoDeParada.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControl\Geral\ucBotaoDeParada.usercontrol</DependentUpon>
-    </Content>
-    <Content Include="UserControl\Geral\ucConfigPid.usercontrol">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="UserControl\Geral\ucConfigPid.usercontrol.json">
-      <SubType>Content</SubType>
-      <DependentUpon>UserControl\Geral\ucConfigPid.usercontrol</DependentUpon>
     </Content>
     <Content Include="UserControl\Geral\ucDadosbomba.usercontrol">
       <SubType>Content</SubType>

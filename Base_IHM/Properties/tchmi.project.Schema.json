@@ -2906,14 +2906,6 @@
       "type": "object",
       "id": "tchmi:project#/definitions/ucStatusSensorSemTexto"
     },
-    "ucConfigPid": {
-      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
-      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
-      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
-      "frameworkUserControlConfig": "UserControl\\Geral\\ucConfigPid.usercontrol.json",
-      "id": "tchmi:project#/definitions/ucConfigPid",
-      "type": "object"
-    },
     "ConfigPID": {
       "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
       "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
