@@ -18447,6 +18447,40 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.GVL_Automatico.Higienizacao.rPressaoSetPointGrupo1": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rPressaoSetPointGrupo1",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 11
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.rTemperaturaSetPoint": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rTemperaturaSetPoint",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 8
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GVL_Automatico.Higienizacao.xLigaCentralHigienizacao": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -21495,6 +21529,10 @@
                 "PLC1.GVL_Automatico.BloqueioBracinhoCoxaSharma": 3,
                 "PLC1.GVL_Automatico.Grupos": 3,
                 "PLC1.GVL_Automatico.Grupos.1.Sa.iIndex": 3,
+                "PLC1.GVL_Automatico.Higienizacao": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rPressaoSetPointGrupo1": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rTemperaturaHisterese": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rTemperaturaSetPoint": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xLigaCentralHigienizacao": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xLigaControlePressao1": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xLigaControlePressao2": 3,
