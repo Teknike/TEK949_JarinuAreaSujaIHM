@@ -22,7 +22,7 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Base_IHM</Name>
-    <HmiCommunicationRouterPort>10205</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10206</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13009</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.756.1</HmiInitial>
     <HmiRecent>1.12.762.46</HmiRecent>
