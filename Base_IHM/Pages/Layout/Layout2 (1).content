@@ -1,0 +1,2546 @@
+<div id="LayoutContent_2"
+     data-tchmi-type="TcHmi.Controls.System.TcHmiContent"
+     data-tchmi-top="0"
+     data-tchmi-left="0"
+     data-tchmi-width="1800"
+     data-tchmi-height="980"
+     data-tchmi-creator-viewport-width="1920"
+     data-tchmi-creator-viewport-height="1080"
+     data-tchmi-width-mode="Value"
+     data-tchmi-height-mode="Value" data-tchmi-zindex="3">
+    <script data-tchmi-target-attribute="data-tchmi-background-color"
+            type="application/json">
+{
+  "angle": 45.0,
+  "stopPoints": [
+    {
+      "color": "rgba(115, 115, 115, 1)",
+      "stop": "0%"
+    },
+    {
+      "color": "rgba(190, 190, 190, 1)",
+      "stop": "100%"
+    }
+  ]
+}
+</script>
+<div id="TcHmiContainer_ZoomableArea_365"
+         data-tchmi-type="TcHmi.Controls.System.TcHmiContainer"
+         data-tchmi-height="100"
+         data-tchmi-height-unit="%"
+         data-tchmi-left="0"
+         data-tchmi-left-unit="px"
+         data-tchmi-top="0"
+         data-tchmi-top-unit="px"
+         data-tchmi-width="100"
+         data-tchmi-width-unit="%" data-tchmi-creator-visibility="Visible" data-tchmi-zindex="3" data-tchmi-creator-locked="True">
+        <div id="TcHmiHtmlHost_SVGLayout_4"
+             data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost"
+             data-tchmi-height="100"
+             data-tchmi-height-unit="%"
+             data-tchmi-left="0"
+             data-tchmi-left-unit="px"
+             data-tchmi-top="0"
+             data-tchmi-top-unit="px"
+             data-tchmi-width="100"
+             data-tchmi-width-unit="%"
+
+             data-tchmi-zindex="2"
+             data-tchmi-creator-visibility="Visible" data-tchmi-creator-locked="True">
+
+            <div id="tcHmi" style="
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+          ">
+                <svg id="editor" width="100%" height="100%" class="edition"
+                     viewBox="2 0 410 180
+">
+
+                    <g class="svg-shadows">
+                        <path d="M 51 174 H 13" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="1"></path>
+                        <path d="M 13 174 A 1 1 0 0 0 13 190" fill="none" stroke-width="4"
+                              class="esteira-foreground svg-esteira" data-motor="2"></path>
+                        <path d="M 13 190 H 60" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="3"></path>
+                        <path d="M 60 190 C 64 190 65 187 65 185 V 169" fill="none" stroke-width="4"
+                              class="esteira-foreground svg-esteira" data-motor="4"></path>
+                        <path d="M 65 157 V 143" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="5"></path>
+                        <path d="M 65 131 V 118" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="6"></path>
+                        <path d="M 4 196 C 72 196 74 197 74 191 V 113 C 74 111 75 110 77 110 H 84 C 86 110 86 111 86 113 V 131 A 1 1 0 0 1 84 131 V 114 C 84 112.5 83 112 81 112 C 81 112 79 112 79 114 V 189 A 1 1 0 0 0 81 189 V 138 A 1 1 0 0 1 83 138 V 189 A 1 1 0 0 0 85 189 V 138 A 1 1 0 0 1 87 138 V 191 C 87 193 88 194 93 194 A 1 1 0 0 1 92 196 A 1 1 0 0 1 93 194 C 95 194 92 198 96 198 A 1 1 0 0 0 97 196 A 1 1 0 0 0 96 198 C 96.00000762939453 197.99998474121094 98 199 98 196 V 122 A 1 1 0 0 1 100 122 V 192 C 100 193 101 194 102 194 C 110 194 110 193.5 110 192 V 118 C 110 116 111 116 113 116 H 124 C 126 116 126 114 126 113 V 46 A 1 1 0 0 1 128 46 A 1 1 0 0 1 126 46 C 147 46 148 47 148 51 V 173 C 148 176 148 179 153 179 H 173 C 177 179 177 176 177 174 V 163 C 177 160 177 159 181 159 H 194 C 198 159 198 162 198 178 H 218 C 221 178 221 175.5 221 173 V 149 A 1 1 0 0 0 219 149 V 171 A 1 1 0 0 1 217 171 V 149 A 1 1 0 0 0 215 149 V 171 A 1 1 0 0 1 213 171 V 118 C 213 114 212 112 209 112 H 159 C 153 112 154 109 154 105 V 46 C 154 43.5 153 43 149 43 H 126"
+                              fill="none" stroke-width="4" class="esteira-foreground svg-noria" data-motor="60"></path>
+                        <path d="M 102 194 H 108" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="48"></path>
+                        <path d="M 126 44 C 119 44 119 46 119 47 V 103 C 119 105 117.5 105 116 105 C 71.5 105 70 104 70 108 V 185 C 70 188 69 188 67 188 H 4 A 1 1 0 0 0 5 190 A 1 1 0 0 0 4 188 H 4 C 3.5 188 3 189 3 191 V 195 A 1 1 0 0 0 5 195 A 1 1 0 0 0 3 195"
+                              fill="none" stroke-width="4" class="esteira-foreground svg-noria" data-motor="61"></path>
+                        <path d="M 143 40 H 155 C 158 40 158 42.5 158 46 V 103 C 158 109 159 109 162 109 H 221 C 228 109 227 111 227 116 V 170 A 1 1 0 0 0 229 170 V 152 A 1 1 0 0 1 231 152 V 179 C 231 182 230 183 227 183 H 197 C 193 183 193 182 193 179 V 165 C 193 163 192 163 190 163 H 183 C 181.5 163 181 164.5 181 166 V 180 C 181 182.5 179.5 183 178 183 H 145 C 142 183 142 182 142 179 V 46 C 142 45 140.5 44 139 44 H 126"
+                              fill="none" stroke-width="4" class="esteira-foreground svg-noria" data-motor="58"></path>
+                        <path d="M 259 174 V 129" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="82"></path>
+                        <path d="M 268 88 V 111" fill="none" stroke-width="3" class="esteira-foreground svg-esteira"
+                              data-motor="144"></path>
+                        <path d="M 258 65 C 266 65 268 66 268 74 V 85" fill="none" stroke-width="3"
+                              class="esteira-foreground svg-esteira" data-motor="126"></path>
+                        <path d="M 268 48 V 59" fill="none" stroke-width="3" class="esteira-foreground svg-esteira"
+                              data-motor="143"></path>
+                        <path d="M 257 33 C 264 33 268 33 268 38 V 46" fill="none" stroke-width="3"
+                              class="esteira-foreground svg-esteira" data-motor="114"></path>
+                        <path d="M 257 18 C 261 18 268 18 268 24 V 33" fill="none" stroke-width="3"
+                              class="esteira-foreground svg-esteira" data-motor="109"></path>
+                        <path d="M 170 100 H 219" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="76"></path>
+                        <path d="M 219 100 H 266" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="75"></path>
+                        <path d="M 171 90 H 266" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="129"></path>
+                        <path d="M 254 35 V 9" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="103"></path>
+                        <path d="M 256 4 H 170" fill="none" stroke-width="2" class="esteira-foreground svg-esteira"
+                              data-motor="104"></path>
+                        <path d="M 256 7 H 170" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="105"></path>
+                        <path d="M 168 4 V 20" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="106"></path>
+                        <path d="M 170 18 H 224" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="108"></path>
+                        <path d="M 195 18 H 228" fill="none" stroke-width="3" class="esteira-foreground svg-esteira"
+                              data-motor="107"></path>
+                        <path d="M 255 63 H 173" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="110"></path>
+                        <path d="M 171 70 V 31" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="111"></path>
+                        <path d="M 173 33 H 228" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="112"></path>
+                        <path d="M 166 79 V 26" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="119"></path>
+                        <path d="M 168 28 H 239" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="118"></path>
+                        <path d="M 173 68 H 189" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="121"></path>
+                        <path d="M 204 68 H 221" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="120"></path>
+                        <path d="M 248 71 H 225" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="124"></path>
+                        <path d="M 223 73 V 65" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="122"></path>
+                        <path d="M 249 55 H 225" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="125"></path>
+                        <path d="M 223 53 V 61" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="123"></path>
+                        <path d="M 173 49 H 222" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="115"></path>
+                        <path d="M 250 49 H 266" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="117"></path>
+                        <path d="M 185 49 H 219" fill="none" stroke-width="3" class="esteira-foreground svg-esteira"
+                              data-motor="116"></path>
+                        <path d="M 173 36 H 228" fill="none" stroke-width="2" class="esteira-foreground svg-esteira"
+                              data-motor="113"></path>
+                        <path d="M 252 161 V 123 C 252 120 254 120 256 120 H 334 C 338 120 339 119 339 117 V 99 C 339 97 337 95 335 95 H 298 A 1 1 0 0 1 298 93 H 338 A 1 1 0 0 0 338 91 H 329 A 1 1 0 0 1 329 89 H 338 C 339.5 89 341 88 341 87 V 48 A 1 1 0 0 0 339 48 V 79 A 1 1 0 0 1 337 79 V 61 A 1 1 0 0 0 335 61 V 76 A 1 1 0 0 1 333 76 V 28 C 333 27 332.5 26 330 26 H 284 C 281 26 281 27 281 29 V 104 C 281 106 279 106 278 106 H 246 C 243 106 243 108 243 110 V 161"
+                              fill="none" stroke-width="4" class="esteira-foreground svg-noria" data-motor="200"></path>
+                        <path d="M 249 161 V 119 C 249 116 251 116 253 116 H 327 C 330 116 330 114 330 113 V 106 C 330 105 329 104 328 104 H 291 A 1 1 0 0 1 291 102 H 330 A 1 1 0 0 0 330 100 H 292 C 290 100 290 98 290 97 V 80 C 290 78.5 291 77 294 77 H 321 C 323 77 323 77 323 74 V 31 A 1 1 0 0 0 321 31 V 69 A 1 1 0 0 1 319 69 V 51 A 1 1 0 0 0 317 51 V 67 C 317 69.5 315 70 313 70 H 287 C 285 70 285 71 285 73 V 110 C 285 111 284 112 281 112 H 250 C 248.5 112 247 113 247 115 V 161"
+                              fill="none" stroke-width="4" class="esteira-foreground svg-noria" data-motor="201"></path>
+                        <path d="M 346 67 V 100" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="98"></path>
+                        <path d="M 308 65 H 348" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="97"></path>
+                        <path d="M 308 34 H 391" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="1065"></path>
+                        <path d="M 358 45 V 60" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="93"></path>
+                        <path d="M 358 64 V 79" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="94"></path>
+                        <path d="M 358 83 V 99" fill="none" stroke-width="4" class="esteira-foreground svg-esteira"
+                              data-motor="95"></path>
+                        <path d="M 362 45 V 99" fill="none" stroke-width="2" class="esteira-foreground svg-esteira"
+                              data-motor="89"></path>
+                        <path d="M 354 45 V 99" fill="none" stroke-width="2" class="esteira-foreground svg-esteira"
+                              data-motor="91"></path>
+                        <path d="M 377 45 V 99" fill="none" stroke-width="2" class="esteira-foreground svg-esteira"
+                              data-motor="90"></path>
+                        <path d="M 385 45 V 99" fill="none" stroke-width="2" class="esteira-foreground svg-esteira"
+                              data-motor="92"></path>
+                    </g>
+                    <g class="svg-content">
+                        <g class="svg-esteira esteira-desabilitada" data-id="1" data-motor="1001">
+                            <path d="M 16 162 H 49" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="2" data-motor="1002">
+                            <path d="M 49 162 A 1 1 0 0 1 51 174" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="3" data-motor="1">
+                            <path d="M 51 174 H 13" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 51 174 H 13" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="4" data-motor="2">
+                            <path d="M 13 174 A 1 1 0 0 0 13 190" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 13 174 A 1 1 0 0 0 13 190" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="5" data-motor="3">
+                            <path d="M 13 190 H 60" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 13 190 H 60" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="6" data-motor="4">
+                            <path d="M 60 190 C 64 190 65 187 65 185" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 60 190 C 64 190 65 187 65 185 V 169" fill="none" stroke-width="2"
+                                  class="esteira-animation"></path>
+                            <path d="M 65 185 V 169" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="8" data-motor="1003">
+                            <path d="M 65 169 V 157" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="9" data-motor="5">
+                            <path d="M 65 157 V 143" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 65 157 V 143" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="10" data-motor="1004">
+                            <path d="M 65 143 V 131" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="11" data-motor="6">
+                            <path d="M 65 131 V 118" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 65 131 V 118" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="12" data-motor="1005">
+                            <path d="M 65 118 C 65 114.5 61.5 111 58 111" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="13" data-motor="1006">
+                            <path d="M 58 111 H 37" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="45" data-motor="48">
+                            <path d="M 102 194 H 108" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 102 194 H 108" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-noria" data-id="55" data-motor="61">
+                            <path d="M 126 44 C 119 44 119 46 119 47" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 126 44 C 119 44 119 46 119 47 V 103 C 119 105 117.5 105 116 105 C 71.5 105 70 104 70 108 V 185 C 70 188 69 188 67 188 H 4 A 1 1 0 0 0 5 190 A 1 1 0 0 0 4 188 H 4 C 3.5 188 3 189 3 191 V 195 A 1 1 0 0 0 5 195 A 1 1 0 0 0 3 195"
+                                  fill="none" stroke-width="2" class="esteira-animation"></path>
+                            <path d="M 119 47 V 103" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 119 103 C 119 105 117.5 105 116 105" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 116 105 C 71.5 105 70 104 70 108" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 70 108 V 185" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 70 185 C 70 188 69 188 67 188" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 67 188 H 4" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 4 188 A 1 1 0 0 0 5 190" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 5 190 A 1 1 0 0 0 4 188" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 4 188 H 4" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 4 188 C 3.5 188 3 189 3 191" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 3 191 V 195" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 3 195 A 1 1 0 0 0 5 195" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 5 195 A 1 1 0 0 0 3 195" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-noria" data-id="15" data-motor="60">
+                            <path d="M 4 196 C 72 196 74 197 74 191" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 4 196 C 72 196 74 197 74 191 V 113 C 74 111 75 110 77 110 H 84 C 86 110 86 111 86 113 V 131 A 1 1 0 0 1 84 131 V 114 C 84 112.5 83 112 81 112 C 81 112 79 112 79 114 V 189 A 1 1 0 0 0 81 189 V 138 A 1 1 0 0 1 83 138 V 189 A 1 1 0 0 0 85 189 V 138 A 1 1 0 0 1 87 138 V 191 C 87 193 88 194 93 194 A 1 1 0 0 1 92 196 A 1 1 0 0 1 93 194 C 95 194 92 198 96 198 A 1 1 0 0 0 97 196 A 1 1 0 0 0 96 198 C 96.00000762939453 197.99998474121094 98 199 98 196 V 122 A 1 1 0 0 1 100 122 V 192 C 100 193 101 194 102 194 C 110 194 110 193.5 110 192 V 118 C 110 116 111 116 113 116 H 124 C 126 116 126 114 126 113 V 46 A 1 1 0 0 1 128 46 A 1 1 0 0 1 126 46 C 147 46 148 47 148 51 V 173 C 148 176 148 179 153 179 H 173 C 177 179 177 176 177 174 V 163 C 177 160 177 159 181 159 H 194 C 198 159 198 162 198 178 H 218 C 221 178 221 175.5 221 173 V 149 A 1 1 0 0 0 219 149 V 171 A 1 1 0 0 1 217 171 V 149 A 1 1 0 0 0 215 149 V 171 A 1 1 0 0 1 213 171 V 118 C 213 114 212 112 209 112 H 159 C 153 112 154 109 154 105 V 46 C 154 43.5 153 43 149 43 H 126"
+                                  fill="none" stroke-width="2" class="esteira-animation"></path>
+                            <path d="M 74 191 V 113" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 74 113 C 74 111 75 110 77 110" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 77 110 H 84" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 84 110 C 86 110 86 111 86 113" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 86 113 V 131" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 86 131 A 1 1 0 0 1 84 131" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 84 131 V 114" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 84 114 C 84 112.5 83 112 81 112" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 81 112 C 81 112 79 112 79 114" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 79 114 V 189" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 79 189 A 1 1 0 0 0 81 189" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 81 189 V 138" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 81 138 A 1 1 0 0 1 83 138" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 83 138 V 189" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 83 189 A 1 1 0 0 0 85 189" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 85 189 V 138" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 85 138 A 1 1 0 0 1 87 138" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 87 138 V 191" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 87 191 C 87 193 88 194 93 194" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 93 194 A 1 1 0 0 1 92 196" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 92 196 A 1 1 0 0 1 93 194" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 93 194 C 95 194 92 198 96 198" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 96 198 A 1 1 0 0 0 97 196" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 97 196 A 1 1 0 0 0 96 198" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 96 198 C 96.00000762939453 197.99998474121094 98 199 98 196" fill="none"
+                                  stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 98 196 V 122" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 98 122 A 1 1 0 0 1 100 122" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 100 122 V 192" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 100 192 C 100 193 101 194 102 194" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 108 194 C 110 194 110 193.5 110 192" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 110 192 V 118" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 110 118 C 110 116 111 116 113 116" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 113 116 H 124" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 124 116 C 126 116 126 114 126 113" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 126 113 V 46" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 126 46 A 1 1 0 0 1 128 46" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 128 46 A 1 1 0 0 1 126 46" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 139 46 C 147 46 148 47 148 51" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 148 51 V 173" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 148 173 C 148 176 148 179 153 179" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 153 179 H 173" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 173 179 C 177 179 177 176 177 174" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 177 174 V 163" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 177 163 C 177 160 177 159 181 159" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 181 159 H 194" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 194 159 C 198 159 198 162 198 178" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 198 178 H 218" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 218 178 C 221 178 221 175.5 221 173" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 221 173 V 149" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 221 149 A 1 1 0 0 0 219 149" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 219 149 V 171" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 219 171 A 1 1 0 0 1 217 171" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 217 171 V 149" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 217 149 A 1 1 0 0 0 215 149" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 215 149 V 171" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 215 171 A 1 1 0 0 1 213 171" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 213 171 V 118" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 213 118 C 213 114 212 112 209 112" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 209 112 H 159" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 159 112 C 153 112 154 109 154 105" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 154 105 V 46" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 154 46 C 154 43.5 153 43 149 43" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 149 43 H 126" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-noria" data-id="97" data-motor="58">
+                            <path d="M 143 40 H 155" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 143 40 H 155 C 158 40 158 42.5 158 46 V 103 C 158 109 159 109 162 109 H 221 C 228 109 227 111 227 116 V 170 A 1 1 0 0 0 229 170 V 152 A 1 1 0 0 1 231 152 V 179 C 231 182 230 183 227 183 H 197 C 193 183 193 182 193 179 V 165 C 193 163 192 163 190 163 H 183 C 181.5 163 181 164.5 181 166 V 180 C 181 182.5 179.5 183 178 183 H 145 C 142 183 142 182 142 179 V 46 C 142 45 140.5 44 139 44 H 126"
+                                  fill="none" stroke-width="2" class="esteira-animation"></path>
+                            <path d="M 155 40 C 158 40 158 42.5 158 46" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 158 46 V 103" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 158 103 C 158 109 159 109 162 109" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 162 109 H 221" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 221 109 C 228 109 227 111 227 116" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 227 116 V 170" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 227 170 A 1 1 0 0 0 229 170" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 229 170 V 152" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 229 152 A 1 1 0 0 1 231 152" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 231 152 V 179" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 231 179 C 231 182 230 183 227 183" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 227 183 H 197" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 197 183 C 193 183 193 182 193 179" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 193 179 V 165" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 193 165 C 193 163 192 163 190 163" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 190 163 H 183" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 183 163 C 181.5 163 181 164.5 181 166" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 181 166 V 180" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 181 180 C 181 182.5 179.5 183 178 183" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 178 183 H 145" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 145 183 C 142 183 142 182 142 179" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 142 179 V 46" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 142 46 C 142 45 140.5 44 139 44" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 139 44 H 126" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="123" data-motor="1007">
+                            <path d="M 145 68 V 175" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="124" data-motor="1008">
+                            <path d="M 145 175 C 145 178 148 181 151 181" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="125" data-motor="1009">
+                            <path d="M 151 181 H 177" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="127" data-motor="1011">
+                            <path d="M 179 176 V 164" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="128" data-motor="1012">
+                            <path d="M 179 164 C 179 162.5 181.5 161 184 161" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="129" data-motor="1013">
+                            <path d="M 184 161 H 192" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="130" data-motor="1014">
+                            <path d="M 192 161 C 194 161 195 163 195 165" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="131" data-motor="1015">
+                            <path d="M 195 165 V 176" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="132" data-motor="1016">
+                            <path d="M 195 176 C 195 180 197 180 200 180" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="133" data-motor="1017">
+                            <path d="M 200 180 H 222" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="134" data-motor="1018">
+                            <path d="M 222 180 C 225 180 224 177 224 172" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="136" data-motor="1019">
+                            <path d="M 234 172 C 234 177 236 177 238 177" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="137" data-motor="1020">
+                            <path d="M 238 177 H 255" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="138" data-motor="1021">
+                            <path d="M 255 177 C 259 177 259 176 259 174" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="139" data-motor="82">
+                            <path d="M 259 174 V 129" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 259 174 V 129" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="141" data-motor="1022">
+                            <path d="M 268 17 V 117" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="142" data-motor="1023">
+                            <path d="M 268 117 C 268 122 271 122 277 122" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="143" data-motor="1024">
+                            <path d="M 277 122 H 295" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="144" data-motor="1025">
+                            <path d="M 295 122 H 318" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="145" data-motor="1026">
+                            <path d="M 318 122 H 330" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="147" data-motor="1027">
+                            <path d="M 322 120 V 109" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="148" data-motor="1028">
+                            <path d="M 322 109 V 98" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="149" data-motor="1029">
+                            <path d="M 322 98 V 87" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="151" data-motor="1034">
+                            <path d="M 399 131 C 325 131 325 134 325 127" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="152" data-motor="1035">
+                            <path d="M 325 127 V 124" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="154" data-motor="1036">
+                            <path d="M 319 123 V 130" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="155" data-motor="1037">
+                            <path d="M 319 130 C 319 136 321 136 328 136" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="156" data-motor="1039">
+                            <path d="M 328 136 H 399" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="158" data-motor="1040">
+                            <path d="M 410 124 H 403" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="159" data-motor="1041">
+                            <path d="M 403 124 C 397 124 397 126 397 132" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="160" data-motor="1042">
+                            <path d="M 397 132 C 398 142 398 142 393 142" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="161" data-motor="1043">
+                            <path d="M 393 142 H 319" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="162" data-motor="1044">
+                            <path d="M 319 142 C 312 142 311 146 311 147" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="163" data-motor="1045">
+                            <path d="M 311 147 C 311 150 305 154 300 154" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="164" data-motor="1046">
+                            <path d="M 300 154 H 290" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="165" data-motor="1047">
+                            <path d="M 290 154 H 271" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="167" data-motor="144">
+                            <path d="M 268 88 V 111" fill="none" stroke-width="3" class="esteira-foreground"></path>
+                            <path d="M 268 88 V 111" fill="none" stroke-width="1.5" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="169" data-motor="126">
+                            <path d="M 258 65 C 266 65 268 66 268 74" fill="none" stroke-width="3"
+                                  class="esteira-foreground"></path>
+                            <path d="M 258 65 C 266 65 268 66 268 74 V 85" fill="none" stroke-width="1.5"
+                                  class="esteira-animation"></path>
+                            <path d="M 268 74 V 85" fill="none" stroke-width="3" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="172" data-motor="143">
+                            <path d="M 268 48 V 59" fill="none" stroke-width="3" class="esteira-foreground"></path>
+                            <path d="M 268 48 V 59" fill="none" stroke-width="1.5" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="174" data-motor="114">
+                            <path d="M 257 33 C 264 33 268 33 268 38" fill="none" stroke-width="3"
+                                  class="esteira-foreground"></path>
+                            <path d="M 257 33 C 264 33 268 33 268 38 V 46" fill="none" stroke-width="1.5"
+                                  class="esteira-animation"></path>
+                            <path d="M 268 38 V 46" fill="none" stroke-width="3" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="177" data-motor="109">
+                            <path d="M 257 18 C 261 18 268 18 268 24" fill="none" stroke-width="3"
+                                  class="esteira-foreground"></path>
+                            <path d="M 257 18 C 261 18 268 18 268 24 V 33" fill="none" stroke-width="1.5"
+                                  class="esteira-animation"></path>
+                            <path d="M 268 24 V 33" fill="none" stroke-width="3" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="180" data-motor="76">
+                            <path d="M 170 100 H 219" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 170 100 H 219" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="181" data-motor="75">
+                            <path d="M 219 100 H 266" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 219 100 H 266" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="183" data-motor="129">
+                            <path d="M 171 90 H 266" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 171 90 H 266" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="185" data-motor="1048">
+                            <path d="M 266 78 H 227" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="187" data-motor="1049">
+                            <path d="M 258 65 H 229" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="190" data-motor="1051">
+                            <path d="M 257 33 H 228" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="192" data-motor="1052">
+                            <path d="M 266 25 H 228" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="194" data-motor="1053">
+                            <path d="M 257 18 H 228" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="196" data-motor="103">
+                            <path d="M 254 35 V 9" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 254 35 V 9" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="198" data-motor="104">
+                            <path d="M 256 4 H 170" fill="none" stroke-width="2" class="esteira-foreground"></path>
+                            <path d="M 256 4 H 170" fill="none" stroke-width="1" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="200" data-motor="105">
+                            <path d="M 256 7 H 170" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 256 7 H 170" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="202" data-motor="106">
+                            <path d="M 168 4 V 20" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 168 4 V 20" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="204" data-motor="108">
+                            <path d="M 170 18 H 224" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 170 18 H 224" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="206" data-motor="107">
+                            <path d="M 195 18 H 228" fill="none" stroke-width="3" class="esteira-foreground"></path>
+                            <path d="M 195 18 H 228" fill="none" stroke-width="1.5" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="208" data-motor="110">
+                            <path d="M 255 63 H 173" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 255 63 H 173" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="210" data-motor="111">
+                            <path d="M 171 70 V 31" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 171 70 V 31" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="212" data-motor="112">
+                            <path d="M 173 33 H 228" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 173 33 H 228" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="215" data-motor="1058">
+                            <path d="M 179 81 H 164" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="217" data-motor="119">
+                            <path d="M 166 79 V 26" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 166 79 V 26" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="219" data-motor="118">
+                            <path d="M 168 28 H 239" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 168 28 H 239" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="221" data-motor="121">
+                            <path d="M 173 68 H 189" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 173 68 H 189" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="222" data-motor="1060">
+                            <path d="M 189 68 H 204" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="223" data-motor="120">
+                            <path d="M 204 68 H 221" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 204 68 H 221" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="225" data-motor="124">
+                            <path d="M 248 71 H 225" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 248 71 H 225" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="227" data-motor="122">
+                            <path d="M 223 73 V 65" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 223 73 V 65" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="229" data-motor="125">
+                            <path d="M 249 55 H 225" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 249 55 H 225" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="231" data-motor="123">
+                            <path d="M 223 53 V 61" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 223 53 V 61" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="233" data-motor="115">
+                            <path d="M 173 49 H 222" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 173 49 H 222" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="234" data-motor="1062">
+                            <path d="M 222 49 H 250" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="235" data-motor="117">
+                            <path d="M 250 49 H 266" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 250 49 H 266" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="237" data-motor="116">
+                            <path d="M 185 49 H 219" fill="none" stroke-width="3" class="esteira-foreground"></path>
+                            <path d="M 185 49 H 219" fill="none" stroke-width="1.5" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="239" data-motor="113">
+                            <path d="M 173 36 H 228" fill="none" stroke-width="2" class="esteira-foreground"></path>
+                            <path d="M 173 36 H 228" fill="none" stroke-width="1" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-noria" data-id="241" data-motor="200">
+                            <path d="M 252 161 V 123" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 252 161 V 123 C 252 120 254 120 256 120 H 334 C 338 120 339 119 339 117 V 99 C 339 97 337 95 335 95 H 298 A 1 1 0 0 1 298 93 H 338 A 1 1 0 0 0 338 91 H 329 A 1 1 0 0 1 329 89 H 338 C 339.5 89 341 88 341 87 V 48 A 1 1 0 0 0 339 48 V 79 A 1 1 0 0 1 337 79 V 61 A 1 1 0 0 0 335 61 V 76 A 1 1 0 0 1 333 76 V 28 C 333 27 332.5 26 330 26 H 284 C 281 26 281 27 281 29 V 104 C 281 106 279 106 278 106 H 246 C 243 106 243 108 243 110 V 161"
+                                  fill="none" stroke-width="2" class="esteira-animation"></path>
+                            <path d="M 252 123 C 252 120 254 120 256 120" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 256 120 H 334" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 334 120 C 338 120 339 119 339 117" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 339 117 V 99" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 339 99 C 339 97 337 95 335 95" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 335 95 H 298" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 298 95 A 1 1 0 0 1 298 93" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 298 93 H 338" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 338 93 A 1 1 0 0 0 338 91" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 338 91 H 329" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 329 91 A 1 1 0 0 1 329 89" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 329 89 H 338" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 338 89 C 339.5 89 341 88 341 87" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 341 87 V 48" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 341 48 A 1 1 0 0 0 339 48" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 339 48 V 79" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 339 79 A 1 1 0 0 1 337 79" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 337 79 V 61" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 337 61 A 1 1 0 0 0 335 61" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 335 61 V 76" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 335 76 A 1 1 0 0 1 333 76" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 333 76 V 28" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 333 28 C 333 27 332.5 26 330 26" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 330 26 H 284" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 284 26 C 281 26 281 27 281 29" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 281 29 V 104" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 281 104 C 281 106 279 106 278 106" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 278 106 H 246" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 246 106 C 243 106 243 108 243 110" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 243 110 V 161" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-noria" data-id="273" data-motor="201">
+                            <path d="M 249 161 V 119" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 249 161 V 119 C 249 116 251 116 253 116 H 327 C 330 116 330 114 330 113 V 106 C 330 105 329 104 328 104 H 291 A 1 1 0 0 1 291 102 H 330 A 1 1 0 0 0 330 100 H 292 C 290 100 290 98 290 97 V 80 C 290 78.5 291 77 294 77 H 321 C 323 77 323 77 323 74 V 31 A 1 1 0 0 0 321 31 V 69 A 1 1 0 0 1 319 69 V 51 A 1 1 0 0 0 317 51 V 67 C 317 69.5 315 70 313 70 H 287 C 285 70 285 71 285 73 V 110 C 285 111 284 112 281 112 H 250 C 248.5 112 247 113 247 115 V 161"
+                                  fill="none" stroke-width="2" class="esteira-animation"></path>
+                            <path d="M 249 119 C 249 116 251 116 253 116" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 253 116 H 327" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 327 116 C 330 116 330 114 330 113" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 330 113 V 106" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 330 106 C 330 105 329 104 328 104" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 328 104 H 291" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 291 104 A 1 1 0 0 1 291 102" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 291 102 H 330" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 330 102 A 1 1 0 0 0 330 100" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 330 100 H 292" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 292 100 C 290 100 290 98 290 97" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 290 97 V 80" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 290 80 C 290 78.5 291 77 294 77" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 294 77 H 321" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 321 77 C 323 77 323 77 323 74" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 323 74 V 31" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 323 31 A 1 1 0 0 0 321 31" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 321 31 V 69" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 321 69 A 1 1 0 0 1 319 69" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 319 69 V 51" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 319 51 A 1 1 0 0 0 317 51" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 317 51 V 67" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 317 67 C 317 69.5 315 70 313 70" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 313 70 H 287" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 287 70 C 285 70 285 71 285 73" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 285 73 V 110" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 285 110 C 285 111 284 112 281 112" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 281 112 H 250" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 250 112 C 248.5 112 247 113 247 115" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 247 115 V 161" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="305" data-motor="1063">
+                            <path d="M 386 118 H 407" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="307" data-motor="1064">
+                            <path d="M 384 104 V 120" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="126" data-motor="1010">
+                            <path d="M 177 181 C 178 181 179 178.5 179 176" fill="none" stroke-width="4"
+                                  class="esteira-foreground"></path>
+                            <path d="M 344 102 H 386" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="311" data-motor="98">
+                            <path d="M 346 67 V 100" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 346 67 V 100" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="313" data-motor="97">
+                            <path d="M 308 65 H 348" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 308 65 H 348" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="315" data-motor="1065">
+                            <path d="M 308 34 H 391" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 308 34 H 391" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="317" data-motor="1066">
+                            <path d="M 358 36 V 43" fill="none" stroke-width="10" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="319" data-motor="1067">
+                            <path d="M 358 39 V 45" fill="none" stroke-width="9" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="320" data-motor="93">
+                            <path d="M 358 45 V 60" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 358 45 V 60" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="322" data-motor="94">
+                            <path d="M 358 64 V 79" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 358 64 V 79" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="324" data-motor="95">
+                            <path d="M 358 83 V 99" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                            <path d="M 358 83 V 99" fill="none" stroke-width="2" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="326" data-motor="89">
+                            <path d="M 362 45 V 99" fill="none" stroke-width="2" class="esteira-foreground"></path>
+                            <path d="M 362 45 V 99" fill="none" stroke-width="1" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="328" data-motor="91">
+                            <path d="M 354 45 V 99" fill="none" stroke-width="2" class="esteira-foreground"></path>
+                            <path d="M 354 45 V 99" fill="none" stroke-width="1" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="330" data-motor="1068">
+                            <path d="M 381 36 V 43" fill="none" stroke-width="10" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="332" data-motor="1069">
+                            <path d="M 381 43 V 45" fill="none" stroke-width="9" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="334" data-motor="1070">
+                            <path d="M 381 45 V 60" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="336" data-motor="1071">
+                            <path d="M 381 64 V 79" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="338" data-motor="1072">
+                            <path d="M 381 83 V 99" fill="none" stroke-width="4" class="esteira-foreground"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="340" data-motor="90">
+                            <path d="M 377 45 V 99" fill="none" stroke-width="2" class="esteira-foreground"></path>
+                            <path d="M 377 45 V 99" fill="none" stroke-width="1" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira" data-id="342" data-motor="92">
+                            <path d="M 385 45 V 99" fill="none" stroke-width="2" class="esteira-foreground"></path>
+                            <path d="M 385 45 V 99" fill="none" stroke-width="1" class="esteira-animation"></path>
+                        </g>
+                        <g class="svg-esteira esteira-desabilitada" data-id="345" data-motor="1073">
+                            <path d="M 125 43 H 144" fill="none" stroke-width="10" class="esteira-foreground"></path>
+                        </g>
+                    </g>
+
+                </svg>
+            </div>
+
+            <script data-tchmi-target-attribute="data-tchmi-trigger"
+                    type="application/json">
+[
+  {
+    "event": "TcHmiHtmlHost_SVGLayout_4.onInitialized",
+    "actions": [
+      {
+        "objectType": "Comment",
+        "comment": "Eventos para colorir esteiras"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "console.log(\"criando subscribe esteiras\");",
+          "",
+          "let commands = [];",
+          "let statusEsteiras = [];",
+          "// [",
+          "//     {",
+          "//         'symbol': 'PLC1.GVL_Motores.Motor[0]'",
+          "//     },",
+          "// ]",
+          "",
+          "commands = [{ symbol: `PLC1.GVL_IHM.stStatusEsteiras` }];",
+          "",
+          "const statusClasses = {",
+          "  1: \"esteira-parada-auto\",",
+          "  2: \"esteira-parada-manual\",",
+          "  3: \"esteira-acionada-auto\",",
+          "  4: \"esteira-acionada-manual\",",
+          "  5: \"esteira-bloqueada\",",
+          "  6: \"esteira-falha-contatora\",",
+          "  7: \"esteira-inversor-offline\",",
+          "  8: \"esteira-disjuntor-desarmado\",",
+          "  9: \"esteira-emergencia\",",
+          "  10: \"esteira-interlock\",",
+          "  11: \"esteira-trocando-sentido\",",
+          "  12: \"esteira-falha-inversor\",",
+          "  17: \"esteira-parada-higienizacao\",",
+          "  18: \"esteira-acionada-higienizacao\",",
+          "  default: \"\",",
+          "};",
+          "",
+          "setTimeout(() => {",
+          "  TcHmi.Server.subscribe(commands, 500, function (data) {",
+          "    if (data.error !== TcHmi.Errors.NONE) {",
+          "      // Handle TcHmi.Server class level error here.",
+          "      console.error(data.error);",
+          "      return;",
+          "    }",
+          "",
+          "    var response = data.response;",
+          "    if (!response || response.error !== undefined) {",
+          "      // Handle TwinCAT HMI Server response level error here.",
+          "      console.error(response.error);",
+          "      return;",
+          "    }",
+          "",
+          "    var commands = response.commands;",
+          "    if (commands === undefined) {",
+          "      return;",
+          "    }",
+          "",
+          "    // Handle result...",
+          "    //TcHmi.Log.debugEx(command.symbol, \":\", command.readValue);",
+          "",
+          "    // TYPE ST_StatusEsteiras :",
+          "    // STRUCT",
+          "",
+          "    // \tiStatusAtual \t\t\t: INT;  // Status para mudar cor da esteira na tela",
+          "    // \txEsteiraComissionada\t: BOOL; // Indica se a esteira foi comissionada",
+          "    // \txCmdFwd\t\t\t\t\t: BOOL; // Esteira com comando de avanco",
+          "    // \txCmdRev\t\t\t\t\t: BOOL; // Esteira com comando de recuo",
+          "",
+          "    // END_STRUCT",
+          "    // END_TYPE",
+          "",
+          "    try {",
+          "      let results = data?.results[0]?.value;",
+          "      // console.log(\"results: \", results);",
+          "",
+          "      if (results && results.length > 0) {",
+          "        if (statusEsteiras.length === 0) {",
+          "          statusEsteiras = new Array(results.length);",
+          "          // console.log(\"statusEsteiras: \", statusEsteiras);",
+          "        }",
+          "",
+          "        results.forEach((status, indexEsteira) => {",
+          "            ",
+          "          if (",
+          "            !status ||",
+          "            JSON.stringify(status[indexEsteira]) !== JSON.stringify(results[indexEsteira])",
+          "          ) {",
+          "            // Compara objetos",
+          "            // Atualiza o status da esteira",
+          "",
+          "            // console.log(",
+          "            //   `Esteira ${indexEsteira} mudou para ${JSON.stringify(",
+          "            //     results[indexEsteira]",
+          "            //   )} (${statusClasses[results[indexEsteira].iStatusAtual]})`",
+          "            // );",
+          "",
+          "            let groups = document.querySelectorAll(",
+          "              `[data-esteira=\"${indexEsteira}\"]`",
+          "            );",
+          "",
+          "            groups.forEach((group) => {",
+          "              if (!group || group.classList.contains(\"esteira-desabilitada\")) {",
+          "                return;",
+          "              }",
+          "              group.classList.remove(...group.classList); // Remove all existing classes",
+          "              group.classList.add(\"svg-esteira\");",
+          "",
+          "              // Classes de status",
+          "              group.classList.add(",
+          "                statusClasses[results[indexEsteira].iStatusAtual]",
+          "              ); //",
+          "",
+          "              // Comissionamento",
+          "              if (results[indexEsteira].xEsteiraComissionada) {",
+          "                group.classList.remove(\"esteira-nao-comissionada\");",
+          "              } else {",
+          "                group.classList.add(\"esteira-nao-comissionada\");",
+          "              }",
+          "              // Sentido reverso",
+          "              if (results[indexEsteira].xCmdRev) {",
+          "                group.classList.add(\"esteira-sentido-reverso\");",
+          "              } else {",
+          "                group.classList.remove(\"esteira-sentido-reverso\");",
+          "              }",
+          "",
+          "              group.dataset.status = results[indexEsteira].iStatusAtual;",
+          "",
+          "              statusEsteiras[indexEsteira] = results[indexEsteira];",
+          "            });",
+          "          }",
+          "        });",
+          "      }",
+          "    } catch (error) {",
+          "      console.error(error);",
+          "    }",
+          "  });",
+          "}, 2000);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      },
+      {
+        "objectType": "Comment",
+        "comment": "Eventos para abrir popups"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "setTimeout(() => {",
+          "  try {",
+          "    let svgParts = document.querySelector(\"#svgParts\");",
+          "    svgParts.querySelectorAll(\".svg-esteira\").forEach((esteira) => {",
+          "      if (esteira.classList.contains(\"esteira-desabilitada\")) {",
+          "        return;",
+          "      }",
+          "      esteira.addEventListener(\"click\", (event) => {",
+          "        let indexEsteira = event.currentTarget.dataset.esteira || -1;",
+          "",
+          "        let popupName = \"UcPopUpMotores\";",
+          "        var myControl = TcHmi.Controls.get(popupName);",
+          "",
+          "        if (myControl && indexEsteira >= 0) {",
+          "          TcHmi.Binding.createEx2(",
+          "            `%s%PLC1.GVL_Motores.Motor[${indexEsteira}]|BindingMode=TwoWay%/s%`,",
+          "            \"stPartida\",",
+          "            myControl",
+          "          );",
+          "          $(\"#\" + popupName)",
+          "            .delay(500)",
+          "            .slideDown(\"slow\");",
+          "        } else {",
+          "          alert(\"Esteira\" + indexEsteira + \" não possui motor associado.\");",
+          "        }",
+          "      });",
+          "    });",
+          "  } catch (error) {",
+          "    console.error(error);",
+          "  }",
+          "}, 2000);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+        </div>
+
+        <script data-tchmi-target-attribute="data-tchmi-trigger"
+                type="application/json">
+[
+  {
+    "event": "TcHmiContainer_ZoomableArea_365.onInitialized",
+    "actions": [
+      {
+        "objectType": "Comment",
+        "comment": "Efeitos de zoom"
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "setTimeout(() => {",
+          "  let zoomScale = 1;",
+          "  let initialPosition = { x: 0, y: 0 };",
+          "  let currentTranslate = { x: 0, y: 0 };",
+          "  let isDragging = false;",
+          "  let isAnimating = false;",
+          "",
+          "  let originalBoundingRect = null;",
+          "",
+          "  let hideOnZoom = [",
+          "    \"TcHmiContainer_Region_1\",",
+          "    \"TcHmiContainer_Region_2\",",
+          "    \"TcHmiContainer_Region_3\",",
+          "  ];",
+          "",
+          "  try {",
+          "    const zoomContent = document.getElementById(\"TcHmiContainer_ZoomableArea\");",
+          "    const miniMap = document.getElementById(\"TcHmiContainer_MiniMap\");",
+          "    let minimapOverlay = document.getElementById(\"Minimap_Overlay\");",
+          "    minimapOverlay.style.display = \"none\";",
+          "",
+          "    originalBoundingRect = zoomContent.getBoundingClientRect();",
+          "",
+          "    miniMap.style.transition = \"opacity 1s\";",
+          "    miniMap.style.transitionDelay = \"1s\";",
+          "    minimapOverlay.style.transition = \"opacity 1s\";",
+          "",
+          "    let hideOnZoomElements = [];",
+          "    hideOnZoom.forEach((id) => {",
+          "      let element = document.getElementById(id);",
+          "      if (element) {",
+          "        hideOnZoomElements.push(element);",
+          "        element.style.pointerEvents = \"all\";",
+          "        element.style.transition = \"opacity 1s\";",
+          "        element.style.opacity = 1;",
+          "      }",
+          "    });",
+          "",
+          "    let minimapTimeout;",
+          "    let minimapOverlayTimeout;",
+          "    let transitionTimeout;",
+          "",
+          "    // Double click to zoom",
+          "    zoomContent.addEventListener(\"dblclick\", function (event) {",
+          "      stopAnimation();",
+          "      isAnimating = true;",
+          "",
+          "      if (transitionTimeout) clearTimeout(transitionTimeout);",
+          "      transitionTimeout = setTimeout(() => {",
+          "        startAnimation();",
+          "        isAnimating = false;",
+          "        // currentTranslate = { x: 0, y: 0 };",
+          "        // initialPosition = { x: 0, y: 0 };",
+          "      }, 1300);",
+          "",
+          "      const rect = zoomContent.getBoundingClientRect();",
+          "      const x = event.clientX - rect.left;",
+          "      const y = event.clientY - rect.top;",
+          "",
+          "      zoomContent.style.transition = \"transform 1s\";",
+          "",
+          "      if (zoomScale > 1) {",
+          "        zoomScale = 1;",
+          "",
+          "        currentTranslate = { x: 0, y: 0 };",
+          "        initialPosition = { x: 0, y: 0 };",
+          "",
+          "        miniMap.style.opacity = 0;",
+          "        minimapOverlay.style.opacity = 0;",
+          "",
+          "        minimapTimeout = setTimeout(() => {",
+          "          miniMap.style.visibility = \"collapsed\";",
+          "          minimapOverlay.style.display = \"none\";",
+          "",
+          "          hideOnZoomElements.forEach((element) => {",
+          "            element.style.opacity = 1;",
+          "            element.style.pointerEvents = \"all\";",
+          "          });",
+          "        }, 2000);",
+          "",
+          "        if (minimapOverlayTimeout) clearTimeout(minimapOverlayTimeout);",
+          "      } else {",
+          "        zoomScale = 1.5;",
+          "",
+          "        zoomContent.style.transformOrigin = `${(x / rect.width) * 100}% ${",
+          "          (y / rect.height) * 100",
+          "        }%`;",
+          "",
+          "        miniMap.style.visibility = \"visible\";",
+          "        miniMap.style.opacity = 1;",
+          "        miniMap.style.display = \"unset\";",
+          "",
+          "        hideOnZoomElements.forEach((element) => {",
+          "          element.style.opacity = 0;",
+          "          element.style.pointerEvents = \"none\";",
+          "        });",
+          "",
+          "        minimapOverlayTimeout = setTimeout(() => {",
+          "          updateTransform();",
+          "          minimapOverlay.style.display = \"unset\";",
+          "          minimapOverlay.style.opacity = 1;",
+          "        }, 1500);",
+          "",
+          "        if (minimapTimeout) clearTimeout(minimapTimeout);",
+          "      }",
+          "",
+          "      updateTransform();",
+          "    });",
+          "",
+          "    // Touch events",
+          "    zoomContent.addEventListener(\"touchstart\", (event) => {",
+          "      zoomContent.style.transition = \"transform 0s\";",
+          "",
+          "      if (event.touches.length === 1 && zoomScale > 1) {",
+          "        stopAnimation();",
+          "        initialPosition.x = event.touches[0].clientX - currentTranslate.x;",
+          "        initialPosition.y = event.touches[0].clientY - currentTranslate.y;",
+          "        isDragging = true;",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"touchmove\", (event) => {",
+          "      event.preventDefault();",
+          "",
+          "      if (isDragging && event.touches.length === 1 && zoomScale > 1) {",
+          "        currentTranslate.x = event.touches[0].clientX - initialPosition.x;",
+          "        currentTranslate.y = event.touches[0].clientY - initialPosition.y;",
+          "        updateTransform();",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"touchend\", () => {",
+          "      isDragging = false;",
+          "      if (!isAnimating) startAnimation();",
+          "    });",
+          "",
+          "    // Mouse events",
+          "    zoomContent.addEventListener(\"mousedown\", (event) => {",
+          "      zoomContent.style.transition = \"transform 0s\";",
+          "",
+          "      if (zoomScale > 1) {",
+          "        stopAnimation();",
+          "        initialPosition.x = event.clientX - currentTranslate.x;",
+          "        initialPosition.y = event.clientY - currentTranslate.y;",
+          "        isDragging = true;",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"mousemove\", (event) => {",
+          "      if (isDragging && zoomScale > 1) {",
+          "        currentTranslate.x = event.clientX - initialPosition.x;",
+          "        currentTranslate.y = event.clientY - initialPosition.y;",
+          "        updateTransform();",
+          "      }",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"mouseup\", () => {",
+          "      isDragging = false;",
+          "      if (!isAnimating) startAnimation();",
+          "    });",
+          "",
+          "    zoomContent.addEventListener(\"mouseleave\", () => {",
+          "      isDragging = false;",
+          "      if (!isAnimating) startAnimation();",
+          "    });",
+          "",
+          "    function updateTransform() {",
+          "      zoomContent.style.transform = `translate(${currentTranslate.x}px, ${currentTranslate.y}px) scale(${zoomScale})`;",
+          "",
+          "      // atualizar posicao overlay minimap",
+          "      let newBoundingRect = zoomContent.getBoundingClientRect();",
+          "",
+          "      let x =",
+          "        -(",
+          "          (newBoundingRect.x - originalBoundingRect.x) /",
+          "          newBoundingRect.width",
+          "        ) * 100;",
+          "      let y =",
+          "        -(",
+          "          (newBoundingRect.y - originalBoundingRect.y) /",
+          "          newBoundingRect.height",
+          "        ) * 100;",
+          "      let height = (originalBoundingRect.width / newBoundingRect.width) * 100;",
+          "      let width = (originalBoundingRect.height / newBoundingRect.height) * 100;",
+          "",
+          "      // console.log(newBoundingRect);",
+          "      // console.log(\"x: \", x);",
+          "      // console.log(\"y: \", y);",
+          "      // console.log(\"height: \", height);",
+          "      // console.log(\"width: \", width);",
+          "",
+          "      minimapOverlay.style.left = x + \"%\";",
+          "      minimapOverlay.style.top = y + \"%\";",
+          "      minimapOverlay.style.height = height + \"%\";",
+          "      minimapOverlay.style.width = width + \"%\";",
+          "    }",
+          "",
+          "\tfunction stopAnimation() {",
+          "      // document.querySelectorAll(\".esteira-animation\").forEach((p) => {",
+          "      //   // p.style.animationPlayState = \"paused\";",
+          "      //   p.classList.add(\"pause-esteira-animation\");",
+          "      // });",
+          "",
+          "      document",
+          "        .querySelector(\"#LayoutContent\")",
+          "        .classList.add(\"pause-all-animations\");",
+          "      ",
+          "    }",
+          "",
+          "    function startAnimation() {",
+          "      // document.querySelectorAll(\".esteira-animation\").forEach((p) => {",
+          "      //   // p.style.animationPlayState = \"running\";",
+          "      //   p.classList.remove(\"pause-esteira-animation\");",
+          "      // });",
+          "      document",
+          "        .querySelector(\"#LayoutContent\")",
+          "        .classList.remove(\"pause-all-animations\");",
+          "      ",
+          "    }",
+          "  } catch (error) {",
+          "    console.error(error);",
+          "  }",
+          "}, 2000);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+<div id="TcHmiContainer_365" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="176" data-tchmi-height-unit="px" data-tchmi-left="30" data-tchmi-left-unit="px" data-tchmi-top="36" data-tchmi-top-unit="px" data-tchmi-width="365" data-tchmi-width-unit="px" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(158, 153, 153, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 1,
+  "right": 1,
+  "top": 1,
+  "bottom": 1,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+<div id="UserControl1_84" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="104" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Geral/ucToggleBotão.usercontrol" data-tchmi-top="58" data-tchmi-top-unit="px" data-tchmi-width="312" data-tchmi-width-unit="px" data-tchmi-textoligado="Liga Linhas Gerais" data-tchmi-textodesligado="Desliga Linhas Gerais" data-tchmi-ifonte="30" data-tchmi-variavel="%f%%s%PLC1.GVL_Automatico.Grupos[1]::En::xLiga%/s% && %s%PLC1.GVL_Automatico.Grupos[2]::En::xLiga%/s% && %s%PLC1.GVL_Automatico.Grupos[3]::En::xLiga%/s%&& 
+%s%PLC1.GVL_Automatico.Grupos[4]::En::xLiga%/s%&&%s%PLC1.GVL_Automatico.Grupos[5]::En::xLiga%/s%&&%s%PLC1.GVL_Automatico.Grupos[6]::En::xLiga%/s%&&%s%PLC1.GVL_Automatico.Grupos[7]::En::xLiga%/s%&&%s%PLC1.GVL_Automatico.Grupos[8]::En::xLiga%/s%%/f%" data-tchmi-zindex="9">
+</div>
+<div id="TcHmiContainer_366" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="54" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="-2" data-tchmi-top-unit="px" data-tchmi-width="365" data-tchmi-width-unit="px" data-tchmi-zindex="3">
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(26, 30, 51, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 0.0,
+  "bottomRight": 0.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+<div id="TcHmiTextblock_285166883" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="96" data-tchmi-left-unit="px" data-tchmi-text="Acionamentos" data-tchmi-top="4" data-tchmi-top-unit="px" data-tchmi-width="207" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="30" data-tchmi-zindex="19">
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+</div>
+</div>
+</div>
+<div id="TcHmiRectangle_52241986" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="522" data-tchmi-left-unit="px" data-tchmi-top="260" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="357" data-tchmi-width="152" data-tchmi-height="48">
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+            {
+            "color": "rgba(0, 0, 0, 0.0392156)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 3.0,
+            "topRight": 3.0,
+            "bottomLeft": 3.0,
+            "bottomRight": 3.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.2352941)"
+            },
+            "offsetX": 5.0,
+            "offsetXUnit": "px",
+            "offsetY": 5.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 10.0,
+            "blurUnit": "px",
+            "spread": 5.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "rgba(209, 209, 209, 1)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+            {
+            "color": "rgba(255, 255, 255, 0)"
+            }
+        </script>
+    </div>
+<div id="TcHmiRectangle_M23M24_52241987" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="540" data-tchmi-left-unit="px" data-tchmi-top="257" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="358" data-tchmi-width="124" data-tchmi-height="54">
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+            {
+            "color": "rgba(0, 0, 0, 0.0392156)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 3.0,
+            "topRight": 3.0,
+            "bottomLeft": 3.0,
+            "bottomRight": 3.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.3921568)"
+            },
+            "offsetX": 0.0,
+            "offsetXUnit": "px",
+            "offsetY": 0.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 10.0,
+            "blurUnit": "px",
+            "spread": 5.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "rgba(209, 209, 209, 1)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+            {
+            "color": "rgba(255, 255, 255, 0)"
+            }
+        </script>
+    </div>
+<div id="TcHmiRectangle_52241987" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="1003" data-tchmi-left-unit="px" data-tchmi-top="650" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="357" data-tchmi-width="30" data-tchmi-height="200">
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+            {
+            "color": "rgba(0, 0, 0, 0.0392156)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 3.0,
+            "topRight": 3.0,
+            "bottomLeft": 3.0,
+            "bottomRight": 3.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.2352941)"
+            },
+            "offsetX": 5.0,
+            "offsetXUnit": "px",
+            "offsetY": 5.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 10.0,
+            "blurUnit": "px",
+            "spread": 5.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "rgba(209, 209, 209, 1)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+            {
+            "color": "rgba(255, 255, 255, 0)"
+            }
+        </script>
+    </div>
+<div id="TcHmiRectangle_52241988" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="960" data-tchmi-left-unit="px" data-tchmi-top="650" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="357" data-tchmi-width="30" data-tchmi-height="200">
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+            {
+            "color": "rgba(0, 0, 0, 0.0392156)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 3.0,
+            "topRight": 3.0,
+            "bottomLeft": 3.0,
+            "bottomRight": 3.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.2352941)"
+            },
+            "offsetX": 5.0,
+            "offsetXUnit": "px",
+            "offsetY": 5.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 10.0,
+            "blurUnit": "px",
+            "spread": 5.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "rgba(209, 209, 209, 1)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+            {
+            "color": "rgba(255, 255, 255, 0)"
+            }
+        </script>
+    </div>
+<div id="TcHmiRectangle_52241989" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="1053" data-tchmi-left-unit="px" data-tchmi-top="650" data-tchmi-top-unit="px" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="357" data-tchmi-width="50" data-tchmi-height="158">
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+            {
+            "color": "rgba(0, 0, 0, 0.0392156)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+            {
+            "topLeft": 3.0,
+            "topRight": 3.0,
+            "bottomLeft": 3.0,
+            "bottomRight": 3.0,
+            "topLeftUnit": "px",
+            "topRightUnit": "px",
+            "bottomLeftUnit": "px",
+            "bottomRightUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.2352941)"
+            },
+            "offsetX": 5.0,
+            "offsetXUnit": "px",
+            "offsetY": 5.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 10.0,
+            "blurUnit": "px",
+            "spread": 5.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "rgba(209, 209, 209, 1)"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-stroke-color" type="application/json">
+            {
+            "color": "rgba(255, 255, 255, 0)"
+            }
+        </script>
+    </div>
+</div>
+    <div id="TcHmiContainer_MiniMap_365"
+         data-tchmi-type="TcHmi.Controls.System.TcHmiContainer"
+         data-tchmi-height="20"
+         data-tchmi-height-unit="%"
+         data-tchmi-width-unit="%"
+         data-tchmi-width="20"
+         data-tchmi-creator-locked="True"
+         data-tchmi-visibility="Visible"
+         data-tchmi-opacity="0"
+         data-tchmi-top="20"
+         data-tchmi-right="20" data-tchmi-zindex="3" data-tchmi-creator-visibility="Collapsed">
+        <script data-tchmi-target-attribute="data-tchmi-border-color"
+                type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color"
+                type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+        <div id="TcHmiHtmlHost_MiniMap_4"
+             data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost"
+             data-tchmi-height="100"
+             data-tchmi-height-unit="%"
+             data-tchmi-left="0"
+             data-tchmi-left-unit="px"
+             data-tchmi-top="0"
+             data-tchmi-top-unit="px"
+             data-tchmi-width="100"
+             data-tchmi-width-unit="%" data-tchmi-zindex="3">
+
+            <svg viewBox="-2.034510612487793 -2.534511089324951 271 145" fill="none" xmlns="http://www.w3.org/2000/svg" id="svgPartsMini" class="show-texts">
+                <!-- conteudo dinamico -->
+                <g id="esteiras-group-mini">
+                    <g data-esteira="55" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 115 133 H 136" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="56" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 136 133 H 146" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="27" class="svg-esteira  ">
+                        <path d="M 146 133 C 159 133 159 133 163 130" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="26" class="svg-esteira  ">
+                        <path d="M 163 130 C 167 127 167 127 180 127" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="25" class="svg-esteira  ">
+                        <path d="M 180 127 H 200" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="24" class="svg-esteira  ">
+                        <path d="M 200 127 H 220" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="58" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 220 127 H 237" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="23" class="svg-esteira  ">
+                        <path d="M 237 127 C 247 127 248 127 248 118" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="22" class="svg-esteira  ">
+                        <path d="M 248 118 C 248 115 250 113 254 113" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="21" class="svg-esteira  ">
+                        <path d="M 254 113 H 264" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="14" class="svg-esteira  ">
+                        <path d="M 253 121 H 239" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="13" class="svg-esteira  ">
+                        <path d="M 239 121 H 211" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="12" class="svg-esteira  ">
+                        <path d="M 211 121 H 183" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="11" class="svg-esteira  ">
+                        <path d="M 183 121 H 155" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="10" class="svg-esteira  ">
+                        <path d="M 155 121 C 152 121 150 119 150 116" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="9" class="svg-esteira  ">
+                        <path d="M 150 116 V 105" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="60" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 146 100 V 86" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="61" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 146 86 V 69" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="62" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 152 103 H 136" class="esteira-foreground" transform="translate(0, 0.5) rotate(0, 0, 0)" style="stroke-width:7.699999999999987"></path>
+                    </g>
+                    <g data-esteira="63" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 136 103 H 123" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="64" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 123 103 H 107" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="16" class="svg-esteira  ">
+                        <path d="M 15 7 H 96" class="esteira-foreground" transform="translate(-10, 20) rotate(0, 0, 0)"></path>
+                    </g>
+                    <g data-esteira="8" class="svg-esteira  ">
+                        <path d="M 107 103 C 103 103 102 101 102 97" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="66" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 102 97 V 65" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="67" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 102 65 V 11" class="esteira-foreground" style="stroke-width:5.999999999999993"></path>
+                    </g>
+                    <g data-esteira="68" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 100 79 H 48" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="69" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 48 79 H 9" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="70" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 100 74 H 27" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="7" class="svg-esteira  ">
+                        <path d="M 105 82 V 71" class="esteira-foreground" transform="translate(-3.1, 0.2) rotate(0, 0, 0)"></path>
+                    </g>
+                    <g data-esteira="6" class="svg-esteira  ">
+                        <path d="M 102 70 C 102 66 103 62 97 62" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="71" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 62 H 76" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="5" class="svg-esteira  ">
+                        <path d="M 102 54 V 43" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="72" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 100 45 H 97" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="73" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 45 H 87" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="74" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 87 45 H 22" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="4" class="svg-esteira  ">
+                        <path d="M 102 39 C 102 35 103 31 97 31" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="75" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 31 H 76" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="3" class="svg-esteira  ">
+                        <path d="M 102 24 C 102 20 103 16 97 16" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="76" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 97 16 H 76" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="2" class="svg-esteira  ">
+                        <path d="M 76 16 H 15" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="77" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 15 33 V 60" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="78" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 17 58 H 86" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="79" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 69 50 H 52" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="80" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 54 52 V 56" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="81" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 69 66 H 52" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="82" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 54 64 V 60" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="83" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 52 62 H 37" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="84" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 17 42 H 80" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="85" class="svg-esteira  esteira-desabilitada">
+                        <path d="M 23 66 H 5" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="15" class="svg-esteira  ">
+                        <path d="M 7 64 V 26" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="17" class="svg-esteira  ">
+                        <path d="M 76 31 H 13" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="1" class="svg-esteira  ">
+                        <path d="M 13 18 V 5" class="esteira-foreground"></path>
+                    </g>
+                    <g data-esteira="19" class="svg-esteira  ">
+                        <path d="M 15 7 H 96" class="esteira-foreground" transform="translate(0, 0) rotate(0, 0, 0)"></path>
+                    </g>
+                    <g data-esteira="18" class="svg-esteira  ">
+                        <path d="M 94 9 V 29" class="esteira-foreground"></path>
+                    </g>
+                </g>
+            </svg>
+
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color"
+                    type="application/json">
+                {
+                "angle": 90.0,
+                "stopPoints": [
+                {
+                "color": "rgba(153, 153, 153, 0.7843137)",
+                "stop": "0%"
+                },
+                {
+                "color": "rgba(229, 229, 229, 0.7843137)",
+                "stop": "100%"
+                }
+                ]
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-width"
+                    type="application/json">
+                {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0,
+                "leftUnit": "px",
+                "rightUnit": "px",
+                "topUnit": "px",
+                "bottomUnit": "px"
+                }
+            </script>
+        </div>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style"
+                type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow"
+                type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.3921568)"
+            },
+            "offsetX": 0.0,
+            "offsetXUnit": "px",
+            "offsetY": 0.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 10.0,
+            "blurUnit": "px",
+            "spread": 5.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+        <div id="Minimap_Overlay_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="50" data-tchmi-left-unit="px" data-tchmi-top="16" data-tchmi-top-unit="px" data-tchmi-width="20" data-tchmi-width-unit="%" data-tchmi-zindex="3" data-tchmi-stroke-thickness="0">
+
+            <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+                {
+                "color": "None"
+                }
+            </script>
+
+
+
+            <script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+                {
+                "color": "rgba(255, 204, 0, 1)"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+                {
+                "left": 3,
+                "right": 3,
+                "top": 3,
+                "bottom": 3,
+                "leftUnit": "px",
+                "rightUnit": "px",
+                "topUnit": "px",
+                "bottomUnit": "px"
+                }
+            </script>
+
+            <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+                {
+                "left": "Solid",
+                "right": "Solid",
+                "top": "Solid",
+                "bottom": "Solid"
+                }
+            </script>
+        </div>
+    </div>
+    <div id="TcHmiTextblock_285166881"
+         data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock"
+         data-tchmi-height="26"
+         data-tchmi-height-unit="px"
+         data-tchmi-left="9"
+         data-tchmi-left-unit="px"
+         data-tchmi-text="Textblock"
+         data-tchmi-top="999"
+         data-tchmi-top-unit="px"
+         data-tchmi-width="1877"
+         data-tchmi-width-unit="px"
+         data-tchmi-word-wrap="true" data-tchmi-zindex="3"></div>
+    <div id="TcHmiContainer_Region_365" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="402" data-tchmi-height-unit="px" data-tchmi-width="994" data-tchmi-width-unit="px" data-tchmi-zindex="133" data-tchmi-top="1061" data-tchmi-right="2">
+
+        <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 15.0,
+  "topRight": 15.0,
+  "bottomLeft": 15.0,
+  "bottomRight": 15.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+            {
+            "left": 1,
+            "right": 0,
+            "top": 1,
+            "bottom": 0,
+            "leftUnit": "px",
+            "rightUnit": "px",
+            "topUnit": "px",
+            "bottomUnit": "px"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+            {
+            "left": "None",
+            "right": "None",
+            "top": "None",
+            "bottom": "None"
+            }
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-box-shadow" type="application/json">
+            [
+            {
+            "color": {
+            "color": "rgba(0, 0, 0, 0.0784313)"
+            },
+            "offsetX": 3.0,
+            "offsetXUnit": "px",
+            "offsetY": 3.0,
+            "offsetYUnit": "px",
+            "inset": false,
+            "blur": 50.0,
+            "blurUnit": "px",
+            "spread": 10.0,
+            "spreadUnit": "px"
+            }
+            ]
+        </script>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "None"
+            }
+        </script>
+<div id="TcHmiTextblock_285166882" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Fluxo de caixas por hora (15m)" data-tchmi-top="13" data-tchmi-top-unit="px" data-tchmi-width="316" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-zindex="1" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="18">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(102, 102, 102, 1)"
+}
+</script>
+</div>
+<div id="TcHmiHtmlHost_GraficoCaixaHora_5" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-height="348" data-tchmi-height-unit="px" data-tchmi-left="14" data-tchmi-left-unit="px" data-tchmi-top="40" data-tchmi-top-unit="px" data-tchmi-width="966" data-tchmi-width-unit="px">
+
+    <!--<script src="../../Scripts/d3.v7.min.js"></script>-->
+
+    <div id="d3js-fluxo-caixa-hora" style="width: 100%; height: 100%;"></div>
+
+
+    <script>
+      try {
+        function getTimeFromIncrement(value) {
+          const hours = Math.floor(value / 4); // 4 increments in an hour
+          const minutes = (value % 4) * 15; // Each increment represents 15 minutes
+
+          const formattedHours = String(hours).padStart(2, "0");
+          const formattedMinutes = String(minutes).padStart(2, "0");
+
+          return `${formattedHours}:${formattedMinutes}`;
+        }
+
+        function generateFakeData() {
+          iGraficoCaixaHoraAtual.forEach((_, index) => {
+            iGraficoCaixaHoraAtual[index] =
+              index > 0
+                ? iGraficoCaixaHoraAtual[index - 1] -
+                  100 +
+                  Math.floor(Math.random() * 200)
+                : Math.floor(Math.random() * 1000);
+          });
+
+          iGraficoCaixaHoraPassado.forEach((dia, indexDia) => {
+            dia.forEach((hora, indexHora) => {
+              iGraficoCaixaHoraPassado[indexDia][indexHora] =
+                indexHora > 0
+                  ? iGraficoCaixaHoraPassado[indexDia][indexHora - 1] -
+                    100 +
+                    Math.floor(Math.random() * 200)
+                  : Math.floor(Math.random() * 1000);
+            });
+          });
+
+          updateChart();
+        }
+
+        // Today's data
+        let iGraficoCaixaHoraAtual = new Array(24 * 4).fill(0);
+        let iGraficoCaixaHoraPassado = new Array(7)
+          .fill(null)
+          .map(() => new Array(24 * 4).fill(0));
+
+        let todayData = new Array(24 * 4);
+        let pastData = new Array(7)
+          .fill(null)
+          .map(() => new Array(24 * 4).fill(0));
+
+        let chartContainer = document.getElementById("d3js-fluxo-caixa-hora");
+
+        const margin = { top: 10, right: 0, bottom: 10, left: 40 };
+        const width = chartContainer.clientWidth - margin.left - margin.right; // Subtract margin
+        const height = chartContainer.clientHeight - margin.top - margin.bottom; // Subtract margin
+
+        // Create SVG container
+        const svg = d3
+          .select("#d3js-fluxo-caixa-hora")
+          .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom);
+
+        // Create scales
+        let x = d3
+          .scaleTime()
+          .range([margin.left, width - margin.right])
+          .nice();
+
+        let y = d3
+          .scaleLinear()
+          .nice()
+          .range([height - margin.bottom, margin.top]);
+
+        // -------------------------------------------------------------------------------------------------
+
+        const updateChart = () => {
+          console.log("updateChart");
+
+          if (iGraficoCaixaHoraAtual && iGraficoCaixaHoraAtual.length > 0) {
+            iGraficoCaixaHoraAtual.forEach((caixaHora, indexHora) => {
+              todayData[indexHora] = {
+                hora: getTimeFromIncrement(indexHora),
+                valor: caixaHora,
+              };
+            });
+          }
+
+          if (iGraficoCaixaHoraPassado && iGraficoCaixaHoraPassado.length > 0) {
+            iGraficoCaixaHoraPassado.forEach((dia, indexDia) => {
+              dia.forEach((caixaHora, indexHora) => {
+                pastData[indexDia][indexHora] = {
+                  hora: getTimeFromIncrement(indexHora),
+                  valor: caixaHora,
+                };
+              });
+            });
+          }
+
+          const allPastData = pastData.flat();
+          const allData = [...allPastData, ...todayData];
+
+          if (d3.max(allData, (d) => d.valor) === 0) {
+            return;
+          }
+
+          const parseTime = d3.timeParse("%H:%M");
+          todayData.forEach((d) => (d.hora = parseTime(d.hora)));
+          pastData.forEach((day) =>
+            day.forEach((d) => (d.hora = parseTime(d.hora)))
+          );
+
+          x.domain(d3.extent(todayData, (d) => d.hora))
+            .range([margin.left, width - margin.right])
+            .nice();
+
+          y.domain([
+            d3.min(allData, (d) => d.valor) * 0.9,
+            d3.max(allData, (d) => d.valor) * 1.1,
+          ]).nice();
+
+          const lineGenerator = d3
+            .line()
+            .x((d) => x(d.hora))
+            .y((d) => y(d.valor))
+            .curve(d3.curveStepBefore);
+
+          // Define color interpolation
+          const colorInterpolator = d3
+            .scaleLinear()
+            .domain([-100, 0, 100]) // Differences: -100 → Red, 0 → Grey, 100 → Green
+            .range(["red", "grey", "green"]);
+
+          svg.select("defs").remove();
+
+          // Create a gradient for today's data
+          const gradient = svg
+            .append("defs")
+            .append("linearGradient")
+            .attr("id", "line-gradient")
+            .attr("gradientUnits", "userSpaceOnUse")
+            .attr("x1", 0)
+            .attr("x2", width);
+
+          todayData.forEach((d, i) => {
+              const xPosition = x(d.hora); // Use the actual x-axis value
+              const offset = (xPosition / width) * 100; // Calculate offset as percentage of total width
+
+              const difference = d.valor - pastData[0][i].valor; // Calculate the difference
+
+              gradient
+                .append("stop")
+                .attr("offset", `${offset}%`)
+                .attr(
+                  "stop-color",
+                  d.valor > 0 ? colorInterpolator(difference) : "#0003"
+                );
+          });
+
+
+          // today lines
+          const todayLines = svg.selectAll(".today-line").data([todayData]);
+
+          todayLines
+            .enter()
+            .append("path")
+            .attr("d", lineGenerator)
+            .attr("class", "today-line")
+            .attr("stroke", "url(#line-gradient)")
+            .style("stroke-width", 2)
+            .style("fill", "none")
+            .attr("stroke-dasharray", function () {
+              return this.getTotalLength();
+            })
+            .attr("stroke-dashoffset", function () {
+              return this.getTotalLength();
+            })
+            .transition()
+            .duration(2000) // Duration of the animation
+            .ease(d3.easeLinear)
+            .attr("stroke-dashoffset", 0); // Animate to 0 to make the line "drawn"
+
+          todayLines.merge(todayLines).attr("d", lineGenerator);
+
+          todayLines.exit().remove();
+
+          // past lines
+
+          const pastLines = svg.selectAll(".past-line").data(pastData);
+
+          pastLines
+            .enter()
+            .append("path")
+            .attr("class", "past-line")
+            .attr("d", (d) => lineGenerator(d)) // Bind the line generator to each sub-array (day's data)
+            .attr("stroke", "#555") // Different color for each day, using a color scheme
+            .style("stroke-width", (d, index) => (index === 0 ? 1.5 : 1))
+            .attr("opacity", (d, index) =>
+                index === 0 ? 0.8 : 0.8 - index * 0.1
+            )
+            .attr("stroke-dasharray", (d, index) => (index === 0 ? "" : "3,3"))
+            .style("fill", "none");
+
+          pastLines
+            .merge(pastLines) // Merge the new lines with existing ones to update them
+            .attr("d", (d) => lineGenerator(d)); // Bind the line generator to each sub-array (day's data)
+
+          pastLines.exit().remove(); // Remove lines for any data that no longer exists
+
+          svg
+            .select(".x-axis")
+            .call(
+              d3
+                .axisBottom(x)
+                .ticks(d3.timeHour.every(2))
+                .tickFormat(d3.timeFormat("%H:%M"))
+            );
+
+          svg.select(".y-axis").call(d3.axisLeft(y));
+        };
+        // Create a group for the tooltipCaixaHora line and circles
+        const tooltipCaixaHoraGroup = svg.append("g").style("display", "none");
+
+        // Tooltip line
+        const tooltipCaixaHoraLine = tooltipCaixaHoraGroup
+          .append("line")
+          .attr("stroke", "gray")
+          .attr("stroke-width", 1)
+          .attr("y1", margin.top)
+          .attr("y2", height - margin.bottom);
+
+        // Tooltip circles for todayData and pastData
+        const tooltipCaixaHoraCircles = tooltipCaixaHoraGroup
+          .selectAll(".tooltipCaixaHora-circle")
+          .data([todayData, ...pastData])
+          .enter()
+          .append("circle")
+          .attr("class", "tooltipCaixaHora-circle")
+          .attr("r", 2)
+          .attr("fill", "#000");
+        // .attr("fill", (d, i) =>
+        //   i === 0 ? "blue" : d3.schemeCategory10[i % 10]
+        // );
+
+        // Tooltip container
+        const tooltipCaixaHoraContainer = d3
+          .select("body")
+          .append("div")
+          .attr("class", "tooltipCaixaHora")
+          .style("display", "none");
+
+        // Add a rectangle overlay for capturing mouse events
+        svg
+          .append("rect")
+          .attr("width", width)
+          .attr("height", height)
+          // .attr("fill", "#0000")
+          // .attr("pointer-events", "all")
+          .style("opacity", 0)
+          .on("mouseover", function () {
+            // no arrow function here to use `this`
+            tooltipCaixaHoraGroup.style("display", null);
+            tooltipCaixaHoraContainer.style("display", "block");
+          })
+          .on("mouseout", function () {
+            tooltipCaixaHoraGroup.style("display", "none");
+            tooltipCaixaHoraContainer.style("display", "none");
+          })
+          .on("mousemove", function (event) {
+            updateTooltip.call(this, event); // Use `this` for correct reference
+          })
+          .on("touchmove", function (event) {
+            event.preventDefault(); // Prevent default touch action
+            updateTooltip.call(this, event); // Use `this` for correct reference
+          })
+          .on("touchstart", function (event) {
+            event.preventDefault();
+            tooltipCaixaHoraGroup.style("display", null);
+            tooltipCaixaHoraContainer.style("display", "block");
+            updateTooltip.call(this, event); // Use `this` for correct reference
+          })
+          .on("touchend", function () {
+            tooltipCaixaHoraGroup.style("display", "none");
+            tooltipCaixaHoraContainer.style("display", "none");
+          });
+
+        // Add axes
+        svg
+          .append("g")
+          .attr("class", "x-axis")
+          .attr("transform", `translate(0,${height - margin.bottom})`)
+
+          .attr("color", "#666");
+
+        svg
+          .append("g")
+          .attr("class", "y-axis")
+          .attr("transform", `translate(${margin.left},0)`)
+          .attr("color", "#666");
+
+        function updateTooltip(event) {
+          // For touch events, we use event.changedTouches or event.touches
+          const isTouchEvent = event.touches || event.changedTouches;
+
+          // Get the parent container position relative to the viewport
+          const rectParent = this.getBoundingClientRect();
+
+          const pointerEvent = isTouchEvent
+            ? event.touches[0] || event.changedTouches[0] // Use the first touch point
+            : event;
+
+          const pageX = pointerEvent.pageX || pointerEvent.clientX;
+          const pageY = pointerEvent.pageY || pointerEvent.clientY;
+
+          // Get coordinates relative to the SVG/container
+          const [pointerX, pointerY] = isTouchEvent
+            ? d3.pointer(event.touches[0] || event.changedTouches[0], this)
+            : d3.pointer(event, this);
+
+          const hoveredTime = x.invert(pointerX);
+
+          // Find the nearest data point for each curve
+          const getClosestPoint = (data) =>
+            data.reduce((a, b) =>
+              Math.abs(b.hora - hoveredTime) < Math.abs(a.hora - hoveredTime)
+                ? b
+                : a
+            );
+
+          const todayPoint = getClosestPoint(todayData);
+          const pastPoints = pastData.map(getClosestPoint);
+
+          // Update tooltipCaixaHora line position
+          tooltipCaixaHoraLine.attr("x1", pointerX).attr("x2", pointerX);
+
+          // Update tooltipCaixaHora circles positions
+          tooltipCaixaHoraCircles
+            .data([todayPoint, ...pastPoints])
+            .attr("cx", (d) => x(d.hora))
+            .attr("cy", (d) => y(d.valor));
+
+          // Update tooltipCaixaHora content
+          const tooltipCaixaHoraHTML = [
+            `<div class="tooltipCaixaHora-row">
+                <div class="tooltipCaixaHora-left"><strong>Hora</strong></div>
+                <div class="tooltipCaixaHora-right">${d3.timeFormat("%H:%M")(
+                  todayPoint.hora
+                )}</div>
+              </div>`,
+            `<div class="tooltipCaixaHora-row">
+                <div class="tooltipCaixaHora-left"><strong>Hoje</strong></div>
+                <div class="tooltipCaixaHora-right">${todayPoint.valor.toFixed(
+                  0
+                )}</div>
+              </div>`,
+            ...pastPoints.map((d, i) => {
+              // Calculate the day of the week for each past day
+              const currentDayOfWeek = new Date().getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+              const pastDayOfWeek = (currentDayOfWeek - (i + 1) + 7) % 7; // Ensure a positive index (using modulo)
+
+              // Array of day names
+              const daysOfWeek = [
+                "Domingo",
+                "Segunda-feira",
+                "Terça-feira",
+                "Quarta-feira",
+                "Quinta-feira",
+                "Sexta-feira",
+                "Sábado",
+              ];
+
+              return `<div class="tooltipCaixaHora-row">
+                          <div class="tooltipCaixaHora-left"><strong>${
+                            daysOfWeek[pastDayOfWeek]
+                          }</strong></div>
+                          <div class="tooltipCaixaHora-right">${d.valor.toFixed(
+                            0
+                          )}</div>
+                        </div>`;
+            }),
+          ].join("");
+
+          // Align tooltip's right side with the pointer
+          const tooltipWidth = tooltipCaixaHoraContainer.node().offsetWidth; // Get tooltip width
+          const tooltipHeight = tooltipCaixaHoraContainer.node().offsetHeight; // Get tooltip height
+          // console.log("rectParent: ", rectParent.left, rectParent.top);
+          // console.log("pointer: ", pointerX, pointerY);
+
+          tooltipCaixaHoraContainer
+            .html(tooltipCaixaHoraHTML)
+            .style("left", `${pageX - tooltipWidth - 10}px `) // Align with the parent container
+            .style("top", `${pageY - tooltipHeight - 10}px`); // Align with the parent container
+        }
+
+        // Initial render
+        updateChart();
+
+        // criar subscribe da variavel de falhas
+        let commands = [{ symbol: `PLC1.GVL_IHM.iGraficoCaixaHoraAtual` }];
+        TcHmi.Server.subscribe(commands, 10000, function (data) {
+          // 60 seconds
+          if (data.error !== TcHmi.Errors.NONE) {
+            // Handle TcHmi.Server class level error here.
+            console.error(data.error);
+            return;
+          }
+
+          var response = data.response;
+          if (!response || response.error !== undefined) {
+            // Handle TwinCAT HMI Server response level error here.
+            console.error(response.error);
+            return;
+          }
+
+          var commands = response.commands;
+          if (commands === undefined) {
+            return;
+          }
+
+          // Handle result...
+          //TcHmi.Log.debugEx(command.symbol, ":", command.readValue);
+
+          try {
+            let results = data?.results[0]?.value;
+
+            iGraficoCaixaHoraAtual = [...results];
+            console.log('PLC1.GVL_IHM.iGraficoCaixaHoraAtual', iGraficoCaixaHoraAtual)
+
+            updateChart();
+          } catch (error) {
+            console.error(error);
+          }
+        });
+
+        commands = [{ symbol: `PLC1.GVL_IHM.iGraficoCaixaHoraPassado` }];
+        TcHmi.Server.subscribe(commands, 10000, function (data) {
+          // 60 seconds
+          if (data.error !== TcHmi.Errors.NONE) {
+            // Handle TcHmi.Server class level error here.
+            console.error(data.error);
+            return;
+          }
+
+          var response = data.response;
+          if (!response || response.error !== undefined) {
+            // Handle TwinCAT HMI Server response level error here.
+            console.error(response.error);
+            return;
+          }
+
+          var commands = response.commands;
+          if (commands === undefined) {
+            return;
+          }
+
+          // Handle result...
+          //TcHmi.Log.debugEx(command.symbol, ":", command.readValue);
+
+          try {
+            let results = data?.results[0]?.value;
+
+            iGraficoCaixaHoraPassado = [...results];
+
+            console.log('PLC1.GVL_IHM.iGraficoCaixaHoraPassado', iGraficoCaixaHoraPassado)
+
+            updateChart();
+          } catch (error) {
+            console.error(error);
+          }
+        });
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    </script>
+
+
+</div>
+</div>
+</div>

@@ -15810,7 +15810,7 @@
     "ENABLE_SERVER_UPDATE": true,
     "ENDPOINTS": [
         "http://127.0.0.1:13009",
-        "http://127.0.0.1:3019"
+        "http://127.0.0.1:3020"
     ],
     "ETAGENABLED": true,
     "EXTENSIONS": {

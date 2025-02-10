@@ -130,6 +130,11 @@
       "name": "Scripts/GraficoTempoReal.css",
       "description": "",
       "type": "Stylesheet"
+    },
+    {
+      "name": "Scripts/SweetAlert/SVGPathAnimation (1).css",
+      "description": "",
+      "type": "Stylesheet"
     }
   ],
   "userControls": [
@@ -393,9 +398,16 @@
       "preloadBindings": false
     },
     {
+      "url": "Pages/Layout/GraficosHigienizacao.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
+    },
+    {
       "url": "Pages/Layout/HIgienização.content",
       "preload": false,
-      "keepAlive": true,
+      "keepAlive": false,
       "loadSync": false,
       "preloadBindings": false
     },
@@ -484,7 +496,7 @@
       "preloadBindings": true
     },
     {
-      "url": "Pages/Layout/GraficosHigienizacao.content",
+      "url": "Pages/Layout/Layout2 (1).content",
       "preload": false,
       "keepAlive": false,
       "loadSync": false,

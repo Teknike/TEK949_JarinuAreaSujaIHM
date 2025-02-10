@@ -1,0 +1,329 @@
+
+.svg-esteira .esteira-animation {
+    /* will-change: stroke-dashoffset; */
+    fill: none;
+    stroke: #ffffff;
+    stroke-linecap: butt;
+    stroke-linejoin: bevel;
+    /* stroke-width: 1.5; */
+    stroke-dasharray: 0.3, 1; /* Dash length and gap length */
+    stroke-dashoffset: 0;
+    /* transition: stroke-dasharray 0.25s; */
+    pointer-events: none;
+    animation: strokeAnimation 0.8s steps(20) infinite; /* strokeAnimation 0.8s forwards linear infinite; */
+    animation-play-state: running;
+    /* animation-delay: 2s; */
+}
+
+.svg-noria .esteira-animation {
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    /* stroke-width: 0.3; */
+    stroke-dasharray: 2, 2; /* Dash length and gap length */
+    animation: strokeAnimationNoria 2s steps(20) infinite; /* strokeAnimation 0.8s forwards linear infinite; */
+}
+
+.pause-all-animations path {
+    animation-play-state: paused !important;
+}
+
+@keyframes strokeAnimation {
+    0% {
+        stroke-dashoffset: 1.3;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes strokeAnimationNoria {
+    0% {
+        stroke-dashoffset: 4;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.svg-noria {
+    stroke: #d6b600 !important;
+}
+
+svg text {
+    user-select: none;
+}
+
+.svg-esteira .esteira-foreground {
+    stroke: #6666ff73;
+    /* stroke-width: 2; */
+}
+
+.svg-noria .esteira-foreground {
+    stroke: #ffe3669a;
+    stroke-width: 1;
+}
+
+.svg-noria .esteira-animation {
+    /* stroke: white; */
+    stroke-width: 0.8;
+}
+
+.esteira-desabilitada .esteira-foreground {
+    stroke: #ccc !important;
+    /* opacity: 0.5; */
+}
+
+.svg-shadows {
+    stroke: rgba(0, 0, 0, 0.5) !important;
+    transform: translate(1px, 1px);
+    filter: blur(2px); /* Optional */
+}
+
+    .svg-shadows .svg-noria {
+        stroke: rgba(0, 0, 0, 0.5) !important;
+        stroke-width: 1;
+    }
+
+.esteira-animation {
+    /* will-change: stroke-dashoffset; */
+    fill: none;
+    stroke: #ffffff;
+    stroke-linecap: butt;
+    stroke-linejoin: bevel;
+    stroke-width: 1.5;
+    stroke-dasharray: 0.3, 1; /* Dash length and gap length */
+    stroke-dashoffset: 0;
+    /* transition: stroke-dasharray 0.25s; */
+    pointer-events: none;
+    animation: strokeDance 0.8s steps(20) infinite; /* strokeDance 0.8s forwards linear infinite; */
+    animation-play-state: running;
+    animation-delay: 2s;
+}
+
+#noria-group .esteira-animation {
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-width: 0.3;
+    stroke-dasharray: 2, 2; /* Dash length and gap length */
+    animation: strokeDanceNoria 2s steps(30) infinite; /* strokeDance 0.8s forwards linear infinite; */
+}
+
+.pause-esteira-animation {
+    animation-play-state: paused !important;
+}
+
+.pause-all-animations path {
+    animation-play-state: paused !important;
+}
+
+@keyframes strokeDance {
+    0% {
+        stroke-dashoffset: -1.3;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes strokeDanceNoria {
+    0% {
+        stroke-dashoffset: -4;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+/*#svgBackground path {
+  stroke: #0000;
+}*/
+
+#svgParts text {
+    font-size: 0.2rem;
+    font-weight: bold;
+    fill: #292929;
+}
+
+#svgParts line {
+    stroke: #ffffff;
+    stroke-width: 0.4;
+}
+
+.svg-esteira .esteira-foreground {
+    stroke-width: 4;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    /*stroke: #4632ff;*/
+    stroke: #ccc1;
+    transition: stroke 0.3s;
+}
+
+.svg-esteira .esteira-background {
+    stroke-width: 4.4;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke: #ccc;
+}
+
+/* parada-auto  */
+.esteira-parada-auto .esteira-foreground {
+    stroke: #555;
+}
+
+.esteira-parada-auto .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff22;
+}
+
+/* parada-manual  */
+.esteira-parada-manual .esteira-foreground {
+    stroke: #3e3e88;
+}
+
+.esteira-parada-manual .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff22;
+}
+
+/* acionada-auto  */
+.esteira-acionada-auto .esteira-foreground {
+    stroke: #f1f1f1;
+}
+
+.esteira-acionada-auto .esteira-animation {
+    stroke: #ccc;
+}
+
+/* acionada-manual  */
+.esteira-acionada-manual .esteira-foreground {
+    stroke: #00bfff;
+}
+/* bloqueada  */
+.esteira-bloqueada .esteira-foreground {
+    stroke: #ff5300;
+}
+
+.esteira-bloqueada .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff99;
+}
+/* falha-contatora  */
+.esteira-falha-contatora .esteira-foreground {
+    stroke: #ff0000;
+    animation: 1.5s erroEsteira infinite ease-in;
+}
+
+.esteira-falha-contatora .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff;
+}
+/* inversor-offline  */
+.esteira-inversor-offline .esteira-foreground {
+    stroke: #964b00;
+}
+
+.esteira-falha-contatora .esteira-animation {
+    display: none;
+}
+/* disjuntor-desarmado  */
+.esteira-disjuntor-desarmado .esteira-foreground {
+    stroke: #ff0000;
+    animation: 1.5s erroEsteira infinite ease-in;
+}
+
+.esteira-disjuntor-desarmado .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff22;
+}
+/* emergencia  */
+.esteira-emergencia .esteira-foreground {
+    stroke: #ff0000;
+    animation: 1.5s erroEsteira infinite ease-in;
+}
+
+.esteira-emergencia .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff22;
+}
+/* interlock  */
+.esteira-interlock .esteira-foreground {
+    stroke: #ffff00;
+}
+
+.esteira-interlock .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff22;
+}
+/* trocando-sentido  */
+.esteira-trocando-sentido .esteira-foreground {
+    stroke: #0c6c81;
+}
+
+.esteira-trocando-sentido .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff22;
+}
+
+/* falha-inversor  */
+.esteira-falha-inversor .esteira-foreground {
+    stroke: #ff0000;
+    animation: 1.5s erroEsteira infinite ease-in;
+}
+
+.esteira-falha-inversor .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff;
+}
+/* parada-higienizacao  */
+.esteira-parada-higienizacao .esteira-foreground {
+    stroke: #3cb371;
+}
+
+.esteira-parada-higienizacao .esteira-animation {
+    animation-play-state: paused !important;
+    stroke: #ffffff;
+}
+/* acionada-higienizacao  */
+.esteira-acionada-higienizacao .esteira-foreground {
+    stroke: #00ff7f;
+}
+
+/* desabilitada  */
+.esteira-desabilitada .esteira-foreground {
+    stroke: #6664;
+}
+
+.esteira-desabilitada .esteira-background {
+    display: none;
+}
+
+.esteira-desabilitada .esteira-animation {
+    stroke: #fff4;
+}
+
+.esteira-desabilitada text {
+    display: none;
+}
+
+.esteira-sentido-reverso .esteira-animation {
+    animation-direction: reverse;
+}
+
+/* nao comissionado  */
+.esteira-nao-comissionada .esteira-animation {
+    stroke: #0000ff;
+}
+
+@keyframes erroEsteira {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}

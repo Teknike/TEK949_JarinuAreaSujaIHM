@@ -407,6 +407,13 @@
         <script data-tchmi-target-attribute="data-tchmi-navigation-structure" type="application/json">
 [
   {
+    "name": "Layout",
+    "content": "Pages/Layout/Layout2 (1).content",
+    "icon_a": "Imports/Images/startpage_normal.svg",
+    "icon_n": "Imports/Images/startpage_normal.svg",
+    "icon_p": "Imports/Images/startpage_normal.svg"
+  },
+  {
     "name": "Pendura",
     "content": "Pages/Layout/Pendura.content",
     "icon_a": "Imports/Images/automatic_normal.svg",
@@ -490,13 +497,6 @@
     "icon_a": "Imports/Images/Groups-active.svg",
     "icon_n": "Imports/Images/Groups-normal.svg",
     "icon_p": "Imports/Images/Groups-pressed.svg"
-  },
-  {
-    "name": "Layout",
-    "content": "Pages/Layout/Layout2.content",
-    "icon_a": "Imports/Images/startpage_normal.svg",
-    "icon_n": "Imports/Images/startpage_normal.svg",
-    "icon_p": "Imports/Images/startpage_normal.svg"
   },
   {
     "name": "Eventos",
