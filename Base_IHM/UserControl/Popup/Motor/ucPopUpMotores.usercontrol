@@ -2585,6 +2585,11 @@
                     "objectType": "StaticValue",
                     "valueType": "tchmi:general#/definitions/String",
                     "value": "Bloqueado"
+                  },
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:general#/definitions/Any",
+                    "value": ""
                   }
                 ],
                 "asyncWait": true
@@ -2640,6 +2645,11 @@
                     "objectType": "StaticValue",
                     "valueType": "tchmi:general#/definitions/String",
                     "value": "Desbloqueado"
+                  },
+                  {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:general#/definitions/Any",
+                    "value": ""
                   }
                 ],
                 "asyncWait": true
@@ -2671,6 +2681,17 @@
               }
             ],
             "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": false,
+                "symbolExpression": "%pp%stPartida::En::iSenhaAtual%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/INT",
+                  "value": 0
+                },
+                "asyncWait": true
+              },
               {
                 "objectType": "WriteToSymbol",
                 "active": true,
@@ -2707,7 +2728,7 @@
                         },
                         "compare2": {
                           "objectType": "Symbol",
-                          "valueType": "tchmi:general#/definitions/String",
+                          "valueType": "tchmi:general#/definitions/INT",
                           "symbolExpression": "%pp%stPartida::En::iSenhaBloqueio%/pp%"
                         },
                         "compareOperator": "==",
@@ -3104,6 +3125,17 @@
                   "objectType": "StaticValue",
                   "valueType": "tchmi:framework#/definitions/ToggleState",
                   "value": "Normal"
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%stPartida::En::iSenhaAtual%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/INT",
+                  "value": 0
                 },
                 "asyncWait": true
               }
@@ -13020,6 +13052,28 @@
                 "injectContextObject": false,
                 "asyncWait": true,
                 "waitMode": "Synchronous"
+              },
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%stPartida::En::iSenhaBloqueio%/pp%",
+                "value": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%stPartida::En::iSenhaAtual%/pp%"
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%stPartida::En::iSenhaAtual%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/INT",
+                  "value": 0
+                },
+                "asyncWait": true
               }
             ]
           },
@@ -13074,7 +13128,7 @@
 }
 </script>
 </div>
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiNumericInput_160" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="54" data-tchmi-left-unit="px" data-tchmi-max-value="9999999" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="114" data-tchmi-top-unit="px" data-tchmi-value="%pp%stPartida::En::iSenhaAtual|BindingMode=TwoWay%/pp%" data-tchmi-width="184" data-tchmi-width-unit="px" data-tchmi-value-horizontal-alignment="Center" data-tchmi-auto-select-text="false">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiNumericInput_160" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="false" data-tchmi-decimal-digits="0" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="54" data-tchmi-left-unit="px" data-tchmi-max-value="9999999" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="114" data-tchmi-top-unit="px" data-tchmi-value="%pp%stPartida::En::iSenhaAtual|BindingMode=TwoWay%/pp%" data-tchmi-width="184" data-tchmi-width-unit="px" data-tchmi-value-horizontal-alignment="Center" data-tchmi-auto-select-text="false">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {"top":3,"right":3,"bottom":3,"left":3}
 </script>
@@ -13337,7 +13391,7 @@
 ]
 </script>
 </div>
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="Senha" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="550" data-tchmi-left-unit="px" data-tchmi-max-value="9999999" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="403" data-tchmi-top-unit="px" data-tchmi-value="%pp%stPartida::En::iSenhaAtual|BindingMode=TwoWay%/pp%" data-tchmi-width="93" data-tchmi-width-unit="px" data-tchmi-value-horizontal-alignment="Center" data-tchmi-auto-select-text="false" data-tchmi-creator-locked="True">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="Senha" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="false" data-tchmi-decimal-digits="0" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="550" data-tchmi-left-unit="px" data-tchmi-max-value="9999999" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="403" data-tchmi-top-unit="px" data-tchmi-value="%pp%stPartida::En::iSenhaAtual|BindingMode=TwoWay%/pp%" data-tchmi-width="93" data-tchmi-width-unit="px" data-tchmi-value-horizontal-alignment="Center" data-tchmi-auto-select-text="false" data-tchmi-creator-locked="True">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {"top":3,"right":3,"bottom":3,"left":3}
 </script>
