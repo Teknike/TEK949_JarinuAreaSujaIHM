@@ -15809,7 +15809,8 @@
     "DISCOVERY": 2,
     "ENABLE_SERVER_UPDATE": true,
     "ENDPOINTS": [
-        "http://127.0.0.1:13009",
+        "http://192.168.1.118:13009",
+        "http://192.168.1.118:3020",
         "http://127.0.0.1:3020"
     ],
     "ETAGENABLED": true,
@@ -18447,6 +18448,40 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.GVL_Automatico.Higienizacao.rPressaoMaximadeOperacaoGrupo1": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rPressaoMaximadeOperacaoGrupo1",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 16
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.rPressaoMaximadeOperacaoGrupo2": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rPressaoMaximadeOperacaoGrupo2",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    {
+                        "propertyOrder": 21
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo1": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -18458,7 +18493,7 @@
                         "$ref": "tchmi:general#/definitions/REAL"
                     },
                     {
-                        "propertyOrder": 10
+                        "propertyOrder": 12
                     }
                 ]
             },
@@ -18475,7 +18510,7 @@
                         "$ref": "tchmi:general#/definitions/REAL"
                     },
                     {
-                        "propertyOrder": 14
+                        "propertyOrder": 17
                     }
                 ]
             },
@@ -18492,7 +18527,7 @@
                         "$ref": "tchmi:general#/definitions/REAL"
                     },
                     {
-                        "propertyOrder": 11
+                        "propertyOrder": 13
                     }
                 ]
             },
@@ -18509,7 +18544,7 @@
                         "$ref": "tchmi:general#/definitions/REAL"
                     },
                     {
-                        "propertyOrder": 15
+                        "propertyOrder": 18
                     }
                 ]
             },
@@ -18526,24 +18561,7 @@
                         "$ref": "tchmi:general#/definitions/REAL"
                     },
                     {
-                        "propertyOrder": 9
-                    }
-                ]
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.GVL_Automatico.Higienizacao.rTemperaturaSaidaTrocador": {
-            "ACCESS": 3,
-            "DOMAIN": "ADS",
-            "DYNAMIC": true,
-            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::rTemperaturaSaidaTrocador",
-            "SCHEMA": {
-                "allOf": [
-                    {
-                        "$ref": "tchmi:general#/definitions/REAL"
-                    },
-                    {
-                        "propertyOrder": 7
+                        "propertyOrder": 11
                     }
                 ]
             },
@@ -18560,7 +18578,7 @@
                         "$ref": "tchmi:general#/definitions/REAL"
                     },
                     {
-                        "propertyOrder": 8
+                        "propertyOrder": 10
                     }
                 ]
             },
@@ -19268,26 +19286,6 @@
                 "$ref": "tchmi:general#/definitions/INT"
             },
             "SUBSYMBOL_MAPPING": "",
-            "USEMAPPING": true
-        },
-        "PLC1.GVL_PID.stPIDGrupo1": {
-            "ACCESS": 3,
-            "DOMAIN": "ADS",
-            "DYNAMIC": true,
-            "MAPPING": "PLC1::GVL_PID::stPIDGrupo1",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.stControlePID"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.GVL_PID.stPIDGrupo2": {
-            "ACCESS": 3,
-            "DOMAIN": "ADS",
-            "DYNAMIC": true,
-            "MAPPING": "PLC1::GVL_PID::stPIDGrupo2",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.stControlePID"
-            },
             "USEMAPPING": true
         },
         "PLC1.GVL_Seguranca.Emergencias": {
@@ -21576,6 +21574,22 @@
                 "TcHmiUserManagement.RenameUser": 0
             }
         },
+        "Higienizacao": {
+            "ENABLED": true,
+            "FILEACCESS": 3,
+            "FILES": {},
+            "SYMBOLACCESS": 0,
+            "SYMBOLS": {
+                "AddOrChangeUser": 0,
+                "ChangeUserSettings": 0,
+                "RemoveUser": 0,
+                "TcHmiUserManagement.AddUser": 0,
+                "TcHmiUserManagement.DisableUser": 0,
+                "TcHmiUserManagement.EnableUser": 0,
+                "TcHmiUserManagement.RemoveUser": 0,
+                "TcHmiUserManagement.RenameUser": 0
+            }
+        },
         "Manutencao": {
             "ENABLED": true,
             "FILEACCESS": 3,
@@ -21734,6 +21748,8 @@
                 "PLC1.GVL_Automatico.Grupos": 3,
                 "PLC1.GVL_Automatico.Grupos.1.Sa.iIndex": 3,
                 "PLC1.GVL_Automatico.Higienizacao": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rPressaoMaximadeOperacaoGrupo1": 3,
+                "PLC1.GVL_Automatico.Higienizacao.rPressaoMaximadeOperacaoGrupo2": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo1": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo2": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rPressaoSetPointGrupo1": 3,
@@ -22185,6 +22201,16 @@
                     "CasaMaquinas",
                     "__SystemUsers",
                     "Graficos"
+                ],
+                "USERGROUPUSERS_LOCALE": "pt-BR",
+                "USERGROUPUSERS_TIMEFORMATLOCALE": "project",
+                "USERGROUPUSERS_TIMEZONE": "project"
+            },
+            "Higienizacao": {
+                "USERGROUPUSERS_AUTO_LOGOFF": "P30D",
+                "USERGROUPUSERS_GROUPS": [
+                    "Operacao",
+                    "Higienizacao"
                 ],
                 "USERGROUPUSERS_LOCALE": "pt-BR",
                 "USERGROUPUSERS_TIMEFORMATLOCALE": "project",

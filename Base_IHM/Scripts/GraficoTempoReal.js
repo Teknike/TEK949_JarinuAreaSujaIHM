@@ -1,6 +1,6 @@
 let chartData = {
   temperatura: {
-    intervalo: 30, // segundos
+    intervalo: 60, // segundos
     label: "Temperatura",
     color: "blue",
     hysteresisColor: "#71B48D33",
@@ -12,7 +12,7 @@ let chartData = {
     unit: "°C",
   },
   pressao1: {
-    intervalo: 30, // segundos
+    intervalo: 60, // segundos
     label: "Pressão1",
     color: "red",
     hysteresisColor: "#00000000",
@@ -24,7 +24,7 @@ let chartData = {
     unit: "bar",
   },
   pressao2: {
-    intervalo: 30, // segundos
+    intervalo: 60, // segundos
     label: "Pressão2",
     color: "red",
     hysteresisColor: "#00000000",
@@ -153,8 +153,9 @@ function createRealtimeChart(svgId, variable) {
   const margin = { top: 15, right: 10, bottom: 10, left: 60 };
 
   const domainLengthSeconds = chartData[variable].intervalo;
-
+    
   svg.attr("aspect-ratio", "none");
+  svg.attr("preserveAspectRatio", "none");
 
   // Clip path to prevent lines from overlapping axes
   svg

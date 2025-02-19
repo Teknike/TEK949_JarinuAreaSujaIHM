@@ -12,6 +12,12 @@
             "PASSWORD": "1b7a60fc686324ebd7b88e54b2f93b881250241bc10a5261eb3d7c8a79690a01d6981f5ae31f67165cb3f8fbe9c1b94080a65183febaf2575818bebb1369a206",
             "SALT": "7l4iLTR55mX6nYycT3h7YtAYVTZ6ynqPPYxB8BTlaJ+PwvWhv7Hu2nJ15G/F3LakE8D1HnihIBygvdBSRwncfw=="
         },
+        "Higienizacao": {
+            "ALGORITHM": 1,
+            "ENABLED": true,
+            "PASSWORD": "d04a32c1c829bcfe3c62b8c13f5c265cdf3e95433186faa0cb51697d6be5efc918c1927e6c1af00226077629835cbe02962a5ee531c5391add4771b6a47ad609",
+            "SALT": "TzsApQMwy19f08/CnSekuvsV7aa5LK+9xWar69NKzqMfmgbzAU0A7QM6WGIFdaJB7dY2DPCjI9V4F2gHN7KvAA=="
+        },
         "Manutencao": {
             "ALGORITHM": 1,
             "ENABLED": true,
