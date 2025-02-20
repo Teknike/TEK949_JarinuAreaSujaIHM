@@ -1,4 +1,4 @@
-<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-unit="%" data-tchmi-width="100" data-tchmi-height-unit="%" data-tchmi-height="100" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width="100" data-tchmi-background-image-height="100" data-tchmi-is-enabled="true">><div id="Navigation_Right" data-tchmi-text-font-size="16" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiNavigation" data-tchmi-width="210" data-tchmi-top="116" data-tchmi-bottom="6" data-tchmi-right="8" data-tchmi-target-region="%ctrl%Region_Center%/ctrl%" data-tchmi-navigation-orientation="Vertical" data-tchmi-keep-lowest-level="true" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-top-unit="px" data-tchmi-show-back-button="false" data-tchmi-scrollbar-style="None">
+<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-unit="%" data-tchmi-width="100" data-tchmi-height-unit="%" data-tchmi-height="100" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width="100" data-tchmi-background-image-height="100" data-tchmi-is-enabled="true" data-tchmi-zindex="4">><div id="Navigation_Right" data-tchmi-text-font-size="16" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiNavigation" data-tchmi-width="210" data-tchmi-top="116" data-tchmi-bottom="6" data-tchmi-right="8" data-tchmi-target-region="%ctrl%Region_Center%/ctrl%" data-tchmi-navigation-orientation="Vertical" data-tchmi-keep-lowest-level="true" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-top-unit="px" data-tchmi-show-back-button="false" data-tchmi-scrollbar-style="None" data-tchmi-zindex="4">
 
 
         <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -226,7 +226,7 @@
             }
             ]
         </script>
-    </div><div id="Region_Center" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-left="8" data-tchmi-top="116" data-tchmi-scrolling="Auto" data-tchmi-is-enabled="true" data-tchmi-scale-mode="ScaleToFill" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-visibility="Visible" data-tchmi-top-unit="px" data-tchmi-bottom="8" data-tchmi-right="226" data-tchmi-target-content="Pages/Layout/Layout2.content">
+    </div><div id="Region_Center" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-left="8" data-tchmi-top="116" data-tchmi-scrolling="Auto" data-tchmi-is-enabled="true" data-tchmi-scale-mode="ScaleToFill" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-creator-visibility="Visible" data-tchmi-top-unit="px" data-tchmi-bottom="8" data-tchmi-right="226" data-tchmi-target-content="Pages/Layout/Layout2.content" data-tchmi-zindex="0">
 
         <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
         </script>
@@ -327,11 +327,11 @@
         </script>
 
     </div>
-    <div id="UcConfirmaRecomicionamento" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="210" data-tchmi-height-unit="px" data-tchmi-left="3650" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Comissionamento/ucConfirmaRecomicionamento.usercontrol" data-tchmi-top="257" data-tchmi-top-unit="px" data-tchmi-width="340" data-tchmi-width-unit="px" data-tchmi-indexconfirma="%i%IndexComissionamento%/i%">
+    <div id="UcConfirmaRecomicionamento" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="210" data-tchmi-height-unit="px" data-tchmi-left="3650" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Comissionamento/ucConfirmaRecomicionamento.usercontrol" data-tchmi-top="257" data-tchmi-top-unit="px" data-tchmi-width="340" data-tchmi-width-unit="px" data-tchmi-indexconfirma="%i%IndexComissionamento%/i%" data-tchmi-zindex="4">
     </div>
-    <div id="Confirmacao" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="210" data-tchmi-height-unit="px" data-tchmi-left="4097" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Comissionamento/ucCaixaDeConfirmacao.usercontrol" data-tchmi-top="255" data-tchmi-top-unit="px" data-tchmi-width="340" data-tchmi-width-unit="px" data-tchmi-indexconfirma="%i%IndexComissionamento%/i%">
+    <div id="Confirmacao" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="210" data-tchmi-height-unit="px" data-tchmi-left="4097" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Comissionamento/ucCaixaDeConfirmacao.usercontrol" data-tchmi-top="255" data-tchmi-top-unit="px" data-tchmi-width="340" data-tchmi-width-unit="px" data-tchmi-indexconfirma="%i%IndexComissionamento%/i%" data-tchmi-zindex="4">
     </div>
-    <div id="UcPopUpMotores" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-escolhe="False" data-tchmi-height="470" data-tchmi-height-unit="px" data-tchmi-left="100" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Popup/Motor/ucPopUpMotores.usercontrol" data-tchmi-top="200" data-tchmi-top-unit="px" data-tchmi-width="750" data-tchmi-width-unit="px" data-tchmi-visibility="Collapsed">
+    <div id="UcPopUpMotores" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-escolhe="False" data-tchmi-height="470" data-tchmi-height-unit="px" data-tchmi-left="100" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Popup/Motor/ucPopUpMotores.usercontrol" data-tchmi-top="200" data-tchmi-top-unit="px" data-tchmi-width="750" data-tchmi-width-unit="px" data-tchmi-visibility="Collapsed" data-tchmi-zindex="4">
     </div>
 
     <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -339,7 +339,7 @@
         "color": "rgba(227, 227, 227, 1)"
         }
     </script>
-    <div id="cAlarmes" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="745" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="%" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-width="883" data-tchmi-width-unit="px" data-tchmi-zindex="1" data-tchmi-visibility="Collapsed">
+    <div id="cAlarmes" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="745" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="%" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-width="883" data-tchmi-width-unit="px" data-tchmi-zindex="5" data-tchmi-visibility="Collapsed">
         <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
             {
             "color": "rgba(125, 125, 125, 1)"
@@ -386,7 +386,7 @@
             "bottomUnit": "px"
             }
         </script>
-        <div id="TcHmiDatagrid_28" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-left="2" data-tchmi-left-unit="%" data-tchmi-top="9.4" data-tchmi-top-unit="%" data-tchmi-src-data="%s%PLC1.GVL_Alarmes.listaAlarmes%/s%" data-tchmi-bottom-unit="%" data-tchmi-right-unit="%" data-tchmi-right="2" data-tchmi-bottom="1.4" data-tchmi-grid-font-size="25" data-tchmi-header-height="0" data-tchmi-zindex="3">
+        <div id="TcHmiDatagrid_28" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-left="2" data-tchmi-left-unit="%" data-tchmi-top="9.4" data-tchmi-top-unit="%" data-tchmi-src-data="%s%PLC1.GVL_Alarmes.listaAlarmes%/s%" data-tchmi-bottom-unit="%" data-tchmi-right-unit="%" data-tchmi-right="2" data-tchmi-bottom="1.4" data-tchmi-grid-font-size="25" data-tchmi-header-height="0" data-tchmi-zindex="7">
             <script data-tchmi-target-attribute="data-tchmi-src-column" type="application/json">
                 {
                 "label": "",
@@ -437,7 +437,7 @@
             </script>
 
         </div>
-        <div id="TcHmiButton_259" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="7" data-tchmi-height-unit="%" data-tchmi-text="X" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="10" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-right-unit="%" data-tchmi-right="0" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="25" data-tchmi-zindex="2">
+        <div id="TcHmiButton_259" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="7" data-tchmi-height-unit="%" data-tchmi-text="X" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="10" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-right-unit="%" data-tchmi-right="0" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="25" data-tchmi-zindex="6">
 
             <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
                 {
@@ -473,11 +473,11 @@
                 ]
             </script>
         </div>
-        <div id="TcHmiTextblock_285165961" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="7" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-text="ALARMES ATIVOS" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100.3" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="45">
+        <div id="TcHmiTextblock_285165961" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="7" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-text="ALARMES ATIVOS" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100.3" data-tchmi-width-unit="%" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="45" data-tchmi-zindex="4">
         </div>
     </div>
-<div id="TcHmiContainer_367" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="8" data-tchmi-top-unit="px" data-tchmi-right="8">
-<div id="Header_Top" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiHeader" data-tchmi-height="100" data-tchmi-left="326" data-tchmi-top="0" data-tchmi-right="473" data-tchmi-expandable="true" data-tchmi-is-enabled="true" data-tchmi-height-unit="px">
+<div id="TcHmiContainer_367" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="8" data-tchmi-top-unit="px" data-tchmi-right="8" data-tchmi-zindex="1">
+<div id="Header_Top" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiHeader" data-tchmi-height="100" data-tchmi-left="16" data-tchmi-top="0" data-tchmi-right="25" data-tchmi-expandable="true" data-tchmi-is-enabled="true" data-tchmi-height-unit="px" data-tchmi-zindex="4" data-tchmi-right-unit="%" data-tchmi-left-unit="%">
 <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
             [
             "divider",
@@ -779,7 +779,7 @@
         
 
     </div>
-<div id="TcHmiUserManagement" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiUserManagement" data-tchmi-height="48" data-tchmi-height-unit="px" data-tchmi-left="1457" data-tchmi-left-unit="px" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-user-name-font-size="18" data-tchmi-drop-down-font-size="20" data-tchmi-text-font-size="16" data-tchmi-allow-switch-user="true" data-tchmi-headline-font-size="22" data-tchmi-sub-headline-font-size="18">
+<div id="TcHmiUserManagement" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiUserManagement" data-tchmi-height="48" data-tchmi-height-unit="px" data-tchmi-left="76" data-tchmi-left-unit="%" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-user-name-font-size="18" data-tchmi-drop-down-font-size="20" data-tchmi-text-font-size="16" data-tchmi-allow-switch-user="true" data-tchmi-headline-font-size="22" data-tchmi-sub-headline-font-size="18" data-tchmi-zindex="4" data-tchmi-right="9" data-tchmi-right-unit="%">
 </div>
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -806,9 +806,22 @@
   }
 ]
 </script>
-<div id="TcHmi_Controls_Beckhoff_TcHmiImage_1911" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="88" data-tchmi-height-unit="px" data-tchmi-left="6" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/Novo_logo_Teknike.png" data-tchmi-top="6" data-tchmi-top-unit="px" data-tchmi-width-mode="Content">
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_1911" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="88" data-tchmi-height-unit="px" data-tchmi-left="6" data-tchmi-left-unit="px" data-tchmi-src="Images/Diversos/Novo_logo_Teknike.png" data-tchmi-top="6" data-tchmi-top-unit="px" data-tchmi-width-mode="Content" data-tchmi-zindex="4">
 </div>
-<div id="TcHmiDateTimeDisplay" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDateTimeDisplay" data-tchmi-height="78" data-tchmi-height-unit="px" data-tchmi-left="1756" data-tchmi-left-unit="px" data-tchmi-top="11" data-tchmi-top-unit="px" data-tchmi-width="137" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="20">
+<div id="TcHmiDateTimeDisplay" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDateTimeDisplay" data-tchmi-height="78" data-tchmi-height-unit="px" data-tchmi-top="11" data-tchmi-top-unit="px" data-tchmi-width="8.4" data-tchmi-width-unit="%" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="20" data-tchmi-zindex="4" data-tchmi-right="0" data-tchmi-right-unit="px">
 </div>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 8.0,
+  "topRight": 8.0,
+  "bottomLeft": 8.0,
+  "bottomRight": 8.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
 </div>
 </div>
