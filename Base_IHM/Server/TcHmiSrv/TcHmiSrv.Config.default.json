@@ -15809,8 +15809,7 @@
     "DISCOVERY": 2,
     "ENABLE_SERVER_UPDATE": true,
     "ENDPOINTS": [
-        "http://192.168.68.118:13009",
-        "http://192.168.68.118:3020",
+        "http://127.0.0.1:13009",
         "http://127.0.0.1:3020"
     ],
     "ETAGENABLED": true,
@@ -18448,6 +18447,41 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.GVL_Automatico.Higienizacao.iAnel1BombaAtiva": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::iAnel1BombaAtiva",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "propertyOrder": 32
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.iProporcionalDigital": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::iProporcionalDigital",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "comment": "0 para proporcional e 1 para digital",
+                        "propertyOrder": 33
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GVL_Automatico.Higienizacao.rPressaoMaximadeOperacaoGrupo1": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -18749,6 +18783,23 @@
                     },
                     {
                         "propertyOrder": 17
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Automatico.Higienizacao.xRodaBombaAnel1": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Automatico::Higienizacao::xRodaBombaAnel1",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 32
                     }
                 ]
             },
@@ -19374,7 +19425,17 @@
             "DYNAMIC": true,
             "MAPPING": "PLC1::GVL_Sensores::SenAna",
             "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.ARRAY_0..200_OF-Teknike_Sensores.st_SensorAnalogico"
+                "allOf": [
+                    {
+                        "addSymbol": true,
+                        "attributes": {
+                            "TcHmiSymbol.AddSymbol": ""
+                        }
+                    },
+                    {
+                        "$ref": "tchmi:server#/definitions/PLC1.ARRAY_0..200_OF-Teknike_Sensores.st_SensorAnalogico"
+                    }
+                ]
             },
             "USEMAPPING": true
         },
@@ -19419,6 +19480,40 @@
             "MAPPING": "PLC1::GVL_Valvulas::valvula",
             "SCHEMA": {
                 "$ref": "tchmi:server#/definitions/PLC1.ARRAY_0..70_OF-Teknike_Geral.st_Valvula"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Valvulas.valvula.1.sa.iStsValvula": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Valvulas::valvula[1]::sa::iStsValvula",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GVL_Valvulas.valvula.2.sa.iStsValvula": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GVL_Valvulas::valvula[2]::sa::iStsValvula",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "propertyOrder": 2
+                    }
+                ]
             },
             "USEMAPPING": true
         },
@@ -21552,6 +21647,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21568,6 +21664,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21584,6 +21681,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21600,6 +21698,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21616,6 +21715,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21632,6 +21732,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21648,6 +21749,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21664,6 +21766,7 @@
             "FILES": {},
             "SYMBOLACCESS": 0,
             "SYMBOLS": {
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "AddOrChangeUser": 0,
                 "ChangeUserSettings": 0,
                 "RemoveUser": 0,
@@ -21727,6 +21830,7 @@
                 "ADS.CheckLicense": 3,
                 "ADS.Diagnostics": 1,
                 "ADS.PLC1.GVL_Motores.Motor.0.Config": 3,
+                "ADS.PLC1.GVL_Sensores.SenAna.5.sa.rValor": 3,
                 "ChangeUserSettings": 3,
                 "ConfirmAlarm": 3,
                 "CreateEvent": 3,
@@ -21768,6 +21872,8 @@
                 "PLC1.GVL_Automatico.Grupos": 3,
                 "PLC1.GVL_Automatico.Grupos.1.Sa.iIndex": 3,
                 "PLC1.GVL_Automatico.Higienizacao": 3,
+                "PLC1.GVL_Automatico.Higienizacao.iAnel1BombaAtiva": 3,
+                "PLC1.GVL_Automatico.Higienizacao.iProporcionalDigital": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rPressaoMaximadeOperacaoGrupo1": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rPressaoMaximadeOperacaoGrupo2": 3,
                 "PLC1.GVL_Automatico.Higienizacao.rPressaoSaidaGrupo1": 3,
@@ -21787,6 +21893,7 @@
                 "PLC1.GVL_Automatico.Higienizacao.xPressaoAltaGrupo2": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xPressaoBaixaGrupo1": 3,
                 "PLC1.GVL_Automatico.Higienizacao.xPressaoBaixaGrupo2": 3,
+                "PLC1.GVL_Automatico.Higienizacao.xRodaBombaAnel1": 3,
                 "PLC1.GVL_Automatico.LiberaBracinhoCones.0": 3,
                 "PLC1.GVL_Automatico.LiberaBracinhoCones.1": 3,
                 "PLC1.GVL_Automatico.LiberaBracinhoCones.2": 3,
@@ -22107,6 +22214,8 @@
                 "PLC1.GVL_Valvulas.ValvulaEvaporador": 3,
                 "PLC1.GVL_Valvulas.iValvulas": 3,
                 "PLC1.GVL_Valvulas.valvula": 3,
+                "PLC1.GVL_Valvulas.valvula.1.sa.iStsValvula": 3,
+                "PLC1.GVL_Valvulas.valvula.2.sa.iStsValvula": 3,
                 "PLC1.Historico.fbKPI": 3,
                 "PLC1.IHM.tonEspera15segundos.Q": 3,
                 "PLC1.KPIs.fbBuscaOEEs.KPIMotorEscolhido": 3,
